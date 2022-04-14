@@ -6,16 +6,16 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<h1>test<\/h1><h2>test<\/h2><h3>test<\/h3><h4>test<\/h4><h5>test<\/h5><h6>test<\/h6>",
-            "sub_heading": "Image banner",
+            "heading": "#LOREMIPSUMDATA 60X",
+            "sub_heading": "LOREM IPSUM IS TEXT 31PX",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "body_size": "pthree",
+            "text": "Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 21PX",
+            "body_size": "pfour",
             "text_style": "body"
           }
         },
