@@ -1,0 +1,26 @@
+.hover-cart .card__content {
+    display: flex;
+    justify-content: space-between;
+    width: 317px;
+}
+ul.slick-dots {
+    display: flex;
+    justify-content: center;
+}
+ul.slick-dots li {
+    flex: 0 0 150px;
+    background: #000;
+    font-size: 0px;
+    height: 3px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+ul.slick-dots li button {
+    font-size: 0px;
+    border: none;
+    padding: 0px;
+}
+ul.slick-dots li.slick-active {
+    flex: 0 0 20px;
+    background: #ccc;
+}

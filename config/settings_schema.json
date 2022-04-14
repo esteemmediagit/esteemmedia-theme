@@ -95,17 +95,119 @@
       },
       {
         "type": "font_picker",
-        "id": "type_header_font",
+        "id": "type_header_fontn",
         "default": "assistant_n4",
-        "label": "t:settings_schema.typography.settings.type_header_font.label",
+        "label": "Navigation Font",
+        "info": "Navigation Font family"
+      },
+      {
+        "type": "range",
+        "id": "heading_scalen",
+        "min": 100,
+        "max": 250,
+        "step": 2.5,
+        "unit": "%",
+        "label": "increase 2.5% increase font size 1px default 100% = 10px or 102.5% 11px ",
+        "default": 100
+      },
+      {
+        "type": "font_picker",
+        "id": "type_header_fonta",
+        "default": "assistant_n4",
+        "label": "Headings H1",
         "info": "t:settings_schema.typography.settings.type_header_font.info"
       },
       {
         "type": "range",
-        "id": "heading_scale",
+        "id": "heading_scalea",
         "min": 100,
         "max": 150,
-        "step": 5,
+        "step": 2.5,
+        "unit": "%",
+        "label": "increase 2.5% increase font size 1px default 100% = 30px or 102.5% 31px ",
+        "default": 100
+      },
+      {
+        "type": "font_picker",
+        "id": "type_header_fontb",
+        "default": "assistant_n4",
+        "label": "Headings H2",
+        "info": "t:settings_schema.typography.settings.type_header_font.info"
+      },
+      {
+        "type": "range",
+        "id": "heading_scaleb",
+        "min": 100,
+        "max": 200,
+        "step": 2.5,
+        "unit": "%", 
+        "label": "increase 2.5% increase font size 1px default 100% = 30px or 102.5% 31px ",
+        "default": 100
+      },
+      {
+        "type": "font_picker",
+        "id": "type_header_fontc",
+        "default": "assistant_n4",
+        "label": "Headings H3",
+        "info": "t:settings_schema.typography.settings.type_header_font.info"
+      },
+      {
+        "type": "range",
+        "id": "heading_scalec",
+        "min": 100,
+        "max": 200,
+        "step": 2.5,
+        "unit": "%",
+        "label": "increase 2.5% increase font size 1px default 100% = 20px or 102.5% 21px ",
+        "default": 100
+      },
+      {
+        "type": "font_picker",
+        "id": "type_header_fontd",
+        "default": "assistant_n4",
+        "label": "Headings H4",
+        "info": "t:settings_schema.typography.settings.type_header_font.info"
+      },
+      {
+        "type": "range",
+        "id": "heading_scaled",
+        "min": 100,
+        "max": 200,
+        "step": 2.5,
+        "unit": "%",
+        "label": "increase 2.5% increase font size 1px default 100% = 20px or 102.5% 21px ",
+        "default": 100
+      },
+      {
+        "type": "font_picker",
+        "id": "type_header_fonte",
+        "default": "assistant_n4",
+        "label": "Headings H5",
+        "info": "t:settings_schema.typography.settings.type_header_font.info"
+      },
+      {
+        "type": "range",
+        "id": "heading_scalee",
+        "min": 100,
+        "max": 200,
+        "step": 2.5,
+        "unit": "%",
+        "label": "increase 2.5% increase font size 1px default 100% = 00px or 102.5% 11px ",
+        "default": 100
+      },
+      {
+        "type": "font_picker",
+        "id": "type_header_fontf",
+        "default": "assistant_n4",
+        "label": "Headings H6",
+        "info": "t:settings_schema.typography.settings.type_header_font.info"
+      },
+      {
+        "type": "range",
+        "id": "heading_scalef",
+        "min": 100,
+        "max": 200,
+        "step": 2.5,
         "unit": "%",
         "label": "t:settings_schema.typography.settings.heading_scale.label",
         "default": 100

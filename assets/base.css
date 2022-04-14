@@ -223,7 +223,7 @@ html.no-js .no-js-hidden {
 
 @media screen and (min-width: 750px) {
   .page-width {
-    padding: 0 5rem;
+    padding: 0 3rem;
   }
 
   .page-width--narrow {
@@ -247,7 +247,7 @@ html.no-js .no-js-hidden {
 
   .page-width-desktop {
     max-width: var(--page-width);
-    padding: 0 5rem;
+    padding: 0 3rem;
   }
 }
 
@@ -367,6 +367,78 @@ body,
   font-weight: var(--font-body-weight);
 }
 
+.header__menu-item{
+  font-family: var(--font-heading-familyn) !important;
+  font-style: var(--font-heading-stylen);
+  font-weight: var(--font-heading-weightn);
+  letter-spacing: calc(var(--font-heading-scalen) * 0.06rem);
+  line-height: calc(1 + 0.3 / max(1, var(--font-heading-scalen)));
+  font-size: calc(var(--font-heading-scalen) * 1rem);
+}
+h1, .h1{
+
+  font-family: var(--font-heading-familya);
+  font-style: var(--font-heading-stylea);
+  font-weight: var(--font-heading-weighta);
+  letter-spacing: calc(var(--font-heading-scalea) * 0.06rem);
+  line-height: calc(1 + 0.3 / max(1, var(--font-heading-scalea)));
+}
+h2, .h2{
+
+  font-family: var(--font-heading-familyb);
+  font-style: var(--font-heading-styleb);
+  font-weight: var(--font-heading-weightb);
+  letter-spacing: calc(var(--font-heading-scaleb) * 0.06rem);
+  line-height: calc(1 + 0.3 / max(1, var(--font-heading-scaleb)));
+}
+h3, .h3{
+
+  font-family: var(--font-heading-familyc);
+  font-style: var(--font-heading-stylec);
+  font-weight: var(--font-heading-weightc);
+  letter-spacing: calc(var(--font-heading-scalec) * 0.06rem);
+  line-height: calc(1 + 0.3 / max(1, var(--font-heading-scalec)));
+}
+h4, .h4{
+
+  font-family: var(--font-heading-familyd);
+  font-style: var(--font-heading-styled);
+  font-weight: var(--font-heading-weightd);
+  letter-spacing: calc(var(--font-heading-scaled) * 0.06rem);
+  line-height: calc(1 + 0.3 / max(1, var(--font-heading-scaled)));
+}
+h5, .h5{
+
+  font-family: var(--font-heading-familye);
+  font-style: var(--font-heading-stylee);
+  font-weight: var(--font-heading-weighte);
+  letter-spacing: calc(var(--font-heading-scalee) * 0.06rem);
+  line-height: calc(1 + 0.3 / max(1, var(--font-heading-scalee)));
+}
+h6, .h6{
+
+  font-family: var(--font-heading-familyf);
+  font-style: var(--font-heading-stylef);
+  font-weight: var(--font-heading-weightf);
+  letter-spacing: calc(var(--font-heading-scalef) * 0.06rem);
+  line-height: calc(1 + 0.3 / max(1, var(--font-heading-scalef)));
+}
+.pone{
+  font-size: 16px;
+  line-height: 31px;
+}
+.ptwo{
+  font-size: 18px;
+  line-height: 24px;
+}
+.pthree{
+  font-size: 20px;
+  line-height: 31px;
+}
+.pfour{
+  font-size: 21px;
+  line-height: 32px;
+}
 h1,
 h2,
 h3,
@@ -378,13 +450,18 @@ h5,
 .h3,
 .h4,
 .h5 {
-  font-family: var(--font-heading-family);
-  font-style: var(--font-heading-style);
-  font-weight: var(--font-heading-weight);
-  letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
+ 
+ 
+  
   color: rgb(var(--color-foreground));
-  line-height: calc(1 + 0.3 / max(1, var(--font-heading-scale)));
+  
   word-break: break-word;
+}
+
+.h0
+{
+  font-family: var(--font-heading-family);
+
 }
 
 .h0 {
@@ -399,61 +476,62 @@ h5,
 
 h1,
 .h1 {
-  font-size: calc(var(--font-heading-scale) * 3rem);
+  font-size: calc(var(--font-heading-scalea) * 3rem);
 }
 
 @media only screen and (min-width: 750px) {
   h1,
   .h1 {
-    font-size: calc(var(--font-heading-scale) * 4rem);
+    font-size: calc(var(--font-heading-scalea) * 4rem);
   }
 }
 
 h2,
 .h2 {
-  font-size: calc(var(--font-heading-scale) * 2rem);
+  font-size: calc(var(--font-heading-scaleb) * 2rem);
 }
 
 @media only screen and (min-width: 750px) {
   h2,
   .h2 {
-    font-size: calc(var(--font-heading-scale) * 2.4rem);
+    font-size: calc(var(--font-heading-scaleb) * 3rem);
   }
 }
 
 h3,
 .h3 {
-  font-size: calc(var(--font-heading-scale) * 1.7rem);
+  font-size: calc(var(--font-heading-scalec) * 2rem);
 }
 
 @media only screen and (min-width: 750px) {
   h3,
   .h3 {
-    font-size: calc(var(--font-heading-scale) * 1.8rem);
+    font-size: calc(var(--font-heading-scalec) * 2rem);
   }
 }
 
 h4,
 .h4 {
-  font-family: var(--font-heading-family);
-  font-style: var(--font-heading-style);
-  font-size: calc(var(--font-heading-scale) * 1.5rem);
+  font-family: var(--font-heading-familyd);
+  font-style: var(--font-heading-styled);
+  font-size: calc(var(--font-heading-scaled) * 1rem);
 }
 
 h5,
 .h5 {
-  font-size: calc(var(--font-heading-scale) * 1.2rem);
+  font-size: calc(var(--font-heading-scalee) * 1rem);
 }
 
 @media only screen and (min-width: 750px) {
   h5,
   .h5 {
-    font-size: calc(var(--font-heading-scale) * 1.3rem);
+    font-size: calc(var(--font-heading-scalee) * 1rem);
   }
 }
 
 h6,
 .h6 {
+  font-size: calc(var(--font-heading-scaleF) * 1rem);
   color: rgba(var(--color-foreground), 0.75);
   margin-block-start: 1.67em;
   margin-block-end: 1.67em;

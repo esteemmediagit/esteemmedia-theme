@@ -35,7 +35,7 @@ if (!customElements.get('quick-add-modal')) {
           if (window.ProductModel) window.ProductModel.loadShopifyXR();
 
           this.removeGalleryListSemantic();
-          this.preventVariantURLSwitching();
+         
           super.show(opener);
         })
         .finally(() => {
@@ -59,9 +59,6 @@ if (!customElements.get('quick-add-modal')) {
       });
     }
 
-    preventVariantURLSwitching() {
-      this.modalContent.querySelector('variant-radios,variant-selects').setAttribute('data-update-url', 'false');
-    }
     
     removeDOMElements() {
       const pickupAvailability = this.productElement.querySelector('pickup-availability');
@@ -74,8 +71,10 @@ if (!customElements.get('quick-add-modal')) {
     preventDuplicatedIDs() {
       const sectionId = this.productElement.dataset.section;
       this.productElement.innerHTML = this.productElement.innerHTML.replaceAll(sectionId, `quickadd-${ sectionId }`);
+      
       this.productElement.querySelectorAll('variant-selects, variant-radios').forEach((variantSelect) => {
         variantSelect.dataset.originalSection = sectionId;
+        
       });
     }
 

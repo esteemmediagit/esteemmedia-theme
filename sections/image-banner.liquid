@@ -84,11 +84,17 @@
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
+            {%- if block.settings.sub_heading != blank -%}
+              <h4 class="banner__heading sub-heading" {{ block.shopify_attributes }}>
+                <span>{{ block.settings.sub_heading | escape }}</span>
+              </h4>
+            {%- endif -%}
             <h2 class="banner__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
               <span>{{ block.settings.heading | escape }}</span>
             </h2>
+            
           {%- when 'text' -%}
-            <div class="banner__text {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+            <div class="banner__text {{ block.settings.text_style }} {{ block.settings.body_size }}" {{ block.shopify_attributes }}>
               <span>{{ block.settings.text | escape }}</span>
             </div>
           {%- when 'buttons' -%}
@@ -310,21 +316,39 @@
           "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
         },
         {
+          "type": "text",
+          "id": "sub_heading",
+          "default": "Image banner",
+          "label": "Sub heading"
+        },
+        {
           "type": "select",
           "id": "heading_size",
           "options": [
             {
-              "value": "h2",
-              "label": "t:sections.all.heading_size.options__1.label"
-            },
-            {
               "value": "h1",
-              "label": "t:sections.all.heading_size.options__2.label"
+              "label": "extra large"
             },
             {
-              "value": "h0",
-              "label": "t:sections.all.heading_size.options__3.label"
-            }
+              "value": "h2",
+              "label": "Large"
+            },
+            {
+              "value": "h3",
+              "label": "extra medium"
+            },
+            {
+              "value": "h4",
+              "label": "Medium"
+            },
+            {
+              "value": "h5",
+              "label": "small"
+            },
+            {
+              "value": "h6",
+              "label": "Extra small"
+            } 
           ],
           "default": "h1",
           "label": "t:sections.all.heading_size.label"
@@ -341,6 +365,30 @@
           "id": "text",
           "default": "Give customers details about the banner image(s) or content on the template.",
           "label": "t:sections.image-banner.blocks.text.settings.text.label"
+        },
+        {
+          "type": "select",
+          "id": "body_size",
+          "options": [
+            {
+              "value": "pone",
+              "label": "16"
+            },
+            {
+              "value": "ptwo",
+              "label": "18"
+            },
+            {
+              "value": "pthree",
+              "label": "20"
+            },
+            {
+              "value": "pfour",
+              "label": "21"
+            }
+          ],
+          "default": "pthree",
+          "label": "pp font size"
         },
         {
           "type": "select",
