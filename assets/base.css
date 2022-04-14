@@ -571,7 +571,7 @@ h5,
 
 h6,
 .h6 {
-  font-size: calc(var(--font-heading-scaleF) * 2rem);
+  font-size: 21;
   color: rgba(var(--color-foreground), 0.75);
   margin-block-start: 1.67em;
   margin-block-end: 1.67em;
