@@ -23,6 +23,11 @@ a.white-btn.button.button--primary {
 
 }
 .button.button--primary {
+    background-color: #000000;
+    color: #fff;
+
+}
+.button.button--primary {
     font-size: 17px;
    padding: 18px 30px 18px 30px;
     border-radius: 40px;
