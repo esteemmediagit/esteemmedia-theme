@@ -25,6 +25,7 @@ a.white-btn.button.button--primary {
 .button.button--primary {
     background-color: #000000;
     color: #fff;
+  border: 1px solid #000;
 
 }
 .white-btn.button.button--primary {
