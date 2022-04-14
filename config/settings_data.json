@@ -140,8 +140,8 @@
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
           "enable_sticky_header": true,
-          "button_label_1": "Button label",
-          "button_link_1": "",
+          "button_label_1": "CALL US",
+          "button_link_1": "#",
           "margin_bottom": 0
         }
       },
