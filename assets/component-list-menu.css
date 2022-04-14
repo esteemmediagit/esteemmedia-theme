@@ -28,3 +28,6 @@
   width: 10rem;
   padding: 0.5rem;
 }
+a.white-btn.button.button--primary {
+    margin-left: 21px;
+}
