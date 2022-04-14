@@ -11,6 +11,8 @@
     "gradient_background_1": "",
     "colors_background_2": "#f3f3f3",
     "gradient_background_2": "",
+    "type_header_fontn": "nunito_sans_n4",
+    "heading_scalen": 115,
     "type_header_fonta": "americana_n4",
     "heading_scalea": 145,
     "type_header_fontb": "americana_n4",
