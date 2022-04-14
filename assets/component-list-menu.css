@@ -40,3 +40,18 @@ a.header__menu-item.header__menu-item.list-menu__item.link.link--text.focus-inse
     text-transform: uppercase;
     color: #fff;
 }
+span.header__active-menu-item {
+    text-shadow: none;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 5px;
+    box-shadow: none;
+    text-decoration: none;
+}
+a.header__menu-item.header__menu-item.list-menu__item.link.link--text.focus-inset:hover span{
+
+ text-shadow: none;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 5px;
+    box-shadow: none;
+    text-decoration: none;
+}
