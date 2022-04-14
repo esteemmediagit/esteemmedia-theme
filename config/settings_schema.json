@@ -2,10 +2,10 @@
   {
     "name": "theme_info",
     "theme_name": "Esteemmedia",
-    "theme_version": "4.0.0",
+    "theme_version": "1.0.0",
     "theme_author": "Esteemmedia",
-    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
-    "theme_support_url": "https://support.shopify.com/"
+    "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes",
+    "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
     "name": "t:settings_schema.colors.name",
@@ -140,7 +140,7 @@
         "min": 100,
         "max": 200,
         "step": 2.5,
-        "unit": "%", 
+        "unit": "%",
         "label": "increase 2.5% increase font size 1px default 100% = 30px or 102.5% 31px ",
         "default": 100
       },
