@@ -3,6 +3,7 @@
 .announcement-bar.color-background-2.gradient {
     background: #ccc;
 }
+
 .announcement-bar__message {
     text-align: center;
     padding: 0.65rem 2rem;
@@ -12,6 +13,16 @@
     color: #000;
 }
 /* announceement-bar end */
+
+
+/* button style */
+.button.button--primary {
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    font-family: 'Avenir Next';
+}
+
 
 /* Color custom properties */
 :root,
