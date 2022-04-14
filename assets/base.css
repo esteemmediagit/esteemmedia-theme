@@ -2334,7 +2334,9 @@ input[type='checkbox'] {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
-
+nav.header__inline-menu {
+    text-align: center;
+}
   .header--has-menu:not(.header--middle-left) {
     padding-bottom: 0;
   }
