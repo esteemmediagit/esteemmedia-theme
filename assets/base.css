@@ -528,7 +528,7 @@ h1,
 
 h2,
 .h2 {
-  font-size: calc(var(--font-heading-scaleb) * 2rem);
+  font-size: calc(var(--font-heading-scaleb) * 3rem);
 }
 
 @media only screen and (min-width: 750px) {
@@ -559,19 +559,19 @@ h4,
 
 h5,
 .h5 {
-  font-size: calc(var(--font-heading-scalee) * 1rem);
+  font-size: calc(var(--font-heading-scalee) * 2rem);
 }
 
 @media only screen and (min-width: 750px) {
   h5,
   .h5 {
-    font-size: calc(var(--font-heading-scalee) * 1rem);
+    font-size: calc(var(--font-heading-scalee) * 2rem);
   }
 }
 
 h6,
 .h6 {
-  font-size: calc(var(--font-heading-scaleF) * 1rem);
+  font-size: calc(var(--font-heading-scaleF) * 2rem);
   color: rgba(var(--color-foreground), 0.75);
   margin-block-start: 1.67em;
   margin-block-end: 1.67em;
