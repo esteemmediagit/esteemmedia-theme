@@ -28,6 +28,12 @@ a.white-btn.button.button--primary {
   border: 1px solid #000;
 
 }
+.button.button--primary:hover {
+    background-color: #fff;
+    color: #000;
+ 
+
+}
 .white-btn.button.button--primary {
     background-color: #ffffff;
     color: #000000;
