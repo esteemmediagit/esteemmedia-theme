@@ -55,3 +55,6 @@ a.header__menu-item.header__menu-item.list-menu__item.link.link--text.focus-inse
     box-shadow: none;
     text-decoration: none;
 }
+ul.list-menu.list-menu--inline {
+    margin-left: 7rem;
+}
