@@ -14,7 +14,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 21PX",
+            "text": "Lorem Ipsum has been the industry’s standard dummy text ever since <br>the 1500s, when an unknown printer took a galley of type and <br>scrambled it to make a type specimen book. 21PX",
             "body_size": "pfour",
             "text_style": "body"
           }
