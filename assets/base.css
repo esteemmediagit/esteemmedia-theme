@@ -16,11 +16,26 @@
 
 
 /* button style */
+
+a.white-btn.button.button--primary {
+    
+    border: none !important;
+
+}
 .button.button--primary {
     font-size: 17px;
+   padding: 18px 30px 18px 30px;
+    border-radius: 40px;
     letter-spacing: 0.5px;
     font-weight: 700;
+  text-transform: uppercase;
     font-family: 'Avenir Next';
+}
+.button:before, .shopify-challenge__button:before, .customer button:before, .shopify-payment-button__button--unbranded:before, .shopify-payment-button [role=button]:before, .cart__dynamic-checkout-buttons [role=button]:before{
+display:none;
+}
+.button:after, .shopify-challenge__button:after, .customer button:after, .shopify-payment-button__button--unbranded:after{
+display:none;
 }
 
 
