@@ -31,3 +31,7 @@
 a.white-btn.button.button--primary {
     margin-left: 21px;
 }
+header.header.header--middle-left.page-width.header--has-menu {
+    max-width: 1800px;
+    width: 100%;
+}
