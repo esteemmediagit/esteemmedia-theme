@@ -95,7 +95,7 @@ a.grid-product-link {
     text-transform: uppercase;
 font-family: var(--font-body-family);
 }
-.card-wrapper.underline-links-hover:hover a.grid-product-link {
+a.grid-product-link:hover {
    
     border: 2px solid #000;
     color: #000;
