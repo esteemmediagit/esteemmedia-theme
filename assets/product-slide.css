@@ -81,6 +81,9 @@ ul.product-slider .product-links a {
     display: block;
     margin: 0 auto;
 }
+ul.product-slider button.choose-option {
+   font-size: 0px;
+}
 .hover-cart .card__content {
     display: flex;
     column-gap: 6px;
