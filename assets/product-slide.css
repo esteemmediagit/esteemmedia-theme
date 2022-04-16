@@ -104,6 +104,11 @@ ul.product-slider button.choose-option {
     text-align: center;
     margin: 0 auto;
 }
+.section.product-slider-outer .color-.isolate.gradient {
+    background: #faf7f5;
+    padding-top: 52px;
+    padding-bottom: 62px;
+}
 .hover-cart {
     display: none;
 }
