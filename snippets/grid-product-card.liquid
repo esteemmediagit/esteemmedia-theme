@@ -45,7 +45,16 @@
           <div class="card__media">
             <div class="media media--transparent media--hover-effect">
               {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
-              {{ product.featured_image | img_url: '280x280', crop: 'center' }}
+              <img
+               
+               src="{{ product.featured_image | img_url: '280x280', crop: 'center' }}"
+                   alt="{{ card_product.featured_media.alt | escape }}"
+                class="motion-reduce"
+                {% unless lazy_load == false %}loading="lazy"{% endunless %}
+                width="{{ card_product.featured_media.width }}"
+                height="{{ card_product.featured_media.height }}"
+              >
+              {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
 
             
             </div>
