@@ -47,7 +47,7 @@
               {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
               <img
                
-               src="{{ product.featured_image | img_url: '280x280', crop: 'center' }}"
+               src="{{ card_product.featured_image | img_url: '280x280', crop: 'center' }}"
                    alt="{{ card_product.featured_media.alt | escape }}"
                 class="motion-reduce"
                 {% unless lazy_load == false %}loading="lazy"{% endunless %}
