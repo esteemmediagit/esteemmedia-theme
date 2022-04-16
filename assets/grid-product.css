@@ -71,3 +71,39 @@ li.product-grid-li.grid__item {
   
     backface-visibility: hidden;
 }
+span.caption-large.light.description {
+    font-size: 21px;
+    line-height: 32px !important;
+    letter-spacing: 1.5px;
+font-family: var(--font-body-family);
+}
+.product-grid-li h3.card__heading {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+font-family: var(--font-body-family);
+}
+a.grid-product-link {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    padding: 18px 30px;
+    border-radius: 40px;
+    text-transform: uppercase;
+font-family: var(--font-body-family);
+}
+.card-wrapper.underline-links-hover:hover a.grid-product-link {
+   
+    border: 2px solid #000;
+    color: #000;
+   
+}
+.card__content_bhover span.caption-large.light.description,  .card__content_bhover h3.card__heading{
+   color: #000;
+}
+.card__content_ahover span.caption-large.light.description,  .card__content_bhover h3.card__heading{
+   color: #fff;
+}
