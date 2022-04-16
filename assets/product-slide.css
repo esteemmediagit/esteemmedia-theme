@@ -48,7 +48,8 @@ ul.product-slider button.quick-add__submit {
     height: 35px;
     background-color: #eedbcb;
     background-position: center center;
-    background-size: 24px auto;
+    background-size: 18px auto;
+    border-radius: 3px;
 }
 ul.product-slider button.quick-view span {
     font-size: 0px;
@@ -56,7 +57,8 @@ ul.product-slider button.quick-view span {
 ul.product-slider button.quick-view {
     background: url(https://cdn.shopify.com/s/files/1/0637/4529/4571/files/view_1.png?v=1650129407);
     background-repeat: no-repeat;
-    background-size: 24px auto;
+    background-size: 18px auto;
+    border-radius: 3px;
  font-size: 0px;
   min-height: 35px;
      width: 35px;
@@ -67,7 +69,8 @@ ul.product-slider button.quick-view {
 ul.product-slider .product-links a {
     background: url(https://cdn.shopify.com/s/files/1/0637/4529/4571/files/link_1.png?v=1650129406);
     background-repeat: no-repeat;
-    background-size: 24px auto;
+   background-size: 18px auto;
+    border-radius: 3px;
  font-size: 0px;
      width: 35px;
     height: 35px;
