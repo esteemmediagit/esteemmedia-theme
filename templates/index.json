@@ -231,6 +231,76 @@
         "padding_bottom": 92
       }
     },
+    "1650109277f3fb670a": {
+      "type": "multicolumn",
+      "blocks": {
+        "16501092773fe54991-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker2.jpg",
+            "title": "LOREM IPSUM 23PX",
+            "text": "<p>Lorem ipsum dolor sit amet,&lt;br\/&gt; consectetur adipiscingelit. Duis ac &lt;br\/&gt;ipsum dolor sit amet consectetur<\/p>",
+            "link_label": "Learn More",
+            "link": "#"
+          }
+        },
+        "16501092773fe54991-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker2.jpg",
+            "title": "LOREM IPSUM 23PX",
+            "text": "<p>Lorem ipsum dolor sit amet,&lt;br\/&gt; consectetur adipiscingelit. Duis ac &lt;br\/&gt;ipsum dolor sit amet consectetur<\/p>",
+            "link_label": "Learn More",
+            "link": "#"
+          }
+        },
+        "16501092773fe54991-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker2.jpg",
+            "title": "LOREM IPSUM 23PX",
+            "text": "<p>Lorem ipsum dolor sit amet,&lt;br\/&gt; consectetur adipiscingelit. Duis ac &lt;br\/&gt;ipsum dolor sit amet consectetur<\/p>",
+            "link_label": "Learn More",
+            "link": "#"
+          }
+        },
+        "72a207d7-d194-4272-9f8b-359bd468f088": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker2.jpg",
+            "title": "LOREM IPSUM 23PX",
+            "text": "<p>Lorem ipsum dolor sit amet,&lt;br\/&gt; consectetur adipiscingelit. Duis ac &lt;br\/&gt;ipsum dolor sit amet consectetur<\/p>",
+            "link_label": "Learn More",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "16501092773fe54991-0",
+        "16501092773fe54991-1",
+        "16501092773fe54991-2",
+        "72a207d7-d194-4272-9f8b-359bd468f088"
+      ],
+      "settings": {
+        "title": "LOREM IPSUM 38PX",
+        "description": "",
+        "body_size": "pthree",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "view_all_style": "solid",
+        "color_scheme": "accent-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -480,6 +550,7 @@
     "rich_text",
     "165008997763940cae",
     "multicolumn",
+    "1650109277f3fb670a",
     "collage",
     "1649962201573590b6",
     "video",
