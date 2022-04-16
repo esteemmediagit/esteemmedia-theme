@@ -25,9 +25,9 @@ li.product-grid-li.grid__item {
 .card__content_ahover {
     display: none;
 }
-.underline-links-hover:hover.card__content_ahover {
-    display: block;
+.underline-links-hover:hover .card__content_ahover {
+    display: block !important;
 }
-.underline-links-hover:hover.card__content_bhover {
-    display: none;
+.underline-links-hover:hover .card__content_bhover {
+    display: none !important;
 }
