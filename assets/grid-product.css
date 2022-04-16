@@ -55,7 +55,7 @@ li.product-grid-li.grid__item {
 }
 
 .card-wrapper.underline-links-hover .card__content_ahover {
-    transform: translateX(0) translateY(-100%);
+    transform: translateX(0) translateY(100%);
 }
 .card-wrapper.underline-links-hover .card__content_bhover {
     transform: none;
