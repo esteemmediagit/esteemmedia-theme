@@ -317,6 +317,87 @@
         "columns_mobile": "2"
       }
     },
+    "1649962201573590b6": {
+      "type": "featured-product",
+      "blocks": {
+        "1649962201d6ad68c3-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1649962201d6ad68c3-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "1649962201d6ad68c3-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "6646a9d8-6605-4953-a3b9-3cc1fc1e820a": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{{product.description}}"
+          }
+        },
+        "1649962201d6ad68c3-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1649962201d6ad68c3-4": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1649962201d6ad68c3-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1649962201d6ad68c3-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "1649962201d6ad68c3-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1649962201d6ad68c3-0",
+        "1649962201d6ad68c3-1",
+        "1649962201d6ad68c3-3",
+        "6646a9d8-6605-4953-a3b9-3cc1fc1e820a",
+        "1649962201d6ad68c3-2",
+        "1649962201d6ad68c3-4",
+        "1649962201d6ad68c3-5",
+        "1649962201d6ad68c3-6",
+        "1649962201d6ad68c3-7"
+      ],
+      "settings": {
+        "product": "erasa-xep-30-serum",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -351,87 +432,6 @@
         "desktop_layout": "left",
         "mobile_layout": "collage",
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1649962201573590b6": {
-      "type": "featured-product",
-      "blocks": {
-        "1649962201d6ad68c3-0": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "1649962201d6ad68c3-1": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "1649962201d6ad68c3-3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "1649962201d6ad68c3-2": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "1649962201d6ad68c3-4": {
-          "type": "variant_picker",
-          "disabled": true,
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "1649962201d6ad68c3-5": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "1649962201d6ad68c3-6": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false
-          }
-        },
-        "6646a9d8-6605-4953-a3b9-3cc1fc1e820a": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{{product.description}}"
-          }
-        },
-        "1649962201d6ad68c3-7": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "1649962201d6ad68c3-0",
-        "1649962201d6ad68c3-1",
-        "1649962201d6ad68c3-3",
-        "1649962201d6ad68c3-2",
-        "1649962201d6ad68c3-4",
-        "1649962201d6ad68c3-5",
-        "1649962201d6ad68c3-6",
-        "6646a9d8-6605-4953-a3b9-3cc1fc1e820a",
-        "1649962201d6ad68c3-7"
-      ],
-      "settings": {
-        "product": "test-c",
-        "color_scheme": "background-1",
-        "secondary_background": false,
-        "hide_variants": false,
-        "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -568,8 +568,8 @@
     "multicolumn",
     "1650109277f3fb670a",
     "16501244403a50672a",
-    "collage",
     "1649962201573590b6",
+    "collage",
     "video",
     "featured_collection",
     "1649962326fa782f31",
