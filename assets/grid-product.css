@@ -75,6 +75,7 @@ span.caption-large.light.description {
     font-size: 21px;
     line-height: 32px !important;
     letter-spacing: 1.5px;
+  margin-bottom: 20px;
 font-family: var(--font-body-family);
 }
 .product-grid-li h3.card__heading {
@@ -82,6 +83,7 @@ font-family: var(--font-body-family);
     font-weight: 700;
     letter-spacing: 1.5px;
 font-family: var(--font-body-family);
+  margin-bottom: 20px;
    text-transform: uppercase;
 }
 a.grid-product-link {
