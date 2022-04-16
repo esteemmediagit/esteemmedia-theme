@@ -133,6 +133,7 @@ element.style {
 .card-wrapper.underline-links-hover {
     border: 1px solid rgb(238, 238, 238);
     border-radius: 30px;
+  cursor: pointer;
 }
 .card.card--standard.card--media .card__content {
     padding: 0 15px 35px!important;
