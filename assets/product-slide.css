@@ -103,6 +103,12 @@ ul.product-slider button.choose-option {
     text-align: center;
     margin: 0 auto;
 }
+.hover-cart {
+    display: none;
+}
+.card-wrapper.underline-links-hover:hover .hover-cart {
+    display: block;
+}
 ul.product-slider .card-wrapper .media.media--transparent img.motion-reduce {
     border-radius: 20px 20px 0 0;
 }
