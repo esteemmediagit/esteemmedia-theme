@@ -36,6 +36,11 @@
         {%- endif -%}
       </div>
     {%- endunless -%}
+      {%- unless section.settings.description == blank -%}
+     <div class="description multicolumn-desctription {{section.settings.body_size}}">
+       <p>{{ section.settings.description }}</p>
+    </div>
+    {%- endunless -%}
     <slider-component class="slider-mobile-gutter">
       <ul class="multicolumn-list contains-content-container grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop{% if show_mobile_slider %} slider slider--mobile grid--peek{% endif %}"
         id="Slider-{{ section.id }}"
@@ -136,6 +141,36 @@
       "default": "Multicolumn",
       "label": "t:sections.multicolumn.settings.title.label"
     },
+ {
+      "type": "textarea",
+      "id": "description",
+      "default": "Multicolumn description",
+      "label": "Multicolumn description"
+    },
+   {
+          "type": "select",
+          "id": "body_size",
+          "options": [
+            {
+              "value": "pone",
+              "label": "16"
+            },
+            {
+              "value": "ptwo",
+              "label": "18"
+            },
+            {
+              "value": "pthree",
+              "label": "20"
+            },
+            {
+              "value": "pfour",
+              "label": "21"
+            }
+          ],
+          "default": "pthree",
+          "label": "pp font size"
+        },
     {
       "type": "select",
       "id": "heading_size",
