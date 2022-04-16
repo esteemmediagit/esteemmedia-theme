@@ -1,119 +1,114 @@
 .card__content_hover {
-    display: none;
+  display: none;
 }
 li.product-grid-li.grid__item {
-    padding-left: 6px;
-    padding-right: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 .grid-product-wrap {
-    max-width: 1200px;
-    padding: 0px;
+  max-width: 1200px;
+  padding: 0px;
 }
 .product-grid-li .card__content .card__information {
-    display: block !important;
+  display: block !important;
 }
 .product-grid-li .card__content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .product-grid-li .card__content .card__information {
-    display: flex !important;
-    text-align: center;
-    flex-direction: column;
+  display: flex !important;
+  text-align: center;
+  flex-direction: column;
 }
 
 .underline-links-hover .card__content_ahover {
-   
-   -webkit-transition: all .6s ease-in-out;
-    -o-transition: all .6s ease-in-out;
-    transition: all .6s ease-in-out;
+
+  -webkit-transition: all .6s ease-in-out;
+  -o-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
 }
 .underline-links-hover .card__content_bhover {
-   
-   -webkit-transition: all .6s ease-in-out;
-    -o-transition: all .6s ease-in-out;
-    transition: all .6s ease-in-out;
+
+  -webkit-transition: all .6s ease-in-out;
+  -o-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
 }
 
 .product-grid-li .card__media {
-    height: 280px;
+  height: 280px;
 }
 .card__content_bhover {
-    height: 280px;
+  height: 280px;
 }
 .card__content_ahover {
-    height: 280px;
+  height: 280px;
 }
 
 .card.card--standard.card--media {
-    height: 280px;
-    overflow: hidden;
-    transform-style: preserve-3d;
-    perspective: 1000px;
-    position: relative;
+  height: 280px;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  position: relative;
 }
 
 .card-wrapper.underline-links-hover .card__content_ahover {
-    transform: translateX(0) translateY(100%);
+  transform: translateX(0) translateY(100%);
 }
 .card-wrapper.underline-links-hover .card__content_bhover {
-    transform: none;
+  transform: none;
 }
 .card-wrapper.underline-links-hover:hover .card__content_ahover {
-    transform: none;
+  transform: none;
 }
 .card-wrapper.underline-links-hover:hover .card__content_bhover {
-     transform: translateX(0) translateY(-100%);
+  transform: translateX(0) translateY(-100%);
 }
 .card__content_ahover, .card__content_bhover {
-    position: absolute !important;
-  
-    backface-visibility: hidden;
+  position: absolute !important;
+
+  backface-visibility: hidden;
 }
 span.caption-large.light.description {
-    font-size: 21px;
-    line-height: 32px !important;
-    letter-spacing: 1.5px;
+  font-size: 21px;
+  line-height: 32px !important;
+  letter-spacing: 1.5px;
   margin-bottom: 20px;
-font-family: var(--font-body-family);
-}
+  font-family: var(--font-body-family);
+    }
 .product-grid-li h3.card__heading {
-    font-size: 15px;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-font-family: var(--font-body-family);
-  margin-bottom: 20px;
-   text-transform: uppercase;
-}
-a.grid-product-link {
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-    border: 2px solid #fff;
-    color: #fff;
-    text-decoration: none;
-    padding: 18px 30px;
-    border-radius: 40px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  font-family: var(--font-body-family);
+    margin-bottom: 20px;
     text-transform: uppercase;
-font-family: var(--font-body-family);
-}
+    }
+a.grid-product-link {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  border: 2px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  padding: 18px 30px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  font-family: var(--font-body-family);
+    }
 .card-wrapper.underline-links-hover:hover a.grid-product-link:hover {
-   
-    border: 2px solid #000;
-    color: #000;
-      text-decoration: none;
-   
+  border: 2px solid #000;
+  color: #000;
+  text-decoration: none;
 }
 .card-wrapper.underline-links-hover:hover a.grid-product-link {
-   
-   
-      text-decoration: none;
-   
+  text-decoration: none;
 }
 .card__content_bhover span.caption-large.light.description,  .card__content_bhover h3.card__heading{
-   color: #000;
+  color: #000;
 }
 .card__content_ahover span.caption-large.light.description,  .card__content_ahover h3.card__heading{
-   color: #fff;
+  color: #fff;
 }
