@@ -106,7 +106,10 @@ ul.product-slider button.choose-option {
 ul.product-slider .card-wrapper .media.media--transparent img.motion-reduce {
     border-radius: 20px 20px 0 0;
 }
-
+.card-wrapper.underline-links-hover:hover img.motion-reduce {
+   
+    transform: scale(1) !important;
+}
 
 ul.product-slider.slick-initialized.slick-slider.slick-dotted .card__inner.color-background-2 {
     --ratio-percent: 61.545455% !important;
