@@ -5,3 +5,7 @@ li.product-grid-li.grid__item {
     padding-left: 6px;
     padding-right: 6px;
 }
+.grid-product-wrap {
+    max-width: 1200px;
+    padding: 0px;
+}
