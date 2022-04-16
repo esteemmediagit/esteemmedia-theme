@@ -1,3 +1,11 @@
+.description.multicolumn-desctription.pone {
+    text-align: center;
+color:#333333;
+}
+.multicolumn .title-wrapper-with-link h2 {
+    width: 100%;
+    text-align: center;
+}
 .multicolumn .title {
   margin: 0;
 }
