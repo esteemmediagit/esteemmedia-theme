@@ -4,6 +4,31 @@ slideshow-component.slider-mobile-gutter.mobile-text-below .slideshow__controls.
     z-index: 99;
     width: 100%;
 }
+.slideshow__controls button.slider-button svg {
+    height: 12px;
+}
+.slideshow__controls button.slider-button {
+    background: #fff;
+    color: #1f2226;
+    border: 1px solid #fff;
+    width: 58px;
+    height: 58px;
+    border-radius: 100%;
+}
+.slideshow__controls button.slider-button:hover {
+    border-color: #1f2226;
+}
+.slideshow__controls button.slider-button.slider-button--next {
+    right: 0px;
+    position: absolute;
+}
+.slideshow__controls button.slider-button.slider-button--prev {
+    position: absolute;
+    left: 0;
+}
+.slideshow__controls .slider-counter.slider-counter--counter.caption {
+    display: none;
+}
 slideshow-component {
   position: relative;
   display: flex;
