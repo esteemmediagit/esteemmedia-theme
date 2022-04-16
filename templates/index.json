@@ -223,6 +223,7 @@
         "background_style": "none",
         "button_label": "FIND OUT MORE",
         "button_link": "#",
+        "view_all_style": "solid",
         "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
