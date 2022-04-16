@@ -41,9 +41,12 @@ li.product-grid-li.grid__item {
     display: flex;
     justify-content: space-between;
 }
+.grid-product-col .collection__title h5.title.h5 {
+    margin-bottom: 0px !important;
+}
 a.view-allproduct {
     font-size: 23px;
-    line-height: 23px;
+    line-height: 26px;
     text-decoration: none;
     color: #000;
     font-weight: 400;
