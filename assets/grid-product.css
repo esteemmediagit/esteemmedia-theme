@@ -22,3 +22,6 @@ li.product-grid-li.grid__item {
     text-align: center;
     flex-direction: column;
 }
+.card__content_ahover {
+    display: none;
+}
