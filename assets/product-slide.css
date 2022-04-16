@@ -52,6 +52,7 @@ ul.product-slider button.quick-view {
     background: url(https://cdn.shopify.com/s/files/1/0637/4529/4571/files/view_1.png?v=1650129407);
     background-repeat: no-repeat;
     background-size: 24px auto;
+ font-size: 0px;
 }
 ul.product-slider.slick-initialized.slick-slider.slick-dotted .card__inner.color-background-2 {
     --ratio-percent: 58.545455% !important;
