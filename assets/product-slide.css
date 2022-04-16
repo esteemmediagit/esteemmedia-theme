@@ -28,3 +28,8 @@ ul.product-slider .slick-list.draggable {
     overflow: hidden;
     display: block;
 }
+ul.product-slider .slick-list.draggable .slick-track {
+    display: flex;
+    column-gap: 20px;
+ 
+}
