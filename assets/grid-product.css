@@ -31,3 +31,6 @@ li.product-grid-li.grid__item {
 .underline-links-hover:hover .card__content_bhover {
     display: none !important;
 }
+.product-grid-li .card__media {
+    height: 280px;
+}
