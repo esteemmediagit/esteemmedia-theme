@@ -24,6 +24,27 @@ color:#333333;
 .multicolumn .center a {
     margin-top: 0px;
 }
+.multicolumn-card__info a.link {
+    color: #333;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    padding-bottom: 3px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.multicolumn-card__info p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7a7a7a;
+    line-height: 24px;
+    margin-bottom: 17px !important;
+    margin-top: -6px !important;
+}
+.multicolumn-card__info a.link span.icon-wrap {
+    display: none;
+}
 .multicolumn .title-wrapper-with-link {
   margin-top: 0;
     margin-bottom: 0px;
