@@ -66,7 +66,7 @@
             </div>
           </div>
         {%- endif -%}
-        <div class="card__content_hover">
+        <div class="card__content">
           <div class="card__information">
             <h3 class="card__heading"{% if card_product.featured_media == nil and settings.card_style == 'standard' %} id="title-{{ section_id }}-{{ card_product.id }}"{% endif %}>
               
@@ -77,7 +77,7 @@
          <span class="caption-large light description">{{ card_product.description | escape }}</span>
         </div>
       </div>
-      <div class="card__content">
+      <div class="card__content_hover">
          <div class="card__media">
             <div class="media media--transparent media--hover-effect">
        {%- if card_product.media[1] != nil and show_secondary_image -%}
