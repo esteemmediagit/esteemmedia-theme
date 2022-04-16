@@ -1,3 +1,7 @@
 .card__content_hover {
     display: none;
 }
+li.product-grid-li.grid__item {
+    padding-left: 6px;
+    padding-right: 6px;
+}
