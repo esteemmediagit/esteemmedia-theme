@@ -313,7 +313,7 @@ html.no-js .no-js-hidden {
   z-index: 0;
 }
   .bg-cream{
-    background-color: #e7e7e7;
+    background-color: #e7e7e7 !important;
   }
 .section + .section {
   margin-top: var(--spacing-sections-mobile);
