@@ -34,3 +34,9 @@ li.product-grid-li.grid__item {
 .product-grid-li .card__media {
     height: 280px;
 }
+.card__content_bhover {
+    height: 280px;
+}
+.card__content_ahover {
+    height: 280px;
+}
