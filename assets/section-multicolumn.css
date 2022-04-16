@@ -189,8 +189,8 @@ color:#333333;
 
 @media screen and (min-width: 750px) {
   .background-none .multicolumn-card__image-wrapper {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: 0.87rem;
+    margin-right: 0.87rem;
   }
 
   .background-none .multicolumn-list .multicolumn-card__info,
@@ -198,8 +198,8 @@ color:#333333;
     .multicolumn-list:not(.slider)
     .center
     .multicolumn-card__info {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 0.87rem;
+    padding-right: 0.87rem;
   }
 }
 
