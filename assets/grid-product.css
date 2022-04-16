@@ -35,7 +35,12 @@ li.product-grid-li.grid__item {
   -o-transition: all .6s ease-in-out;
   transition: all .6s ease-in-out;
 }
-
+.grid-product-col .collection__title {
+    max-width: 1200px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
 .product-grid-li .card__media {
   height: 280px;
 }
