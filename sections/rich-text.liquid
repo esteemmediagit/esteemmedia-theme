@@ -18,7 +18,7 @@
   }
 {%- endstyle -%}
 
-<div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
+<div class="{{ sction.settings.class-name}} isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <div class="rich-text__blocks">
       {%- for block in section.blocks -%}
@@ -77,6 +77,12 @@
       "default": true,
       "label": "t:sections.rich-text.settings.full_width.label"
     },
+{
+          "type": "text",
+          "id": "class-name",
+          "default": "class-Name",
+          "label": "five class name"
+        },
     {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
