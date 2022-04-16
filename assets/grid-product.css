@@ -26,7 +26,7 @@ li.product-grid-li.grid__item {
     display: none;
 }
 .underline-links-hover:hover .card__content_ahover {
-    display: block !important;
+    display: flex !important;
    -webkit-transition: all .6s ease-in-out;
     -o-transition: all .6s ease-in-out;
     transition: all .6s ease-in-out;
