@@ -36,14 +36,23 @@ ul.product-slider .slick-list.draggable .slick-track {
 ul.product-slider.slick-initialized.slick-slider.slick-dotted {
     list-style: none;
 }
-ul.product-slider.slick-initialized.slick-slider.slick-dotted .card__inner.color-background-2 {
-    --ratio-percent: 58.545455% !important;
-}
-  ul.product-slider button.quick-add__submit.button span {
+
+  ul.product-slider .quick-add__submit.button span {
     font-size: 0px;
 }
 ul.product-slider button.quick-add__submit.button.button--full-width.button--secondary {
     background: url(https://cdn.shopify.com/s/files/1/0637/4529/4571/files/shopping-cart_2.png?v=1650128982);
     background-repeat: no-repeat;
     background-size: 24px auto;
+}
+ul.product-slider button.quick-view span {
+    font-size: 0px;
+}
+ul.product-slider button.quick-view {
+    background: url(https://cdn.shopify.com/s/files/1/0637/4529/4571/files/view_1.png?v=1650129407);
+    background-repeat: no-repeat;
+    background-size: 24px auto;
+}
+ul.product-slider.slick-initialized.slick-slider.slick-dotted .card__inner.color-background-2 {
+    --ratio-percent: 58.545455% !important;
 }
