@@ -41,6 +41,14 @@ li.product-grid-li.grid__item {
     display: flex;
     justify-content: space-between;
 }
+a.view-allproduct {
+    font-size: 23px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    text-transform: uppercase;
+}
 .product-grid-li .card__media {
   height: 280px;
 }
