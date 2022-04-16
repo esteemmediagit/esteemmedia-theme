@@ -177,7 +177,7 @@
       </div>
       <div class="card__content">
         <div class="card__information">
-          <h6 class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}"{% if card_product.featured_media or settings.card_style == 'card' %} id="title-{{ section_id }}-{{ card_product.id }}"{% endif %}>
+          <h6 class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h6{% endif %}"{% if card_product.featured_media or settings.card_style == 'card' %} id="title-{{ section_id }}-{{ card_product.id }}"{% endif %}>
             
               {{ card_product.title | escape }}
             
@@ -185,7 +185,7 @@
           <div class="card-information">
            
 
-           <span class="caption-large light description">{{ card_product.description | escape }}</span>
+           <span class="caption-large light description">{{ card_product.description | strip_html | truncate: 15 }}</span>
 
            
             {% render 'price', product: card_product, price_class: '' %}
