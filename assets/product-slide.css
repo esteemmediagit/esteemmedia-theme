@@ -103,6 +103,11 @@ ul.product-slider button.choose-option {
     text-align: center;
     margin: 0 auto;
 }
+ul.product-slider .card-wrapper .media.media--transparent img.motion-reduce {
+    border-radius: 20px 20px 0 0;
+}
+
+
 ul.product-slider.slick-initialized.slick-slider.slick-dotted .card__inner.color-background-2 {
     --ratio-percent: 61.545455% !important;
 }
