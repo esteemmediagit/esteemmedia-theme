@@ -12,6 +12,10 @@
     margin: 0 auto;
     margin-top: 11px;
 }
+.rich-texts h2.h2 {
+    margin-top: 2px;
+    margin-bottom: 33px;
+}
 .rich-text.rich-text--full-width {
   max-width: initial;
   width: 100%;
