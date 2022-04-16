@@ -64,7 +64,7 @@ li.product-grid-li.grid__item {
     transform: none;
 }
 .card-wrapper.underline-links-hover:hover .card__content_bhover {
-     transform: translateX(0) translateY(100%);
+     transform: translateX(0) translateY(-100%);
 }
 .card__content_ahover, .card__content_bhover {
     position: absolute !important;
