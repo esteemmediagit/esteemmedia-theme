@@ -4,7 +4,14 @@
   text-align: center;
   z-index: 1;
 }
-
+.heading-after span.border {
+    height: 3px;
+    background: #000;
+    width: 37px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 11px;
+}
 .rich-text.rich-text--full-width {
   max-width: initial;
   width: 100%;
