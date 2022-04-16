@@ -45,9 +45,7 @@ li.product-grid-li.grid__item {
 .card__content_ahover {
     height: 280px;
 }
-.card-wrapper.underline-links-hover .card__content_bhover {
-    transform: translateX(0) translateY(-100%);
-}
+
 .card.card--standard.card--media {
     height: 280px;
     overflow: hidden;
@@ -55,16 +53,17 @@ li.product-grid-li.grid__item {
     perspective: 1000px;
     position: relative;
 }
-.card-wrapper.underline-links-hover .card__content_bhover {
+
+.card-wrapper.underline-links-hover .card__content_ahover {
     transform: translateX(0) translateY(-100%);
 }
-.card-wrapper.underline-links-hover .card__content_ahover {
-    transform: none;
-}
-.card-wrapper.underline-links-hover:hover .card__content_bhover {
+.card-wrapper.underline-links-hover .card__content_bhover {
     transform: none;
 }
 .card-wrapper.underline-links-hover:hover .card__content_ahover {
+    transform: none;
+}
+.card-wrapper.underline-links-hover:hover .card__content_bhover {
      transform: translateX(0) translateY(-100%);
 }
 .card__content_ahover, .card__content_bhover {
