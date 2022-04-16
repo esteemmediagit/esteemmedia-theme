@@ -9,3 +9,16 @@ li.product-grid-li.grid__item {
     max-width: 1200px;
     padding: 0px;
 }
+.product-grid-li .card__content .card__information {
+    display: block !important;
+}
+.product-grid-li .card__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-grid-li .card__content .card__information {
+    display: flex !important;
+    text-align: center;
+    flex-direction: column;
+}
