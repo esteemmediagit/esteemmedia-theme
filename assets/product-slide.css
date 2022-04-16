@@ -36,3 +36,6 @@ ul.product-slider .slick-list.draggable .slick-track {
 ul.product-slider.slick-initialized.slick-slider.slick-dotted {
     list-style: none;
 }
+ul.product-slider.slick-initialized.slick-slider.slick-dotted .card__inner.color-background-2 {
+    --ratio-percent: 58.545455% !important;
+}
