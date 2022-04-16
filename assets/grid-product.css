@@ -95,10 +95,16 @@ a.grid-product-link {
     text-transform: uppercase;
 font-family: var(--font-body-family);
 }
-a.grid-product-link:hover {
+.card-wrapper.underline-links-hover:hover a.grid-product-link:hover {
    
     border: 2px solid #000;
     color: #000;
+      text-decoration: none;
+   
+}
+.card-wrapper.underline-links-hover:hover a.grid-product-link {
+   
+   
       text-decoration: none;
    
 }
