@@ -37,7 +37,7 @@ ul.product-slider.slick-initialized.slick-slider.slick-dotted {
     list-style: none;
 }
 
-  ul.product-slider .quick-add__submit.button span {
+  ul.product-slider .quick-add__submit span {
     font-size: 0px;
 }
 ul.product-slider button.quick-add__submit {
