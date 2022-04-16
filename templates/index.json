@@ -239,7 +239,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker2.jpg",
             "title": "LOREM IPSUM 23PX",
-            "text": "<p>Lorem ipsum dolor sit amet,&lt;br\/&gt; consectetur adipiscingelit. Duis ac &lt;br\/&gt;ipsum dolor sit amet consectetur<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, <br>consectetur adipiscingelit. Duis ac <br>ipsum dolor sit amet consectetur<\/p>",
             "link_label": "Learn More",
             "link": "#"
           }
@@ -249,7 +249,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker2.jpg",
             "title": "LOREM IPSUM 23PX",
-            "text": "<p>Lorem ipsum dolor sit amet,&lt;br\/&gt; consectetur adipiscingelit. Duis ac &lt;br\/&gt;ipsum dolor sit amet consectetur<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, <br>consectetur adipiscingelit. Duis ac <br>ipsum dolor sit amet consectetur<\/p>",
             "link_label": "Learn More",
             "link": "#"
           }
@@ -259,7 +259,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker2.jpg",
             "title": "LOREM IPSUM 23PX",
-            "text": "<p>Lorem ipsum dolor sit amet,&lt;br\/&gt; consectetur adipiscingelit. Duis ac &lt;br\/&gt;ipsum dolor sit amet consectetur<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, <br>consectetur adipiscingelit. Duis ac <br>ipsum dolor sit amet consectetur<\/p>",
             "link_label": "Learn More",
             "link": "#"
           }
@@ -269,7 +269,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker2.jpg",
             "title": "LOREM IPSUM 23PX",
-            "text": "<p>Lorem ipsum dolor sit amet,&lt;br\/&gt; consectetur adipiscingelit. Duis ac &lt;br\/&gt;ipsum dolor sit amet consectetur<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, <br>consectetur adipiscingelit. Duis ac <br>ipsum dolor sit amet consectetur<\/p>",
             "link_label": "Learn More",
             "link": "#"
           }
