@@ -1,4 +1,4 @@
-.card__content_hover {
+.product-grid-li .card__content_hover {
   display: none;
 }
 li.product-grid-li.grid__item {
@@ -62,7 +62,7 @@ a.view-allproduct {
   height: 280px;
 }
 
-.card.card--standard.card--media {
+.product-grid-li .card.card--standard.card--media {
   height: 280px;
   overflow: hidden;
   transform-style: preserve-3d;
@@ -114,12 +114,12 @@ a.grid-product-link {
   text-transform: uppercase;
   font-family: var(--font-body-family);
     }
-.card-wrapper.underline-links-hover:hover a.grid-product-link:hover {
+.product-grid-li .card-wrapper.underline-links-hover:hover a.grid-product-link:hover {
   border: 2px solid #000;
   color: #000;
   text-decoration: none;
 }
-.card-wrapper.underline-links-hover:hover a.grid-product-link {
+.product-grid-li .card-wrapper.underline-links-hover:hover a.grid-product-link {
   text-decoration: none;
 }
 .card__content_bhover span.caption-large.light.description,  .card__content_bhover h3.card__heading{
