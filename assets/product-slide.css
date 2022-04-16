@@ -83,7 +83,7 @@ ul.product-slider .product-links a {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 2px;
+    bottom: -16px;
 }
 .hover-cart {
     display: block;
