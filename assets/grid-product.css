@@ -29,6 +29,12 @@ li.product-grid-li.grid__item {
     -o-transition: all .6s ease-in-out;
     transition: all .6s ease-in-out;
 }
+.underline-links-hover:hover .card__content_bhover {
+    display: flex !important;
+   -webkit-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+}
 
 .product-grid-li .card__media {
     height: 280px;
