@@ -43,6 +43,8 @@ ul.product-slider.slick-initialized.slick-slider.slick-dotted {
 ul.product-slider button.quick-add__submit {
     background: url(https://cdn.shopify.com/s/files/1/0637/4529/4571/files/shopping-cart_2.png?v=1650128982);
     background-repeat: no-repeat;
+  width: 24px;
+    height: 24px
     background-size: 24px auto;
 }
 ul.product-slider button.quick-view span {
@@ -53,12 +55,16 @@ ul.product-slider button.quick-view {
     background-repeat: no-repeat;
     background-size: 24px auto;
  font-size: 0px;
+  width: 24px;
+    height: 24px
 }
 ul.product-slider .product-links a {
     background: url(https://cdn.shopify.com/s/files/1/0637/4529/4571/files/link_1.png?v=1650129406);
     background-repeat: no-repeat;
     background-size: 24px auto;
  font-size: 0px;
+  width: 24px;
+    height: 24px
 }
 
 
