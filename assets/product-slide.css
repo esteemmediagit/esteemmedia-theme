@@ -33,3 +33,6 @@ ul.product-slider .slick-list.draggable .slick-track {
     column-gap: 20px;
  
 }
+ul.product-slider.slick-initialized.slick-slider.slick-dotted {
+    list-style: none;
+}
