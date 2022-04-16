@@ -117,6 +117,25 @@ ul.product-slider .card-wrapper .media.media--transparent img.motion-reduce {
     transform: scale(1) !important;
 }
 
+ul.product-slider h6.card__heading.h6 {
+    color: #1d1d1d;
+}
+ul.product-slider span.caption-large.light.description {
+    font-size: 16px;
+    line-height: 24px!important;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+    font-family: var(--font-body-family);
+}
+ul.product-slider .price__regular {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31px;
+    color: #000;
+font-family: var(--font-heading-familyf);
+}
+
+
 ul.product-slider.slick-initialized.slick-slider.slick-dotted .card__inner.color-background-2 {
     --ratio-percent: 61.545455% !important;
 }
