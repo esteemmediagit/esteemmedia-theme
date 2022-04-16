@@ -21,7 +21,9 @@ color:#333333;
 .multicolumn.no-heading .title {
   display: none;
 }
-
+.multicolumn .center a {
+    margin-top: 0px;
+}
 .multicolumn .title-wrapper-with-link {
   margin-top: 0;
     margin-bottom: 0px;
