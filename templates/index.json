@@ -213,6 +213,7 @@
       ],
       "settings": {
         "title": "LOREM IPSUM 38PX",
+        "class": "class-name",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         "body_size": "pone",
         "heading_size": "h2",
@@ -283,6 +284,7 @@
       ],
       "settings": {
         "title": "LOREM IPSUM 38PX",
+        "class": "bg-cream",
         "description": "",
         "body_size": "pthree",
         "heading_size": "h2",
