@@ -38,38 +38,6 @@
       {% if settings.card_style == 'card' %} color-{{ settings.card_color_scheme }} gradient{% endif %} "
      
     >
-      <div class="card__content_bhover card__inner {% if settings.card_style == 'standard' %}color-{{ settings.card_color_scheme }} gradient{% endif %}{% if card_product.featured_media or settings.card_style == 'standard' %} ratio{% endif %}">
-        {%- if card_product.featured_media -%}
-          <div class="card__media">
-            <div class="media media--transparent media--hover-effect">
-              {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
-              <img
-               
-               src="{{ card_product.featured_image | img_url: '280x280', crop: 'center' }}"
-                   alt="{{ card_product.featured_media.alt | escape }}"
-                class="motion-reduce"
-                {% unless lazy_load == false %}loading="lazy"{% endunless %}
-                width="{{ card_product.featured_media.width }}"
-                height="{{ card_product.featured_media.height }}"
-              >
-              {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
-
-            
-            </div>
-          </div>
-        {%- endif -%}
-        <div class="card__content">
-          <div class="card__information">
-            <h3 class="card__heading"{% if card_product.featured_media == nil and settings.card_style == 'standard' %} id="title-{{ section_id }}-{{ card_product.id }}"{% endif %}>
-              
-                {{ card_product.title | escape }}
-        
-            </h3>
-            <span class="caption-large light description">{{ card_product.description | escape }}</span>
-          </div>
-         
-        </div>
-      </div>
       <div class="card__content_ahover card__inner {% if settings.card_style == 'standard' %}color-{{ settings.card_color_scheme }} gradient{% endif %}{% if card_product.featured_media or settings.card_style == 'standard' %} ratio{% endif %}" >
         {%- if card_product.featured_media -%}
           <div class="card__media">
@@ -103,7 +71,39 @@
          
         </div>
       </div>
-    
+        <div class="card__content_bhover card__inner {% if settings.card_style == 'standard' %}color-{{ settings.card_color_scheme }} gradient{% endif %}{% if card_product.featured_media or settings.card_style == 'standard' %} ratio{% endif %}">
+        {%- if card_product.featured_media -%}
+          <div class="card__media">
+            <div class="media media--transparent media--hover-effect">
+              {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+              <img
+               
+               src="{{ card_product.featured_image | img_url: '280x280', crop: 'center' }}"
+                   alt="{{ card_product.featured_media.alt | escape }}"
+                class="motion-reduce"
+                {% unless lazy_load == false %}loading="lazy"{% endunless %}
+                width="{{ card_product.featured_media.width }}"
+                height="{{ card_product.featured_media.height }}"
+              >
+              {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
+
+            
+            </div>
+          </div>
+        {%- endif -%}
+        <div class="card__content">
+          <div class="card__information">
+            <h3 class="card__heading"{% if card_product.featured_media == nil and settings.card_style == 'standard' %} id="title-{{ section_id }}-{{ card_product.id }}"{% endif %}>
+              
+                {{ card_product.title | escape }}
+        
+            </h3>
+            <span class="caption-large light description">{{ card_product.description | escape }}</span>
+          </div>
+         
+        </div>
+      </div>
+  
    
     </div>
   </div>
