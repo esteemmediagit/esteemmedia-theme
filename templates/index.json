@@ -294,7 +294,7 @@
         "button_label": "",
         "button_link": "",
         "view_all_style": "solid",
-        "color_scheme": "accent-1",
+        "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 96,
