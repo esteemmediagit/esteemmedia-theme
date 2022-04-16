@@ -88,7 +88,7 @@
                                 >
                                   <span>
                                     {%- if card_product.selected_or_first_available_variant.available -%}
-                                      {{ 'products.product.add_to_cart' | t }}
+                                    <img scr="https://cdn.shopify.com/s/files/1/0637/4529/4571/files/shopping-cart.png?v=1650128681">
                                     {%- else -%}
                                       {{ 'products.product.sold_out' | t }}
                                     {%- endif -%}
@@ -145,7 +145,7 @@
                           aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ card_product.id }}"
                           data-product-url="{{ card_product.url }}"
                         >
-                          {{ 'products.product.choose_options' | t }}
+                          <img scr="https://cdn.shopify.com/s/files/1/0637/4529/4571/files/view.png?v=1650128681">
                           <div class="loading-overlay__spinner hidden">
                             <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
                               <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
@@ -164,7 +164,7 @@
                 </div>
                 <div class="product-links">
                     <a href="{{ card_product.url }}" class="full-unstyled-link">
-                        {{ card_product.title | escape }}
+                      <img scr="https://cdn.shopify.com/s/files/1/0637/4529/4571/files/link.png?v=1650128681">
                       </a>
                 </div>
 
