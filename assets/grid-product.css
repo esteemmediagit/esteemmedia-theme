@@ -22,9 +22,7 @@ li.product-grid-li.grid__item {
     text-align: center;
     flex-direction: column;
 }
-.card__content_ahover {
-    display: none;
-}
+
 .underline-links-hover:hover .card__content_ahover {
     display: flex !important;
    -webkit-transition: all .6s ease-in-out;
@@ -42,4 +40,25 @@ li.product-grid-li.grid__item {
 }
 .card__content_ahover {
     height: 280px;
+}
+.card-wrapper.underline-links-hover .card__content_bhover {
+    transform: translateX(0) translateY(-100%);
+}
+.card.card--standard.card--media {
+    height: 280px;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    position: relative;
+}
+.card-wrapper.underline-links-hover .card__content_bhover {
+    transform: translateX(0) translateY(-100%);
+}
+.card-wrapper.underline-links-hover .card__content_ahover {
+    transform: translateX(0) translateY(-100%);
+}
+.card__content_ahover, .card__content_bhover {
+    position: absolute !important;
+  
+    backface-visibility: hidden;
 }
