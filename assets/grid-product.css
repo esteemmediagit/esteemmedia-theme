@@ -23,14 +23,14 @@ li.product-grid-li.grid__item {
     flex-direction: column;
 }
 
-.underline-links-hover:hover .card__content_ahover {
-    display: flex !important;
+.underline-links-hover .card__content_ahover {
+   
    -webkit-transition: all .6s ease-in-out;
     -o-transition: all .6s ease-in-out;
     transition: all .6s ease-in-out;
 }
-.underline-links-hover:hover .card__content_bhover {
-    display: flex !important;
+.underline-links-hover .card__content_bhover {
+   
    -webkit-transition: all .6s ease-in-out;
     -o-transition: all .6s ease-in-out;
     transition: all .6s ease-in-out;
