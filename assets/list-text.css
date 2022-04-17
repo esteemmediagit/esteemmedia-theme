@@ -83,4 +83,7 @@
     width: 100%;
     display: block;
 }
-
+.rich-text-list.double-richs.isolate .rich-text.content-container.bg-cream {
+    padding-top: 13.9rem;
+    padding-bottom: 8rem;
+}
