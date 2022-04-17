@@ -15,7 +15,7 @@
     left: 30px;
 }
 button.slick-next.slick-arrow {
-    right: 30px;
+    right: 8px;
     background: url(https://cdn.shopify.com/s/files/1/0637/4529/4571/files/next_1.png?v=1650217160);
 }
 ul.logo-box.logo-slider button.slick-arrow {
@@ -54,9 +54,9 @@ background-size: 32px auto;
   <div class="logo-section section-{{ section.id }}-padding">
       <div class="page-width">
 
-        <h2 class="logo-heading {{ section.settings.heading_size }}" {{ section.shopify_attributes }}>
-          {{ section.settings.heading | escape }}
-        </h2>
+        <h5 class="logo-heading h5" {{ section.shopify_attributes }}>
+          {{ section.settings.heading }}
+        </h5>
         <div class="logo-description {{ section.settings.text_style }} {{ section.settings.body_size }}" {{ section.shopify_attributes }}>
           <p>{{ section.settings.text | escape }}</p>
         </div>
