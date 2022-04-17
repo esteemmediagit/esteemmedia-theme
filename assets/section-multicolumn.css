@@ -20,8 +20,12 @@
     color: #333;
 }
 .multicolum-logo .multicolumn-card.content-container {
-    background: none;
+    background: none !important;
     padding: 15px;
+}
+.multicolum-logo .multicolumn-card.content-container .media.media--transparent.media--adapt {
+    padding: 0px !important;
+    margin-bottom: 12px;
 }
 .description.multicolumn-desctription.pone {
     text-align: center;
