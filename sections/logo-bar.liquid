@@ -83,8 +83,9 @@
           {%- endif -%}
   
             {%- if block.settings.image != blank -%}
+              <div class="logo-image">
               {{ block.settings.image | img_url: '160x160', scale: 2 | img_tag: block.settings.image.alt }}
-         
+         </div>
             {%- endif -%}
   
           {%- if block.settings.link != blank -%}
