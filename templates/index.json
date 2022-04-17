@@ -637,30 +637,49 @@
         "16501981154dc375cd-0": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "HAIRCUT WITH BLOW DRY",
+            "link": "#",
             "price": "$20",
+            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit dolor",
             "heading_size": "h1"
           }
         },
-        "16501981154dc375cd-1": {
-          "type": "text",
+        "124bef58-694a-44a3-b223-d834b2f26e3d": {
+          "type": "heading",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "heading": "SECOND ITEM ON THE LIST",
+            "link": "#",
+            "price": "$9",
+            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit dolor",
+            "heading_size": "h1"
           }
         },
-        "16501981154dc375cd-2": {
-          "type": "button",
+        "d78c6397-45a4-479a-80ef-9f94896e9942": {
+          "type": "heading",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "heading": "THIRD ITEM ON THE LIST",
+            "link": "#",
+            "price": "32",
+            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit dolor",
+            "heading_size": "h1"
+          }
+        },
+        "ebbbdb18-b5aa-4d2e-be84-6f61054943a5": {
+          "type": "heading",
+          "settings": {
+            "heading": "THIRD ITEM ON THE LIST",
+            "link": "#",
+            "price": "$20",
+            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit dolor",
+            "heading_size": "h1"
           }
         }
       },
       "block_order": [
         "16501981154dc375cd-0",
-        "16501981154dc375cd-1",
-        "16501981154dc375cd-2"
+        "124bef58-694a-44a3-b223-d834b2f26e3d",
+        "d78c6397-45a4-479a-80ef-9f94896e9942",
+        "ebbbdb18-b5aa-4d2e-be84-6f61054943a5"
       ],
       "settings": {
         "color_scheme": "background-1",
