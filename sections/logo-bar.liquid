@@ -32,7 +32,7 @@
   endif
 -%}
 
-<div class="color-{{ section.settings.color_scheme }} isolate gradient">
+<div class="{{ section.settings.class }} color-{{ section.settings.color_scheme }} isolate gradient">
   <div class="logo-section section-{{ section.id }}-padding">
       <div class="page-width">
 
@@ -141,6 +141,12 @@
         "id": "text",
         "default": "description",
         "label": "logo description"
+      },
+{
+        "type": "text",
+        "id": "class",
+        "default": "class",
+        "label": "Add Class to wrapper"
       },
       {
         "type": "select",
