@@ -920,7 +920,7 @@
         "description": "",
         "body_size": "pthree",
         "heading_size": "h1",
-        "image_width": "third",
+        "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
         "column_alignment": "center",
