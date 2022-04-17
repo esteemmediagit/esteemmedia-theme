@@ -10,6 +10,9 @@
 .quantity-box .product-form__input.product-form__quantity {
     flex: 0 0 150px;
 }
+.title--price h4.product__title.h4 {
+    margin-top: 0px;
+}
 .featured-product product-form.product-form {
     margin: 0px !important;
 }
