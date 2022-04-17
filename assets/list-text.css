@@ -1,0 +1,36 @@
+.lsit-block .block-iner h5 {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.lsit-block h5.h5 > span {
+    width: auto;
+    flex: 0 0 auto;
+   
+}
+.lsit-block span.border {
+    display: block;
+    flex: 0 0 20px;
+    height: 2px;
+    
+    width: 18rem !important;
+    border-bottom: 1px dashed;
+    align-self: center;
+    margin: 0 10px;
+}
+.lsit-block .block-iner a {
+    text-decoration: none;
+}
+.lsit-block .rich-text__text.rte.ptwo {
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+.lsit-block .rich-text-right .block-iner {
+    margin-bottom: 25px;
+}
