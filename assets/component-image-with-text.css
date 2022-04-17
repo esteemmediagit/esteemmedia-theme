@@ -6,6 +6,9 @@
     padding-top: 6rem;
     padding-bottom: 6rem;
 }
+.shopify-section.section.image-with-text.background-2 {
+    background: #faf7f5;
+}
 .image-with-text .grid {
   margin-bottom: 0;
 }
