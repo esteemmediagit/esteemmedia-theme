@@ -934,6 +934,93 @@
         "padding_top": 52,
         "padding_bottom": 60
       }
+    },
+    "165021589655233ddb": {
+      "type": "logo-bar",
+      "blocks": {
+        "1650215896a320b3f0-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/images-4.png",
+            "link": ""
+          }
+        },
+        "1650215896a320b3f0-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/images-4.png",
+            "link": ""
+          }
+        },
+        "1650215896a320b3f0-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/images-4.png",
+            "link": ""
+          }
+        },
+        "1650215896a320b3f0-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/images-4.png",
+            "link": ""
+          }
+        },
+        "8daab7bc-e2ba-46da-9a4e-13e8fcb5fd7f": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/images-4.png",
+            "link": ""
+          }
+        },
+        "6a085a66-091d-4a92-979d-a292dc67a55c": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/images-4.png",
+            "link": ""
+          }
+        },
+        "bc9486b8-133d-4ba4-a778-1d0c0f706bcc": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/images-4.png",
+            "link": ""
+          }
+        },
+        "b293e7bd-00a7-4859-a46e-41643a65d7b4": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/images-4.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1650215896a320b3f0-0",
+        "1650215896a320b3f0-1",
+        "1650215896a320b3f0-2",
+        "1650215896a320b3f0-3",
+        "8daab7bc-e2ba-46da-9a4e-13e8fcb5fd7f",
+        "6a085a66-091d-4a92-979d-a292dc67a55c",
+        "bc9486b8-133d-4ba4-a778-1d0c0f706bcc",
+        "b293e7bd-00a7-4859-a46e-41643a65d7b4"
+      ],
+      "settings": {
+        "heading": "LOREM IPSUM 28PX",
+        "heading_size": "h1",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula tellus vel imperdiet dapibu",
+        "body_size": "pone",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "enable_desktop_slider": true,
+        "carousel_arrows": false,
+        "columns_ipad": 4,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "title": "LOREM IPSUM 28PX",
+        "logo-desc": "Logo Description",
+        "logo_width": "160px"
+      }
     }
   },
   "order": [
@@ -955,6 +1042,7 @@
     "1650213511815232b3",
     "video",
     "collage",
-    "1650215891b82ba4ec"
+    "1650215891b82ba4ec",
+    "165021589655233ddb"
   ]
 }
