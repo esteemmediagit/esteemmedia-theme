@@ -20,12 +20,21 @@
 
 <div class="{{ section.settings.class-name}} isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
-    <div class="rich-text__blocks">
+    <d <div class="rich-text-left">
+        <div class="rich-content-iner">
+          <h1>{{ section.settings.heading }}</h1>
+          <p class="pthree">{{ section.settings.description }}</p>
+        </div>
+      </div>
+       <div class="rich-text-right">
+      <span class="right-left-border"></span>
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
-            <h2 class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}>{{ block.settings.heading | escape }}
+            <h2 class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+              <span class="heading">{{ block.settings.heading | escape }}</span>
               <span class="border"></span>
+              <span>{{ block.settings.price }}</span>
       </h2>
           {%- when 'text' -%}
             <div class="rich-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
@@ -35,6 +44,7 @@
             </a>
         {%- endcase -%}
       {%- endfor -%}
+         </div>
     </div>
   </div>
 </div>
