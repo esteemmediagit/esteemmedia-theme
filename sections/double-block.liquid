@@ -19,7 +19,7 @@
   }
 {%- endstyle -%}
 
-<div class="{{ section.settings.class-name}} isolate{% unless section.settings.full_width %} page-width{% endunless %}">
+<div class="bg-cream {{ section.settings.class-name}} isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
      <div class="rich-text__blocks lsit-block heading">
        <h2>{{ section.settings.heading }}</h2>
@@ -80,7 +80,7 @@
 {
   "name": "Double Rich List",
   "tag": "section",
-  "class": "section rich-list double-rich bg-cream",
+  "class": "section rich-list double-rich",
   "settings": [
     {
       "type": "select",
