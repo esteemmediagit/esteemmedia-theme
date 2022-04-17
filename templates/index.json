@@ -722,57 +722,6 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et risus quis sem finibus rhoncus. Duis ac erat posuere, laoreet elit non, c et risus quis sem finibus rhoncus. Duis ac erat posuere, laoreet elit."
       }
     },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "1650202004ea03688f": {
       "type": "full-image-baner",
       "blocks": {
@@ -862,6 +811,57 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "video": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "video_url": "https:\/\/vimeo.com\/488974825",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "collection-0": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "product": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection-0",
+        "product",
+        "collection-1"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -879,9 +879,9 @@
     "1650176698236f3135",
     "1650198115d9a48576",
     "1650201988d3de5312",
-    "collage",
-    "video",
     "1650202004ea03688f",
-    "1650213511815232b3"
+    "1650213511815232b3",
+    "video",
+    "collage"
   ]
 }
