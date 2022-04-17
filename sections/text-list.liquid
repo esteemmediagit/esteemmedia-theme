@@ -20,7 +20,8 @@
 
 <div class="{{ section.settings.class-name}} isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
-    <d <div class="rich-text-left">
+      <div class="rich-text__blocks lsit-block">
+        <div class="rich-text-left">
         <div class="rich-content-iner">
           <h1>{{ section.settings.heading }}</h1>
           <p class="pthree">{{ section.settings.description }}</p>
