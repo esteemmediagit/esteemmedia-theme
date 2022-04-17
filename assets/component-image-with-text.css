@@ -16,7 +16,10 @@
 .image-with-text .grid__item {
   position: relative;
 }
-
+.left-less-padding.second-wrap .image-with-text__content {
+    padding-right: 5.3rem;
+    padding-left: 0px;
+}
 @media screen and (min-width: 750px) {
   .image-with-text__grid--reverse {
     flex-direction: row-reverse;
