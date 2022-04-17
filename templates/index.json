@@ -443,6 +443,51 @@
         "padding_bottom": 36
       }
     },
+    "16501742792dba3e05": {
+      "type": "full-image-baner",
+      "blocks": {
+        "1650174279b33f1d54-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "LOREM IPSUM <br>TITLE 28PX",
+            "heading_size": "h1"
+          }
+        },
+        "1650174279b33f1d54-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing<br\/>elit. Duis ac faucibus risus<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1650174279b33f1d54-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "FIND OUT MORE",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "1650174279b33f1d54-0",
+        "1650174279b33f1d54-1",
+        "1650174279b33f1d54-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker4.jpg",
+        "class": "class-name",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -548,6 +593,7 @@
     "16501244403a50672a",
     "1649962201573590b6",
     "165017423092d9895f",
+    "16501742792dba3e05",
     "collage",
     "video",
     "1649962326fa782f31"
