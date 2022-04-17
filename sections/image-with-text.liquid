@@ -46,13 +46,13 @@
         {%- for block in section.blocks -%}
           {% case block.type %}
             {%- when 'heading' -%}
-              <h2 class="image-with-text__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-                {{ block.settings.heading | escape }}
-              </h2>
+              <h4 class="image-with-text__heading h4" {{ block.shopify_attributes }}>
+                {{ block.settings.heading  }}
+              </h4>
             {%- when 'caption' -%}
               <p class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.caption | escape }}</p>
             {%- when 'text' -%}
-              <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+              <div class="{{ block.settings.body_size }} image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
             {%- when 'button' -%}
               {%- if block.settings.button_label != blank -%}
                 <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}" {{ block.shopify_attributes }}>
@@ -356,10 +356,34 @@
       "limit": 1,
       "settings": [
         {
-          "type": "richtext",
+          "type": "textarea",
           "id": "text",
           "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
           "label": "t:sections.image-with-text.blocks.text.settings.text.label"
+        },
+{
+          "type": "select",
+          "id": "body_size",
+          "options": [
+            {
+              "value": "pone",
+              "label": "16"
+            },
+            {
+              "value": "ptwo",
+              "label": "18"
+            },
+            {
+              "value": "pthree",
+              "label": "20"
+            },
+            {
+              "value": "pfour",
+              "label": "21"
+            }
+          ],
+          "default": "pthree",
+          "label": "pp font size"
         },
         {
           "type": "select",
