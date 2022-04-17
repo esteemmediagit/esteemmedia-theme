@@ -89,13 +89,13 @@
               </p>
             {%- when 'title' -%}
           <div class="title--price">
-              <h2 class="product__title {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+              <h4 class="product__title h4" {{ block.shopify_attributes }}>
                 {%- if product.title != blank -%}
                   {{ product.title | escape }}
                 {%- else -%}
                   {{ 'onboarding.product_title' | t }}
                 {%- endif -%}
-              </h2>
+              </h4>
           <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                 {%- render 'price', product: product, use_variant: true, show_badges: false, price_class: 'price--large' -%}
               </div>
