@@ -34,3 +34,15 @@
 .lsit-block .rich-text-right .block-iner {
     margin-bottom: 25px;
 }
+.rich-text__blocks.lsit-block {
+    max-width: 107rem;
+    display: flex;
+    width:100%;
+    align-items: center;
+}
+.rich-text-left {
+    text-align: right;
+}
+.rich-text-right {
+    text-align: left;
+}
