@@ -68,14 +68,20 @@
 
 {% schema %}
 {
-  "name": "t:sections.image-with-text.name",
-  "class": "section",
+  "name": "Double Image",
+  "class": "section double-image-wrap",
   "settings": [
     {
       "type": "image_picker",
       "id": "image",
       "label": "t:sections.image-with-text.settings.image.label"
     },
+{
+          "type": "text",
+          "id": "class",
+          "default": "class-name",
+          "label": "Add a Class"
+        },
     {
       "type": "select",
       "id": "height",
@@ -401,7 +407,7 @@
   ],
   "presets": [
     {
-      "name": "t:sections.image-with-text.presets.name",
+      "name": "Double Image",
       "blocks": [
         {
           "type": "heading"
