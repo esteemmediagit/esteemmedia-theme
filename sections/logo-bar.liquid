@@ -2,7 +2,10 @@
 {{ 'slick.css' | asset_url | stylesheet_tag }}
 {% endif %%}
 <style>
-  
+  ul.logo-box.logo-slider .slick-track {
+    display: flex;
+    column-gap: 60px;
+}
   </style>
   
   {%- liquid
