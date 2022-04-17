@@ -10,6 +10,9 @@
 .quantity-box .product-form__input.product-form__quantity {
     flex: 0 0 150px;
 }
+.featured-product product-form.product-form {
+    margin: 0px !important;
+}
 .quantity-box > div:last-child {
     width: calc(100% - 150px);
     padding-left: 15px;
