@@ -65,6 +65,7 @@
     flex-direction: column;
     text-align: left;
     margin-bottom: 7.5rem;
+      padding-left: 32px;
 }
 .rich-list.double-rich.rich-text__blocks.lsit-block.heading {
     display: flex;
