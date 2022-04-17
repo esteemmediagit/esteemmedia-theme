@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
 }
-a.link.product__view-details.animate-arrow {
+.featured-product a.link.product__view-details.animate-arrow {
     text-decoration: underline;
     font-size: 16px;
     font-weight: 700;
