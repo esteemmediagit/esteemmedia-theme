@@ -634,10 +634,112 @@
         "color_scheme": "background-1",
         "full_width": true,
         "class-name": "rich-text-list top-section",
-        "padding_top": 40,
-        "padding_bottom": 52,
+        "padding_top": 80,
+        "padding_bottom": 80,
         "heading": "LOREM <br>IPSUM",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec <br>et risus quis sem finibus rhoncus. Duis ac erat posuere, laoreet <br>elit non,"
+      }
+    },
+    "1650201988d3de5312": {
+      "type": "double-block",
+      "blocks": {
+        "1650201988bdb98a68-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "link": "",
+            "price": "$20",
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1650201988bdb98a68-1": {
+          "type": "text",
+          "settings": {
+            "heading-r": "Talk about your brand",
+            "link-r": "",
+            "price-r": "$20",
+            "text-r": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1650201988bdb98a68-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "d0733179-a1cd-48d5-b137-c05f769d1e38": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "link": "",
+            "price": "$20",
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "b5f5d3fb-c17c-49e7-b8a3-286f4fff995f": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "link": "",
+            "price": "$20",
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "dd4d8a27-3f6b-4cca-bfec-5733c804720c": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "link": "",
+            "price": "$20",
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "e38bf77a-49a4-45bd-a964-a419d4af7b70": {
+          "type": "text",
+          "settings": {
+            "heading-r": "Talk about your brand",
+            "link-r": "",
+            "price-r": "$20",
+            "text-r": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "e0405347-75f5-4617-802a-b4d141df8450": {
+          "type": "text",
+          "settings": {
+            "heading-r": "Talk about your brand",
+            "link-r": "",
+            "price-r": "$20",
+            "text-r": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "1650201988bdb98a68-0",
+        "1650201988bdb98a68-1",
+        "1650201988bdb98a68-2",
+        "d0733179-a1cd-48d5-b137-c05f769d1e38",
+        "b5f5d3fb-c17c-49e7-b8a3-286f4fff995f",
+        "dd4d8a27-3f6b-4cca-bfec-5733c804720c",
+        "e38bf77a-49a4-45bd-a964-a419d4af7b70",
+        "e0405347-75f5-4617-802a-b4d141df8450"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "class-name": "class-Name",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "heading": "Talk about your brand",
+        "description": "Talk about your brand"
       }
     },
     "collage": {
@@ -706,6 +808,7 @@
     "1649962326fa782f31",
     "1650176698236f3135",
     "1650198115d9a48576",
+    "1650201988d3de5312",
     "collage",
     "video"
   ]
