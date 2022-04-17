@@ -60,3 +60,15 @@
     display: block;
     margin-bottom: 33px;
 }
+
+
+.rich-list.double-rich.rich-text__blocks.lsit-block.heading {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.rich-list.double-rich .rich-text__blocks.lsit-block.heading h2, .rich-text__blocks.lsit-block.heading p {
+    width: 100%;
+    display: block;
+}
+
