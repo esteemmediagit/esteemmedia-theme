@@ -61,7 +61,11 @@
     margin-bottom: 33px;
 }
 
-
+.rich-text-list.double-richs.isolate .rich-text__blocks.lsit-block.heading {
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 7.5rem;
+}
 .rich-list.double-rich.rich-text__blocks.lsit-block.heading {
     display: flex;
     flex-direction: column;
