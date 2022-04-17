@@ -3,6 +3,29 @@
     padding: 0px;
     padding-left: 40px;
 }
+.title--price {
+    display: flex;
+    align-items: center;
+}
+.quantity-box .product-form__input.product-form__quantity {
+    flex: 0 0 150px;
+}
+.quantity-box > div:last-child {
+    width: calc(100% - 150px);
+    padding-left: 15px;
+}
+.title--price .price.price--large {
+    text-align: right;
+}
+.featured-product .product-descriptions {
+    color: #ididid
+font-size:16px;
+line-height:24px;
+}
+.section-featured-product .page-width {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .product {
   margin: 0;
 }
