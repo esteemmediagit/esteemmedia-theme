@@ -404,14 +404,14 @@
         "16501742302f10067a-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "LOREM IPSUM <br>TITLE 28PX",
             "heading_size": "h1"
           }
         },
         "16501742302f10067a-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing<br\/>elit. Duis ac faucibus risus<\/p>",
             "text_style": "body"
           }
         },
