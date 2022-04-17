@@ -46,3 +46,7 @@
 .rich-text-right {
     text-align: left;
 }
+.rich-text-left h1 {
+    margin: 0px !important;
+    margin-bottom: -7px !important;
+}
