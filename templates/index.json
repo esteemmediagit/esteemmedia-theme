@@ -1022,6 +1022,70 @@
         "logo-desc": "Logo Description",
         "logo_width": "160px"
       }
+    },
+    "1650217474f98fed6c": {
+      "type": "logo-bar",
+      "blocks": {
+        "16502174746949a2fd-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/images-4.png",
+            "link": ""
+          }
+        },
+        "16502174746949a2fd-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/images-4.png",
+            "link": ""
+          }
+        },
+        "16502174746949a2fd-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/images-4.png",
+            "link": ""
+          }
+        },
+        "16502174746949a2fd-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/images-4.png",
+            "link": ""
+          }
+        },
+        "5f4c12eb-13ae-41d2-a403-7f4672212b5a": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/images-4.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16502174746949a2fd-0",
+        "16502174746949a2fd-1",
+        "16502174746949a2fd-2",
+        "16502174746949a2fd-3",
+        "5f4c12eb-13ae-41d2-a403-7f4672212b5a"
+      ],
+      "settings": {
+        "heading": "LOREM IPSUM 28PX",
+        "heading_size": "h1",
+        "text": "",
+        "class": "logo-slider-wraps",
+        "body_size": "pthree",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "enable_desktop_slider": false,
+        "carousel_arrows": false,
+        "columns_ipad": 4,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "title": "Logo list",
+        "logo-desc": "Logo Description",
+        "logo_width": "160px"
+      }
     }
   },
   "order": [
@@ -1044,6 +1108,7 @@
     "video",
     "collage",
     "1650215891b82ba4ec",
-    "165021589655233ddb"
+    "165021589655233ddb",
+    "1650217474f98fed6c"
   ]
 }
