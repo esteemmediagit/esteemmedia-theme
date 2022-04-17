@@ -488,6 +488,50 @@
         "padding_bottom": 36
       }
     },
+    "1649962326fa782f31": {
+      "type": "image-with-text",
+      "blocks": {
+        "16499623265a87b9b0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "LOREM IPSUM 28 PX",
+            "heading_size": "h1"
+          }
+        },
+        "16499623265a87b9b0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et risus quis sem finibus rhoncus. Duis ac erat posuere, laoreet elit non, sollicitudin leo.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16499623265a87b9b0-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "FIND OUT MORE",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "16499623265a87b9b0-0",
+        "16499623265a87b9b0-1",
+        "16499623265a87b9b0-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker5.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -538,49 +582,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "1649962326fa782f31": {
-      "type": "image-with-text",
-      "blocks": {
-        "16499623265a87b9b0-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "16499623265a87b9b0-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "16499623265a87b9b0-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16499623265a87b9b0-0",
-        "16499623265a87b9b0-1",
-        "16499623265a87b9b0-2"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "large",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -594,8 +595,8 @@
     "1649962201573590b6",
     "165017423092d9895f",
     "16501742792dba3e05",
+    "1649962326fa782f31",
     "collage",
-    "video",
-    "1649962326fa782f31"
+    "video"
   ]
 }
