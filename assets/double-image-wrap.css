@@ -12,6 +12,8 @@
     max-width: 500px;
     padding: 0px;
     margin: 0 auto;
+      background: none !important;
+    background-color: inherit !important;
 }
 .shopify-section.section.double-image-wrap {
     background: #faf7f5;
