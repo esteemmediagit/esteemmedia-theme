@@ -716,8 +716,8 @@
         "color_scheme": "background-1",
         "full_width": true,
         "class-name": "rich-text-list double-richs",
-        "padding_top": 40,
-        "padding_bottom": 52,
+        "padding_top": 100,
+        "padding_bottom": 100,
         "heading": "LOREM PRICES",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et risus quis sem finibus rhoncus. Duis ac erat posuere, laoreet elit non, c et risus quis sem finibus rhoncus. Duis ac erat posuere, laoreet elit."
       }
