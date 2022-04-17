@@ -643,34 +643,6 @@
     "1650201988d3de5312": {
       "type": "double-block",
       "blocks": {
-        "1650201988bdb98a68-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "link": "",
-            "price": "$20",
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "1650201988bdb98a68-1": {
-          "type": "text",
-          "settings": {
-            "heading-r": "Talk about your brand",
-            "link-r": "",
-            "price-r": "$20",
-            "text-r": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "1650201988bdb98a68-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        },
         "d0733179-a1cd-48d5-b137-c05f769d1e38": {
           "type": "heading",
           "settings": {
@@ -714,8 +686,18 @@
         "e0405347-75f5-4617-802a-b4d141df8450": {
           "type": "text",
           "settings": {
-            "heading-r": "Talk about your brand sssssss",
+            "heading-r": "Talk about your brand",
             "link-r": "#",
+            "price-r": "$20",
+            "text-r": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "148c69f1-d020-4db0-a9a4-c4224fa8af66": {
+          "type": "text",
+          "settings": {
+            "heading-r": "Talk about your brand",
+            "link-r": "",
             "price-r": "$20",
             "text-r": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
             "heading_size": "h1"
@@ -723,14 +705,12 @@
         }
       },
       "block_order": [
-        "1650201988bdb98a68-0",
-        "1650201988bdb98a68-1",
-        "1650201988bdb98a68-2",
         "d0733179-a1cd-48d5-b137-c05f769d1e38",
         "b5f5d3fb-c17c-49e7-b8a3-286f4fff995f",
         "dd4d8a27-3f6b-4cca-bfec-5733c804720c",
         "e38bf77a-49a4-45bd-a964-a419d4af7b70",
-        "e0405347-75f5-4617-802a-b4d141df8450"
+        "e0405347-75f5-4617-802a-b4d141df8450",
+        "148c69f1-d020-4db0-a9a4-c4224fa8af66"
       ],
       "settings": {
         "color_scheme": "background-1",
