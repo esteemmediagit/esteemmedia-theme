@@ -831,13 +831,13 @@
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "frontpage"
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "erasa-xep-30-serum",
             "second_image": false
           }
         },
@@ -854,7 +854,7 @@
         "collection-1"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "RALEWAY BOLD",
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
