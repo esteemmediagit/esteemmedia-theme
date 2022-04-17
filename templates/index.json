@@ -715,11 +715,11 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
-        "class-name": "class-Name",
+        "class-name": "rich-text-list double-richs",
         "padding_top": 40,
         "padding_bottom": 52,
-        "heading": "Talk about your brand",
-        "description": "Talk about your brand"
+        "heading": "LOREM PRICES",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et risus quis sem finibus rhoncus. Duis ac erat posuere, laoreet elit non, c et risus quis sem finibus rhoncus. Duis ac erat posuere, laoreet elit."
       }
     },
     "collage": {
