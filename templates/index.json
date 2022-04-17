@@ -772,6 +772,96 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1650202004ea03688f": {
+      "type": "full-image-baner",
+      "blocks": {
+        "1650202004cb3bb11b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "LOREM IPSUM",
+            "heading_size": "h2"
+          }
+        },
+        "1650202004cb3bb11b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et risus quis sem finibus rhoncus. Duis ac erat posuere, laoreet elit non, c et risus quis sem finibus rhoncus. Duis ac erat posuere, laoreet elit.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1650202004cb3bb11b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "FIND OUT MORE",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "1650202004cb3bb11b-0",
+        "1650202004cb3bb11b-1",
+        "1650202004cb3bb11b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker5.jpg",
+        "class": "full-width-wrap text-left",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1650213511815232b3": {
+      "type": "full-image-baner",
+      "blocks": {
+        "1650213511bb7ac56b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "LOREM IPSUM",
+            "heading_size": "h2"
+          }
+        },
+        "1650213511bb7ac56b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et risus quis sem finibus rhoncus. Duis ac erat posuere, laoreet elit non, c et risus quis sem finibus rhoncus. Duis ac erat posuere, laoreet elit.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1650213511bb7ac56b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "FIND OUT MORE",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "1650213511bb7ac56b-0",
+        "1650213511bb7ac56b-1",
+        "1650213511bb7ac56b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker5.jpg",
+        "class": "full-width-wrap second text-left",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -790,6 +880,8 @@
     "1650198115d9a48576",
     "1650201988d3de5312",
     "collage",
-    "video"
+    "video",
+    "1650202004ea03688f",
+    "1650213511815232b3"
   ]
 }
