@@ -475,7 +475,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker4.jpg",
-        "class": "class-name",
+        "class": "full-width-wrap second",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
