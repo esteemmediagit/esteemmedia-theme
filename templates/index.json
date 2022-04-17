@@ -841,17 +841,18 @@
             "second_image": false
           }
         },
-        "collection-1": {
-          "type": "collection",
+        "22470ae4-e02f-4ad3-86a8-86056b6bf8af": {
+          "type": "product",
           "settings": {
-            "collection": ""
+            "product": "erasa-xep-30-serum",
+            "second_image": false
           }
         }
       },
       "block_order": [
         "collection-0",
         "product",
-        "collection-1"
+        "22470ae4-e02f-4ad3-86a8-86056b6bf8af"
       ],
       "settings": {
         "heading": "RALEWAY BOLD",
