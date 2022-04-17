@@ -1009,6 +1009,7 @@
         "heading": "LOREM IPSUM 28PX",
         "heading_size": "h1",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula tellus vel imperdiet dapibu",
+        "class": "logo-slider",
         "body_size": "pone",
         "products_to_show": 12,
         "columns_desktop": 5,
