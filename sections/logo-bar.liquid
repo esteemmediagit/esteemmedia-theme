@@ -2,9 +2,13 @@
 {{ 'slick.css' | asset_url | stylesheet_tag }}
 {% endif %%}
 <style>
-  ul.logo-box.logo-slider .slick-track {
+  ul.logo-box.logo-slider .slick-track .logo-image img {
     display: flex;
     column-gap: 60px;
+}
+  .logo-image img {
+    width: 100%;
+    max-width: unset;
 }
   </style>
   
