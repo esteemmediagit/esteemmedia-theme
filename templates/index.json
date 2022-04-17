@@ -1073,7 +1073,7 @@
         "heading": "LOREM IPSUM 28PX",
         "heading_size": "h1",
         "text": "",
-        "class": "logo-slider-wraps",
+        "class": "logo-slider-wraps grid-logo-col",
         "body_size": "pthree",
         "products_to_show": 5,
         "columns_desktop": 5,
