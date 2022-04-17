@@ -501,7 +501,8 @@
         "16499623265a87b9b0-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et risus quis sem finibus rhoncus. Duis ac erat posuere, laoreet elit non, sollicitudin leo.<\/p>",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et risus quis sem finibus rhoncus. Duis ac erat posuere, laoreet elit non, sollicitudin leo.",
+            "body_size": "pthree",
             "text_style": "body"
           }
         },
