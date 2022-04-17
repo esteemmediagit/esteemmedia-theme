@@ -28,3 +28,6 @@ margin-top: 14px;
     width: 100%;
     text-align: center;
 }
+.imgae-wraps-out .image-with-text__media {
+    border: 0px;
+}
