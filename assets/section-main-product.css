@@ -6,6 +6,12 @@
     display: flex;
     align-items: center;
 }
+a.link.product__view-details.animate-arrow {
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
 .quantity-box .product-form__input.product-form__quantity {
     flex: 0 0 150px;
 }
