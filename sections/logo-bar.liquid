@@ -10,6 +10,24 @@
     width: 100%;
     max-width: unset;
 }
+  button.slick-prev.slick-arrow{
+    background: url(https://cdn.shopify.com/s/files/1/0637/4529/4571/files/left.png?v=1650217160);
+    left: 30px;
+}
+button.slick-next.slick-arrow {
+    right: 30px;
+    background: url(https://cdn.shopify.com/s/files/1/0637/4529/4571/files/next_1.png?v=1650217160);
+}
+ul.logo-box.logo-slider button.slick-arrow {
+    position: absolute;
+    top: 35%;
+ background: none;
+    border: none;
+background-size: 32px auto;
+    width: 32px;
+    height: 32px;
+    font-size: 0px;
+}
   </style>
   
   {%- liquid
@@ -49,7 +67,7 @@
     <ul class="logo-box {% if show_desktop_slider %}logo-slider {% else %}grid product-grid grid--{{ section.settings.columns_desktop }}-col-desktop {% endif %}"{% if show_desktop_slider %} 
       data-slick='{
         "infinite": false,
-                  "arrows": true,
+              
          "slidesToShow": {{ section.settings.columns_desktop }},
          "slidesToScroll":1,
          
