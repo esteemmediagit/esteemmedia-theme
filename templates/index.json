@@ -418,8 +418,8 @@
         "16501742302f10067a-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "FIND OUT MORE",
+            "button_link": "#"
           }
         }
       },
