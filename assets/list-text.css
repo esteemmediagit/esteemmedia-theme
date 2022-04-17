@@ -18,7 +18,7 @@
     flex: 0 0 20px;
     height: 2px;
     
-    width: 18rem !important;
+    width: 15rem !important;
     border-bottom: 1px dashed;
     align-self: center;
     margin: 0 10px;
@@ -49,4 +49,9 @@
 .rich-text-left h1 {
     margin: 0px !important;
     margin-bottom: -7px !important;
+}
+.rich-text-right {
+    padding-left: 32px
+px
+;
 }
