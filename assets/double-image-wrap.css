@@ -33,3 +33,23 @@ margin-top: 14px;
 .imgae-wraps-out .image-with-text__media {
     border: 0px;
 }
+.section.double-image-wrap .full-width-wrap.text-left .imgae-wraps-out .image-with-text__text-item.grid__item .image-with-text__content {
+    max-width: 490px;
+    text-align: left !important;
+}
+.section.double-image-wrap .full-width-wrap.text-left h4 {
+    text-align: left;
+    position: relative;
+    padding-bottom: 5px;
+}
+.section.double-image-wrap .full-width-wrap.text-left .image-with-text__text.rte.body p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1d1d1d;
+    margin-bottom: 16px;
+}
+.section.double-image-wrap .full-width-wrap.text-left .imgae-wraps-out a.button.button--primary {
+    margin-left: 0;
+   
+}
