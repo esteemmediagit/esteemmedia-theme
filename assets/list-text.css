@@ -40,18 +40,16 @@
     width:100%;
     align-items: center;
 }
-.rich-text-left {
+.lsit-block  .rich-text-left {
     text-align: right;
 }
-.rich-text-right {
+.lsit-block  .rich-text-right {
     text-align: left;
 }
-.rich-text-left h1 {
+.lsit-block  .rich-text-left h1 {
     margin: 0px !important;
     margin-bottom: -7px !important;
 }
-.rich-text-right {
-    padding-left: 32px
-px
-;
+.lsit-block  .rich-text-right {
+    padding-left: 32px;
 }
