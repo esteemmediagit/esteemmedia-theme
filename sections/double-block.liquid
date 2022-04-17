@@ -21,14 +21,15 @@
 
 <div class="{{ section.settings.class-name}} isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
-      <div class="rich-text__blocks lsit-block">
-        <div class="rich-text-left">
-        <div class="rich-content-iner">
-          <h1>{{ section.settings.heading }}</h1>
+     <div class="rich-text__blocks lsit-block heading">
+       <h1>{{ section.settings.heading }}</h1>
           <p class="pthree">{{ section.settings.description }}</p>
-        </div>
-      </div>
-       <div class="rich-text-right">
+    </div>
+    <div class="rich-text__blocks lsit-block content">
+        
+        
+       
+       <div class="rich-text-right left-section">
       <span class="right-left-border"></span>
       {%- for block in section.blocks -%}
         {%- case block.type -%}
@@ -41,6 +42,30 @@
               <span>{{ block.settings.price }}</span>
       </h5>
            <div class="rich-text__text rte ptwo" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+           </a>
+           </div>
+          {%- when 'text' -%}
+            <div class="rich-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+          {%- when 'button' -%}
+            <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}" {{ block.shopify_attributes }}>
+              {{ block.settings.button_label | escape }}
+            </a>
+        {%- endcase -%}
+      {%- endfor -%}
+         </div>
+       <div class="rich-text-right right-sections">
+      <span class="right-left-border"></span>
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {%- when 'heading' -%}
+         <div class="block-iner">
+           <a href="{{ block.settings.link-r}}">
+            <h5 class="h5" {{ block.shopify_attributes }}>
+              <span class="heading">{{ block.settings.heading-r }}</span>
+              <span class="border"></span>
+              <span>{{ block.settings.price-r }}</span>
+      </h5>
+           <div class="rich-text__text rte ptwo" {{ block.shopify_attributes }}>{{ block.settings.text-r }}</div>
            </a>
            </div>
           {%- when 'text' -%}
@@ -143,7 +168,7 @@
   "blocks": [
     {
       "type": "heading",
-      "name": "t:sections.rich-text.blocks.heading.name",
+      "name": "left Block",
       "limit": 10,
       "settings": [
         {
