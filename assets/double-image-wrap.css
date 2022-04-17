@@ -2,3 +2,17 @@
     max-width: 100%;
     padding: 0px;
 }
+.imgae-wraps-out {
+    align-items: center;
+}
+.imgae-wraps-out .image-with-text__text-item.grid__item {
+    width: 40%;
+}
+.imgae-wraps-out .image-with-text__text-item.grid__item .image-with-text__content {
+    max-width: 500px;
+    padding: 0px;
+    margin: 0 auto;
+}
+.shopify-section.section.double-image-wrap {
+    background: #faf7f5;
+}
