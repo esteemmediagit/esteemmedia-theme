@@ -767,33 +767,6 @@
         "padding_bottom": 36
       }
     },
-    "1650478301d7f4b905": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "frontpage",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 68,
-        "padding_bottom": 68
-      }
-    },
     "1650213511815232b3": {
       "type": "full-image-baner",
       "blocks": {
@@ -889,6 +862,33 @@
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "1650478301d7f4b905": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 68,
+        "padding_bottom": 68
       }
     },
     "1650215891b82ba4ec": {
@@ -1234,10 +1234,10 @@
     "1650198115d9a48576",
     "1650201988d3de5312",
     "1650202004ea03688f",
-    "1650478301d7f4b905",
     "1650213511815232b3",
     "video",
     "collage",
+    "1650478301d7f4b905",
     "1650215891b82ba4ec",
     "165021589655233ddb",
     "1650217474f98fed6c",
