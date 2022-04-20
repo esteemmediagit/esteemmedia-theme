@@ -25,6 +25,9 @@
     display: flex;
     border: none;
     flex-wrap: wrap;
+    max-width: 100% !important;
+    align-content: center;
+    align-items: center;
 }
 .newsletter-form__field-wrapper .field.inout {
     flex: 0 0 56%;
