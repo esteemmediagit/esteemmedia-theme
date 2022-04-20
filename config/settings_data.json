@@ -151,28 +151,33 @@
           "703af3d7-cc85-4739-9f91-4fd6172b7411": {
             "type": "image",
             "settings": {
-              "image_width": 100,
-              "alignment": "center"
+              "image": "shopify:\/\/shop_images\/images-pmuljmfwix6k6dq2y5tt8ncaeh5eadi2pe4b8r2rwc.png",
+              "image_width": 200,
+              "logo-desc": "Lorem Ipsum has been the industry’s standard dummy text.",
+              "alignment": ""
             }
           },
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "SHOP",
               "menu": "footer"
             }
           },
-          "footer-1": {
-            "type": "link_list",
+          "ee5dd026-3128-435d-aef7-fcb4293ed01a": {
+            "type": "text",
             "settings": {
-              "heading": "Info",
-              "menu": "footer"
+              "heading": "CONTACT",
+              "subtext": "98 Tudor St, Hamilton,NSW, 2303",
+              "email": "info@example.com.au",
+              "phone": "(02) 4077 8993"
             }
           },
           "acc78c82-6a75-4ae6-8e72-8a132abc5311": {
             "type": "newsleter",
             "settings": {
               "newsletter_headings": "Subscribe to our emails",
+              "newsletter_desc": "Subscribe to our emails",
               "newsletter": "news letter description"
             }
           }
@@ -180,7 +185,7 @@
         "block_order": [
           "703af3d7-cc85-4739-9f91-4fd6172b7411",
           "footer-0",
-          "footer-1",
+          "ee5dd026-3128-435d-aef7-fcb4293ed01a",
           "acc78c82-6a75-4ae6-8e72-8a132abc5311"
         ],
         "settings": {
