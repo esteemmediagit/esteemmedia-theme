@@ -8,3 +8,7 @@
 $('.slider_wrap').slick();
 $('.logo-slider').slick();
 $('.product-slider').slick();
+    $('.testimonial-slider').slick();
+    
+    
+    
