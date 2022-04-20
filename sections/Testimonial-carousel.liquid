@@ -43,15 +43,14 @@
     {% endif %}>
       {%- for block in section.blocks -%}
         <li class="grid__item{% if show_desktop_slider %} slider__slide{% endif %} logo-bar__item" {{ block.shopify_attributes }}>
-          
-  
-            {%- if block.settings.image != blank -%}
-              <div class="logo-image">
-              {{ block.settings.image | img_url: '160x160', scale: 2 | img_tag: block.settings.image.alt }}
-         </div>
+           {%- if block.settings.description != blank -%}
+          <div class="testimonial-box">
+            <p class="testimonial-cont"> {{ block.settings.description }}</p>
+            <p class="testimonial-write">{{ block.settings.name }}</p>
+            
+          </div>
             {%- endif -%}
-  
-        
+                   
         </li>
       {%- endfor -%}
     </ul>
