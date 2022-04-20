@@ -176,9 +176,9 @@
           "acc78c82-6a75-4ae6-8e72-8a132abc5311": {
             "type": "newsleter",
             "settings": {
-              "newsletter_headings": "Subscribe to our emails",
-              "newsletter_desc": "Subscribe to our emails",
-              "newsletter": "news letter description"
+              "newsletter_headings": "NEWSLETTER",
+              "newsletter_desc": "Sign up for exclusive offers and information.",
+              "newsletter": "Sign up for exclusive offers and information."
             }
           }
         },
