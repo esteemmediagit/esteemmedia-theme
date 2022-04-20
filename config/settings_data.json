@@ -168,12 +168,20 @@
               "heading": "Info",
               "menu": "footer"
             }
+          },
+          "acc78c82-6a75-4ae6-8e72-8a132abc5311": {
+            "type": "newsleter",
+            "settings": {
+              "newsletter_headings": "Subscribe to our emails",
+              "newsletter": "news letter description"
+            }
           }
         },
         "block_order": [
           "703af3d7-cc85-4739-9f91-4fd6172b7411",
           "footer-0",
-          "footer-1"
+          "footer-1",
+          "acc78c82-6a75-4ae6-8e72-8a132abc5311"
         ],
         "settings": {
           "color_scheme": "background-1",
