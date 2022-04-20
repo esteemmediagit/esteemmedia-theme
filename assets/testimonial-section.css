@@ -5,6 +5,7 @@ p.testimonial-cont {
     font-weight: 400;
     font-style: normal;
 line-height: 1.5;
+    margin-bottom: 0px;
 text-align: center;
 }
 p.testimonial-write{
@@ -12,6 +13,7 @@ color: #333333;
     font-family: "Americana", Sans-serif;
     font-size: 20px;
     font-weight: 600;
+    margin-top: 11px;
     letter-spacing: 1.5px;
 text-align: center;
 }
