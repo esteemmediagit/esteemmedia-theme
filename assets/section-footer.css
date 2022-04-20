@@ -33,6 +33,9 @@
     flex: 0 0 75%;
     padding: 0 5px;
 }
+.footer__content-bottom .footer__payment {
+    MARGIN-RIGHT: 18PX;
+}
 .newsletter-form__field-wrapper .field.button {
     flex: 0 0 25% !important;
     width: 25% !important;
