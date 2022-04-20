@@ -23,3 +23,18 @@ ul.logo-box.testimonial-slider.slick-initialized.slick-slider {
     padding: 20px;
     text-align: center;
 }
+ul.logo-box.testimonial-slider ul.slick-dots li.slick-active {
+    flex: 0 0 10px;
+    background: #333;
+opacity: 1;
+}
+ul.logo-box.testimonial-slider ul.slick-dots li {
+    flex: 0 0 10px;
+    background: #000;
+    font-size: 0px;
+    height: 10px;
+    margin: 0 6px;
+    cursor: pointer;
+    border-radius: 100%;
+opacity: .2;
+}
