@@ -64,6 +64,15 @@ color:#1d1d1d;
   text-decoration: none;
       margin-bottom: 5px;
 }
+h2.footer-block__heading {
+    color: var( --e-global-color-b50057c );
+    font-family: "Americana", Sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 24px;
+    letter-spacing: 1.5px;
+}
 p.address {
     background: url(https://cdn.shopify.com/s/files/1/0637/4529/4571/files/pin.png?v=1650469623);
     background-repeat: no-repeat;
