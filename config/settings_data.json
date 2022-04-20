@@ -148,6 +148,13 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "703af3d7-cc85-4739-9f91-4fd6172b7411": {
+            "type": "image",
+            "settings": {
+              "image_width": 100,
+              "alignment": "center"
+            }
+          },
           "footer-0": {
             "type": "link_list",
             "settings": {
@@ -171,6 +178,7 @@
           }
         },
         "block_order": [
+          "703af3d7-cc85-4739-9f91-4fd6172b7411",
           "footer-0",
           "footer-1",
           "footer-2"
