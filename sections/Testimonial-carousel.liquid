@@ -1,9 +1,225 @@
-{% schema %}
+<div class="{{ section.settings.class }} color-{{ section.settings.color_scheme }} isolate gradient testimonal-row">
+  <div class="logo-section section-{{ section.id }}-padding">
+      <div class="page-width">
+        <h5 class="logo-heading h5" {{ section.shopify_attributes }}>
+          {{ section.settings.heading }}
+        </h5>
+        
+        {%- if section.blocks.size > 0 -%}
+    <ul class="logo-box {% if show_desktop_slider %}testimonial-slider {% else %}grid testimonial-grid grid--{{ section.settings.columns_desktop }}-col-desktop {% endif %}"{% if show_desktop_slider %} 
+      data-slick='{
+        "infinite": false,
+              
+         "slidesToShow": {{ section.settings.columns_desktop }},
+         "slidesToScroll":1,
+         
+         "arrows": {{ section.settings.carousel_arrows }},
+         "responsive": [
+          {
+            "breakpoint": 1030,
+            "settings": {
+              "slidesToShow": {{ section.settings.columns_desktop }},
+              "slidesToScroll":1
+            }
+          },
+          {
+            "breakpoint": 800,
+            "settings": {
+            
+              "slidesToShow": {{ section.settings.columns_ipad }},
+              "slidesToScroll":1
+            
+            }
+          },
+          {
+            "breakpoint": 480,
+            "settings": {
+              
+              "slidesToShow": {{ section.settings.columns_mobile }},
+              "slidesToScroll":1
+            }
+          }
+        ] }'
+    {% endif %}>
+      {%- for block in section.blocks -%}
+        <li class="grid__item{% if show_desktop_slider %} slider__slide{% endif %} logo-bar__item" {{ block.shopify_attributes }}>
+          
+  
+            {%- if block.settings.image != blank -%}
+              <div class="logo-image">
+              {{ block.settings.image | img_url: '160x160', scale: 2 | img_tag: block.settings.image.alt }}
+         </div>
+            {%- endif -%}
+  
+        
+        </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+        
+    </div>
+  </div>
+</div>
+
+ {% schema %}
+{
+    "name": "Testimonial",
+    "class": "index-section Testimonial-wrap",
+    "max_blocks": 10,
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "default": "Image with text",
+        "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+      },
+      {
+        "type": "select",
+        "id": "heading_size",
+        "options": [
+          {
+            "value": "h2",
+            "label": "t:sections.all.heading_size.options__1.label"
+          },
+          {
+            "value": "h1",
+            "label": "t:sections.all.heading_size.options__2.label"
+          },
+          {
+            "value": "h0",
+            "label": "t:sections.all.heading_size.options__3.label"
+          }
+        ],
+        "default": "h1",
+        "label": "t:sections.all.heading_size.label"
+      },
+    
+     
+{
+        "type": "text",
+        "id": "class",
+        "default": "class",
+        "label": "Add Class to wrapper"
+      },
+      {
+        "type": "select",
+        "id": "body_size",
+        "options": [
+          {
+            "value": "pone",
+            "label": "16"
+          },
+          {
+            "value": "ptwo",
+            "label": "18"
+          },
+          {
+            "value": "pthree",
+            "label": "20"
+          },
+          {
+            "value": "pfour",
+            "label": "21"
+          }
+        ],
+        "default": "pthree",
+        "label": "pp font size"
+      },
+      {
+        "type": "range",
+        "id": "products_to_show",
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "default": 4,
+        "label": "Testimonial To show"
+      },
+      {
+        "type": "range",
+        "id": "columns_desktop",
+        "min": 1,
+        "max": 5,
+        "step": 1,
+        "default": 4,
+        "label": "Desktop Testimonial column"
+      },
   {
-    "name": "Section name",
-    "settings": []
+        "type": "checkbox",
+        "id": "enable_desktop_slider",
+        "label": "t:sections.featured-collection.settings.enable_desktop_slider.label",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "carousel_arrows",
+        "label": "Enable arrows",
+        "default": false
+      },
+      {
+        "type": "range",
+        "id": "columns_ipad",
+        "min": 1,
+        "max": 5,
+        "step": 1,
+        "default": 4,
+        "label": "Number of columns on Ipad"
+      },
+  {
+        "type": "select",
+        "id": "columns_mobile",
+        "default": "2",
+        "label": "t:sections.featured-collection.settings.columns_mobile.label",
+        "options": [
+          {
+            "value": "1",
+            "label": "t:sections.featured-collection.settings.columns_mobile.options__1.label"
+          },
+          {
+            "value": "2",
+            "label": "t:sections.featured-collection.settings.columns_mobile.options__2.label"
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "id": "swipe_on_mobile",
+        "default": false,
+        "label": "t:sections.featured-collection.settings.swipe_on_mobile.label"
+      }
+      
+     
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "name": "Testimonial",
+        "settings": [
+          {
+        "type": "textarea",
+        "id": "description",
+        "label": "Testimoial content",
+        "default": "testimonial"
+      },
+          {
+        "type": "textarea",
+        "id": "name",
+        "label": "Writer name",
+        "default": "esteem media"
+      }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Testimonial",
+        
+        "blocks": [
+         
+        ]
+      }
+    ]
   }
-{% endschema %}
+  {% endschema %}
 
 {% stylesheet %}
 {% endstylesheet %}
