@@ -63,6 +63,7 @@ font-family: "Avenir Next", Sans-serif;
 color:#1d1d1d;
   text-decoration: none;
       margin-bottom: 5px;
+  text-align: left;
 }
 h2.footer-block__heading {
     color: #333333;
