@@ -57,14 +57,13 @@
 .footer__content-top.page-width {
     max-width: 1920px;
     width: 100%;
-    padding: 75px 100px 15px 30px;
+    padding: 75px 100px 15px 100px;
 }
 .footer__content-bottom-wrapper.page-width{
     margin-top: -61px;
- 
-    max-width: 1920px;
+  max-width: 1920px;
     width: 100%;
-  padding: 0px 100px 15px 0px;
+  padding: 0px 100px 15px 100px;
 }
 .footer-block.grid__item {
     padding: 0 10px;
