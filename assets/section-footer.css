@@ -54,7 +54,7 @@
     min-height: unset !important;
     background: #000;
 }
-.footer__content-top.page-width {
+.footer__content-top.page-width, .footer__content-bottom-wrapper.page-width {
     max-width: 1920px;
     width: 100%;
     padding: 75px 100px 15px 100px;
