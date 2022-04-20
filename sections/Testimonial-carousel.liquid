@@ -1,3 +1,11 @@
+  {%- liquid
+  assign show_desktop_slider = false
+  if section.settings.enable_desktop_slider
+    assign show_desktop_slider = true
+  endif
+-%}
+
+
 <div class="{{ section.settings.class }} color-{{ section.settings.color_scheme }} isolate gradient testimonal-row">
   <div class="logo-section section-{{ section.id }}-padding">
       <div class="page-width">
