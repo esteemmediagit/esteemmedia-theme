@@ -1086,6 +1086,40 @@
         "logo-desc": "Logo Description",
         "logo_width": "160px"
       }
+    },
+    "16504720633184ec95": {
+      "type": "newsletter",
+      "blocks": {
+        "1650472063d5a0eeda-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "SIGN UP TO OUR NEWSLETTER",
+            "heading_size": "h2"
+          }
+        },
+        "1650472063d5a0eeda-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sitamet, consectetur adipiscingelit.<\/p>"
+          }
+        },
+        "1650472063d5a0eeda-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1650472063d5a0eeda-0",
+        "1650472063d5a0eeda-1",
+        "1650472063d5a0eeda-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -1109,6 +1143,7 @@
     "collage",
     "1650215891b82ba4ec",
     "165021589655233ddb",
-    "1650217474f98fed6c"
+    "1650217474f98fed6c",
+    "16504720633184ec95"
   ]
 }
