@@ -1127,26 +1127,42 @@
         "1650476335fbb97970-0": {
           "type": "text",
           "settings": {
-            "description": "testimonial",
-            "name": "esteem media"
+            "description": "“Lorem ipsum dolor sit amet, consectetur adipiscingelit.Duis ac  ipsum dolor sit amet consectetur.”",
+            "name": "~ Linda Evangelista"
           }
         },
         "1650476335fbb97970-1": {
           "type": "text",
           "settings": {
-            "description": "testimonial",
-            "name": "esteem media"
+            "description": "“Lorem ipsum dolor sit amet, consectetur adipiscingelit.Duis ac  ipsum dolor sit amet consectetur.”",
+            "name": "~ Linda Evangelista"
+          }
+        },
+        "e60e0226-09ed-45f4-ac1d-1fe1a1664b07": {
+          "type": "text",
+          "settings": {
+            "description": "“Lorem ipsum dolor sit amet, consectetur adipiscingelit.Duis ac  ipsum dolor sit amet consectetur.”",
+            "name": "~ Linda Evangelista"
+          }
+        },
+        "135ebd7f-88a3-46ea-986a-1228c96bb2dc": {
+          "type": "text",
+          "settings": {
+            "description": "“Lorem ipsum dolor sit amet, consectetur adipiscingelit.Duis ac  ipsum dolor sit amet consectetur.”",
+            "name": "~ Linda Evangelista"
           }
         }
       },
       "block_order": [
         "1650476335fbb97970-0",
-        "1650476335fbb97970-1"
+        "1650476335fbb97970-1",
+        "e60e0226-09ed-45f4-ac1d-1fe1a1664b07",
+        "135ebd7f-88a3-46ea-986a-1228c96bb2dc"
       ],
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "class": "testimonial",
+        "class": "testimonial-wraps",
         "body_size": "pthree",
         "products_to_show": 10,
         "columns_desktop": 1,
