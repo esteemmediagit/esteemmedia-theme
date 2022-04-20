@@ -1,3 +1,24 @@
+.footer-block.grid__item.footer-block--newsletter {
+    max-width: 100% !important;
+    width: 100%;
+}
+
+.footer-block__details-content.rte.contact-bar > a, p.address, .logo-desc, .newsletter-desc {
+    display: block;
+font-family: "Avenir Next", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+color:#1d1d1d;
+}
+.list-social {
+    justify-content: flex-start;
+}
+.footer__column.footer__column--info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
 .footer {
   border-top: 0.1rem solid rgba(var(--color-foreground), 0.08);
 }
