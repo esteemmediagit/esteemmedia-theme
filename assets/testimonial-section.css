@@ -28,6 +28,9 @@ ul.logo-box.testimonial-slider ul.slick-dots li.slick-active {
     background: #333;
 opacity: 1;
 }
+ul.logo-box.testimonial-slider ul.slick-dots {
+    margin-top: 13px;
+}
 ul.logo-box.testimonial-slider ul.slick-dots li {
     flex: 0 0 10px;
     background: #000;
