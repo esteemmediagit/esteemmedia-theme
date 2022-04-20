@@ -6,6 +6,17 @@
   width: 100%;
   position: relative;
 }
+.field.news-inout input.field__input {
+    border: 1px solid #cccccc;
+    padding: 8px 16px;
+    border-radius: 3px;
+    height: 38px;
+}
+.newsletter-form__field-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .newsletter-form__field-wrapper .field.inout:after, .newsletter-form__field-wrapper .field.inout:before {
     display: none;
 }
@@ -15,6 +26,16 @@
     margin: 0 auto;
     max-width: 48rem;
   }
+  .field.news-submit {
+    flex: 0 0 25%;
+    width: 25%;
+    padding: 5px;
+}
+  .newsletter-form__field-wrapper .field.news-inout {
+    width: 75%;
+    flex: 0 0 75%;
+    padding: 5px;
+}
 }
 
 .newsletter-form__field-wrapper {

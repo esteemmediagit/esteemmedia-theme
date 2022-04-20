@@ -13,8 +13,9 @@
 }
 .newsletter-form__field-wrapper label.field__label {
     font-size: 15px;
-    top: 9px;
+    top: 15px;
     left: 18px;
+    color: #d7d7d7;
 }
 .newsletter-form__field-wrapper .field.inout input#NewsletterForm--footer {
     height: 38px;
@@ -48,7 +49,7 @@
     box-shadow: none;
     position: relative;
     display: block;
-    max-width: 120% !important;
+    max-width: 100% !important;
     font-family: "Avenir Next", sans-serif;
     font-size: 17px;
     font-weight: 700;
@@ -56,6 +57,7 @@
     height: 38px;
     min-height: unset !important;
     background: #000;
+  text-transform: uppercase;
 }
 ul.footer__list-social.list-unstyled.list-social .list-social__link {
     padding: 1.3rem 20px 1.3rem 0px;
