@@ -58,6 +58,7 @@
     min-height: unset !important;
     background: #000;
   text-transform: uppercase;
+  color:#fff;
 }
 ul.footer__list-social.list-unstyled.list-social .list-social__link {
     padding: 1.3rem 20px 1.3rem 0px;
