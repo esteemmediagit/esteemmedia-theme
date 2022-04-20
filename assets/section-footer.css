@@ -31,7 +31,12 @@ color:#1d1d1d;
   padding-bottom: 0rem;
   display: block;
 }
-
+footer.footer.color-background-1.gradient.section-footer-padding {
+    background: #CCCCCC;
+    margin-top: 0px;
+    padding-top: 75px;
+    padding-bottom: 15px;
+}
 @media screen and (max-width: 749px) {
   .footer .grid {
     display: block;
