@@ -2,7 +2,55 @@
     max-width: 100% !important;
     width: 100%;
 }
-
+.newsletter-form__field-wrapper .field.inout:after, .newsletter-form__field-wrapper .field.inout:before {
+    display: none;
+}
+.field.button {
+    flex: 0 0 25% !important;
+    width: 25% !important;
+    padding: 0 5px;
+    min-width: unset;
+}
+label.field__label {
+    font-size: 15px;
+    top: 9px;
+    left: 18px;
+}
+.newsletter-form__field-wrapper .field.inout input#NewsletterForm--footer {
+    height: 38px;
+    line-height: 38px;
+    font-size: 15px;
+}
+.newsletter-form__field-wrapper {
+    display: flex;
+    border: none;
+    flex-wrap: wrap;
+}
+.newsletter-form__field-wrapper .field.inout {
+    flex: 0 0 56%;
+    padding: 0 5px;
+}
+.field.button {
+    flex: 0 0 25% !important;
+    width: 25% !important;
+    padding: 0 5px;
+    min-width: unset;
+    background: none;
+}
+button#Subscribe {
+    width: 100% !important;
+    box-shadow: none;
+    position: relative;
+    display: block;
+    max-width: 120% !important;
+    font-family: "Avenir Next", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    height: 38px;
+    min-height: unset !important;
+    background: #000;
+}
 .footer-block__details-content.rte.contact-bar > a, p.address, .logo-desc, .newsletter-desc {
     display: block;
 font-family: "Avenir Next", Sans-serif;
