@@ -76,6 +76,12 @@ color:#1d1d1d;
       margin-bottom: 5px;
   text-align: left;
 }
+.logo-desc {
+    letter-spacing: 0px;
+    margin-top: 12px;
+    margin-bottom: 17px !important;
+  
+}
 h2.footer-block__heading {
     color: #333333;
     font-family: "Americana", Sans-serif;
@@ -85,6 +91,10 @@ h2.footer-block__heading {
     line-height: 24px;
     letter-spacing: 1.5px;
       text-align: left;
+  margin-bottom: 18px;
+}
+.footer-block__newsletter .newsletter-desc {
+    margin-bottom: 28px;
 }
 p.address {
     background: url(https://cdn.shopify.com/s/files/1/0637/4529/4571/files/pin.png?v=1650469623);
