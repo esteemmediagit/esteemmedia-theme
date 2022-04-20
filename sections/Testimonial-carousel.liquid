@@ -17,7 +17,9 @@
     <ul class="logo-box {% if show_desktop_slider %}testimonial-slider {% else %}grid testimonial-grid grid--{{ section.settings.columns_desktop }}-col-desktop {% endif %}"{% if show_desktop_slider %} 
       data-slick='{
         "infinite": false,
-              
+              " dots": true,
+             "autoplay": true,
+  "autoplaySpeed" : 2000,
          "slidesToShow": {{ section.settings.columns_desktop }},
          "slidesToScroll":1,
          
