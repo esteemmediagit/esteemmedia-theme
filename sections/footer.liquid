@@ -172,8 +172,9 @@
         {%- endif -%}
                     
                   </div>
-                {%- endcase -%}
-               <div class="footer-block grid__item footer-block--newsletter">
+              {%- when 'newsleter' -%}
+              <div class="footer-block__details-content footer-block-newsletter {{ block.settings.alignment }}">
+                <div class="footer-block grid__item footer-block--newsletter">
         {%- if section.settings.newsletter_enable -%}
           <div class="footer-block__newsletter">
             {%- if section.settings.newsletter_heading != blank -%}
@@ -221,6 +222,9 @@
           </div>
         {%- endif -%}
             </div>
+              </div>
+                {%- endcase -%}
+               
           {%- endfor -%}
         </div>
       {%- endif -%}
@@ -437,6 +441,8 @@
         }
       ]
     },
+  
+  
     {
       "type": "image",
       "name": "Image",
@@ -519,18 +525,7 @@
       "content": "t:sections.footer.settings.header__1.content",
       "info": "t:sections.footer.settings.header__1.info"
     },
-    {
-      "type": "checkbox",
-      "id": "newsletter_enable",
-      "default": true,
-      "label": "t:sections.footer.settings.newsletter_enable.label"
-    },
-    {
-      "type": "text",
-      "id": "newsletter_heading",
-      "default": "Subscribe to our emails",
-      "label": "t:sections.footer.settings.newsletter_heading.label"
-    },
+    
     {
       "type": "header",
       "content": "t:sections.footer.settings.header__2.content",
