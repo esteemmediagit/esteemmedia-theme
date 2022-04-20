@@ -1161,9 +1161,9 @@
       ],
       "settings": {
         "heading": "",
+        "color_title": "#cccccc",
         "heading_size": "h1",
         "class": "testimonial-wraps",
-        "body_size": "pthree",
         "products_to_show": 10,
         "columns_desktop": 1,
         "enable_desktop_slider": true,
