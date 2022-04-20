@@ -15,3 +15,9 @@ color: #333333;
     letter-spacing: 1.5px;
 text-align: center;
 }
+ul.logo-box.testimonial-slider.slick-initialized.slick-slider {
+    max-width: 815px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
