@@ -67,7 +67,7 @@ p.address {
     background: url(https://cdn.shopify.com/s/files/1/0637/4529/4571/files/pin.png?v=1650469623);
     background-repeat: no-repeat;
     background-position: left center;
-    padding-left: 25px;
+    padding-left: 25px !important;
     background-size: 17px auto;
 }
 a.email {
