@@ -89,6 +89,11 @@
                     {%- else -%}
                       {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                     {%- endif -%}
+                    {%- if block.settings.logo-desc != blank -%}
+                    <div class="logo-desc">
+                    {{ block.settings.logo-desc }}
+                  </div>
+                    {%- endif -%}
                   </div>
               
                {%- when 'newsleter' -%}
@@ -477,6 +482,12 @@
           "unit": "px",
           "label": "Image width",
           "default": 100
+        },
+{
+          "type": "text",
+          "id": "logo-desc",
+          "default": "Text",
+          "label": "Text"
         },
         {
           "type": "select",
