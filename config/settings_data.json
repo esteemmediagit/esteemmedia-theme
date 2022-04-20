@@ -152,6 +152,7 @@
             "type": "image",
             "settings": {
               "image_width": 100,
+              "logo-desc": "Text",
               "alignment": "center"
             }
           },
@@ -169,11 +170,11 @@
               "menu": "footer"
             }
           },
-          "footer-2": {
-            "type": "text",
+          "2412b577-d7fa-4c88-ba97-8ab616a1bc55": {
+            "type": "newsletter",
             "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "newsletter_headings": "Subscribe to our emails",
+              "newsletter": "news letter description"
             }
           }
         },
@@ -181,12 +182,10 @@
           "703af3d7-cc85-4739-9f91-4fd6172b7411",
           "footer-0",
           "footer-1",
-          "footer-2"
+          "2412b577-d7fa-4c88-ba97-8ab616a1bc55"
         ],
         "settings": {
           "color_scheme": "background-1",
-          "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
