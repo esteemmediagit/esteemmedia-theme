@@ -1087,40 +1087,6 @@
         "logo_width": "160px"
       }
     },
-    "16504720633184ec95": {
-      "type": "newsletter",
-      "blocks": {
-        "1650472063d5a0eeda-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "SIGN UP TO OUR NEWSLETTER",
-            "heading_size": "h2"
-          }
-        },
-        "1650472063d5a0eeda-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sitamet, consectetur adipiscingelit.<\/p>"
-          }
-        },
-        "1650472063d5a0eeda-2": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "1650472063d5a0eeda-0",
-        "1650472063d5a0eeda-1",
-        "1650472063d5a0eeda-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 64,
-        "padding_bottom": 56
-      }
-    },
     "16504763353bb209ec": {
       "type": "Testimonial-carousel",
       "blocks": {
@@ -1172,6 +1138,97 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false
       }
+    },
+    "16504720633184ec95": {
+      "type": "newsletter",
+      "blocks": {
+        "1650472063d5a0eeda-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "SIGN UP TO OUR NEWSLETTER",
+            "heading_size": "h2"
+          }
+        },
+        "1650472063d5a0eeda-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sitamet, consectetur adipiscingelit.<\/p>"
+          }
+        },
+        "1650472063d5a0eeda-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1650472063d5a0eeda-0",
+        "1650472063d5a0eeda-1",
+        "1650472063d5a0eeda-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 56
+      }
+    },
+    "1650477917623ed073": {
+      "type": "multicolumn",
+      "blocks": {
+        "16504779172e90ef17-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16504779172e90ef17-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16504779172e90ef17-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16504779172e90ef17-0",
+        "16504779172e90ef17-1",
+        "16504779172e90ef17-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "class": "class-name",
+        "description": "Multicolumn description",
+        "body_size": "pthree",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "view_all_style": "solid",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -1196,7 +1253,8 @@
     "1650215891b82ba4ec",
     "165021589655233ddb",
     "1650217474f98fed6c",
+    "16504763353bb209ec",
     "16504720633184ec95",
-    "16504763353bb209ec"
+    "1650477917623ed073"
   ]
 }
