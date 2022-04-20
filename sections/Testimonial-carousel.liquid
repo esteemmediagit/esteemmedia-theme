@@ -64,7 +64,7 @@
         <li class="grid__item{% if show_desktop_slider %} slider__slide{% endif %} logo-bar__item" {{ block.shopify_attributes }}>
            {%- if block.settings.description != blank -%}
           <div class="testimonial-box">
-            <p class="testimonial-cont"> {{ block.settings.description }}</p>
+            <p class="testimonial-cont {{ section.settings.body_size }}"> {{ block.settings.description }}</p>
             <p class="testimonial-write">{{ block.settings.name }}</p>
             
           </div>
