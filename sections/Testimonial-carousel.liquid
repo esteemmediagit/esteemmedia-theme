@@ -1,4 +1,8 @@
-  {%- liquid
+ {% if section.settings.enable_desktop_slider %}
+{{ 'slick.css' | asset_url | stylesheet_tag }}
+{% endif %%}
+{{ 'testimonial-section.css' | asset_url | stylesheet_tag }}
+{%- liquid
   assign show_desktop_slider = false
   if section.settings.enable_desktop_slider
     assign show_desktop_slider = true
@@ -7,7 +11,7 @@
 
 {%- style -%}
  .Testimonial-wrap {
-    background-color: {{settings.color_title}};
+    background-color: {{section.settings.color_title}};
    
   }
 
