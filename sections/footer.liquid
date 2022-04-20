@@ -192,7 +192,7 @@
             {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
               <input type="hidden" name="contact[tags]" value="newsletter">
               <div class="newsletter-form__field-wrapper">
-                <div class="field">
+                <div class="field inout">
                   <input
                     id="NewsletterForm--{{ section.id }}"
                     type="email"
@@ -216,6 +216,8 @@
                   <label class="field__label" for="NewsletterForm--{{ section.id }}">
                     {{ 'newsletter.label' | t }}
                   </label>
+                  </div>
+                 <div class="field button">
                   <button type="submit" class="newsletter-form__button field__button" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">
                     OK
                   </button>
