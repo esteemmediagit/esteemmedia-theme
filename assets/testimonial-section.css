@@ -1,0 +1,17 @@
+p.testimonial-cont {
+    color: #333333;
+    font-family: "Avenir Next", Sans-serif;
+    font-size: 31px;
+    font-weight: 400;
+    font-style: normal;
+line-height: 1.5;
+text-align: center;
+}
+p.testimonial-write{
+color: #333333;
+    font-family: "Americana", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+text-align: center;
+}
