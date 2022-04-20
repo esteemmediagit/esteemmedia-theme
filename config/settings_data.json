@@ -176,9 +176,8 @@
           "acc78c82-6a75-4ae6-8e72-8a132abc5311": {
             "type": "newsleter",
             "settings": {
-              "newsletter_headings": "NEWSLETTER",
-              "newsletter_desc": "Sign up for exclusive offers and information.",
-              "newsletter": "Sign up for exclusive offers and information."
+              "newsletter_heading": "NEWSLETTER",
+              "newsletter_desc": "Sign up for exclusive offers and information."
             }
           }
         },
@@ -191,7 +190,6 @@
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
