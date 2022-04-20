@@ -6,7 +6,9 @@
   width: 100%;
   position: relative;
 }
-
+.newsletter-form__field-wrapper .field.inout:after, .newsletter-form__field-wrapper .field.inout:before {
+    display: none;
+}
 @media screen and (min-width: 750px) {
   .newsletter-form {
     align-items: flex-start;
