@@ -5,6 +5,15 @@
   endif
 -%}
 
+{%- style -%}
+ .Testimonial-wrap {
+    background-color: {{settings.color_title}};
+   
+  }
+
+{%- endstyle -%}
+
+{{settings.color_title}}
 
 <div class="{{ section.settings.class }} color-{{ section.settings.color_scheme }} isolate gradient testimonal-row">
   <div class="logo-section section-{{ section.id }}-padding">
@@ -82,6 +91,12 @@
         "default": "Image with text",
         "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
       },
+{
+  "type": "color",
+  "id": "color_title",
+  "label": "Background color",
+  "default": "#FFFFFF"
+},
       {
         "type": "select",
         "id": "heading_size",
