@@ -5,13 +5,13 @@
 .newsletter-form__field-wrapper .field.inout:after, .newsletter-form__field-wrapper .field.inout:before {
     display: none;
 }
-.field.button {
+.newsletter-form__field-wrapper .field.button {
     flex: 0 0 25% !important;
     width: 25% !important;
     padding: 0 5px;
     min-width: unset;
 }
-label.field__label {
+.newsletter-form__field-wrapper label.field__label {
     font-size: 15px;
     top: 9px;
     left: 18px;
@@ -30,14 +30,14 @@ label.field__label {
     flex: 0 0 56%;
     padding: 0 5px;
 }
-.field.button {
+.newsletter-form__field-wrapper .field.button {
     flex: 0 0 25% !important;
     width: 25% !important;
     padding: 0 5px;
     min-width: unset;
     background: none;
 }
-button#Subscribe {
+.newsletter-form__field-wrapper button#Subscribe {
     width: 100% !important;
     box-shadow: none;
     position: relative;
