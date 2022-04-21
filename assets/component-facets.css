@@ -125,6 +125,11 @@ div#ProductGridContainer {
     line-height: 45px;
     letter-spacing: 1.5px;
 }
+.collection-hero.color-background-1.gradient {
+    background: #ccc;
+    padding: 100px 0px;
+    text-align: center;
+}
 ul.product-slider.collection-page h6.card__heading.h6 {
     color: #333;
     margin-bottom: 8px;
