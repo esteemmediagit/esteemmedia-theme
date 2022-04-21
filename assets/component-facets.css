@@ -966,7 +966,10 @@ input.mobile-facets__checkbox {
     flex: 0 0 20%;
     width: 20%;
 }
-
+.facets-vertical.page-width {
+    max-width: 1400px;
+    width: 100%;
+}
   .facets__disclosure-vertical {
     border-top: solid rgba(var(--color-foreground), 0.1);
     margin-right: 0;
