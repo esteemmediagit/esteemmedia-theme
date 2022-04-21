@@ -960,8 +960,12 @@ input.mobile-facets__checkbox {
   .facets__form-vertical {
     display: flex;
     flex-direction: column;
-    width: 26rem;
+    width: 100%;
   }
+  aside#main-collection-filters {
+    flex: 0 0 20%;
+    width: 20%;
+}
 
   .facets__disclosure-vertical {
     border-top: solid rgba(var(--color-foreground), 0.1);
