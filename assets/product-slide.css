@@ -41,7 +41,7 @@ ul.product-slider.slick-initialized.slick-slider.slick-dotted {
   ul.product-slider .quick-add__submit span {
     font-size: 0px;
 }
-ul.product-slider button.quick-add__submit {
+.hover-cart button.quick-add__submit {
     background: url(https://cdn.shopify.com/s/files/1/0637/4529/4571/files/shopping-cart_2.png?v=1650128982);
     background-repeat: no-repeat;
      width: 35px;
@@ -52,10 +52,10 @@ ul.product-slider button.quick-add__submit {
     background-size: 18px auto;
     border-radius: 3px;
 }
-ul.product-slider button.quick-view span {
+.hover-cart button.quick-view span {
     font-size: 0px;
 }
-ul.product-slider button.quick-view {
+.hover-cart button.quick-view {
     background: url(https://cdn.shopify.com/s/files/1/0637/4529/4571/files/view_1.png?v=1650129407);
     background-repeat: no-repeat;
     background-size: 18px auto;
@@ -67,7 +67,7 @@ ul.product-slider button.quick-view {
     background-color: #eedbcb;
     background-position: center center;
 }
-ul.product-slider .product-links a {
+.hover-cart .product-links a {
     background: url(https://cdn.shopify.com/s/files/1/0637/4529/4571/files/link_1.png?v=1650129406);
     background-repeat: no-repeat;
    background-size: 18px auto;
@@ -93,7 +93,7 @@ ul.product-slider .product-links a {
     display: block;
     margin: 0 auto;
 }
-ul.product-slider button.choose-option {
+.hover-cart button.choose-option {
    font-size: 0px;
 }
 .hover-cart .card__content {
