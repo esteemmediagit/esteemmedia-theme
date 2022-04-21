@@ -158,3 +158,29 @@ ul.product-slider.slick-initialized.slick-slider.slick-dotted .card__inner.color
     --ratio-percent: 61.545455% !important;
 }
  
+
+  ul.product-slider.collection-page .card-wrapper.underline-links-hover {
+    border: 1px solid rgb(238,238,238);
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 25px;
+}
+ul.product-slider .card-wrapper .media.media--transparent img.motion-reduce {
+    border-radius: 0;
+}
+ul.product-slider.collection-page .card.card--standard.card--media .card__content {
+    padding: 0 15px 0px!important;
+}
+ul.product-slider.collection-page li.grid__item {
+    padding: 8px;
+}
+ul.product-slider.collection-page .card__information .card-information span.caption-large.light.description {
+    display: none;
+}
+ul.product-slider.collection-page .card-information {
+    text-align: center;
+}
+ul.product-slider.collection-page .card.card--standard.card--media .card__content {
+    padding: 0 15px 0px!important;
+    text-align: center;
+}
