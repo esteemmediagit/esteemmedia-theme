@@ -6,6 +6,9 @@
     font-size: 19px;
     padding-left: 17px;
 }
+.product__accordion.accordion svg.icon.icon-caret {
+    height: 10px;
+}
 .title--price {
     display: flex;
     align-items: center;
