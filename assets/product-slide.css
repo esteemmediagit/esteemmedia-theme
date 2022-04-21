@@ -154,9 +154,7 @@ font-family: var(--font-heading-familyf);
 }
 
 
-ul.product-slider.slick-initialized.slick-slider.slick-dotted .card__inner.color-background-2 {
-    --ratio-percent: 61.545455% !important;
-}
+
  
 
   ul.product-slider.collection-page .card-wrapper.underline-links-hover {
@@ -183,4 +181,10 @@ ul.product-slider.collection-page .card-information {
 ul.product-slider.collection-page .card.card--standard.card--media .card__content {
     padding: 0 15px 0px!important;
     text-align: center;
+}
+
+
+
+ul.product-slider.slick-initialized.slick-slider.slick-dotted .card__inner.color-background-2 {
+    --ratio-percent: 61.545455% !important;
 }
