@@ -114,7 +114,13 @@
 .facet-filters__sort + .icon-caret {
   right: 0;
 }
-
+ul.product-slider.collection-page h6.card__heading.h6 {
+    color: #333;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 33px;
+}
 @media screen and (forced-colors: active) {
   .facet-filters__sort {
     border: none;
