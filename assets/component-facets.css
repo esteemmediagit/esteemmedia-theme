@@ -117,6 +117,14 @@
 div#ProductGridContainer {
     padding-left: 2rem;
 }
+.collection-hero.color-background-1.gradient h1.collection-hero__title {
+    font-family: "Americana", Sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 45px;
+    letter-spacing: 1.5px;
+}
 ul.product-slider.collection-page h6.card__heading.h6 {
     color: #333;
     margin-bottom: 8px;
