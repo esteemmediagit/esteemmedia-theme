@@ -114,6 +114,9 @@
 .facet-filters__sort + .icon-caret {
   right: 0;
 }
+div#ProductGridContainer {
+    padding-left: 2rem;
+}
 ul.product-slider.collection-page h6.card__heading.h6 {
     color: #333;
     margin-bottom: 8px;
