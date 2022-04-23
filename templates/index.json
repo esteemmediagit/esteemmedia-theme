@@ -496,7 +496,7 @@
           "type": "heading",
           "settings": {
             "heading": "LOREM IPSUM 28 PX",
-            "heading_size": "h1"
+            "heading_size": "h4"
           }
         },
         "16499623265a87b9b0-1": {
@@ -529,6 +529,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "color_bg": "#faf7f5",
         "color_scheme": "background-2",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -542,7 +543,7 @@
           "type": "heading",
           "settings": {
             "heading": "LOREM IPSUM 28 PX",
-            "heading_size": "h1"
+            "heading_size": "h4"
           }
         },
         "16501766981b8b5b6e-1": {
@@ -575,6 +576,7 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "color_bg": "#faf7f5",
         "color_scheme": "background-2",
         "mobile_content_alignment": "left",
         "padding_top": 44,
