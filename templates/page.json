@@ -8,52 +8,6 @@
         "padding_bottom": 28
       }
     },
-    "16506954760dfccf42": {
-      "type": "text-with-video",
-      "blocks": {
-        "16506954762886bb9c-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "LOREM IPSUM 28PX",
-            "heading_size": "h1"
-          }
-        },
-        "16506954762886bb9c-1": {
-          "type": "text",
-          "settings": {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac faucibus risus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac faucibus risus ipsum dolor sit amet, consectetur adipiscing elit. Duis ac faucibus risus ucibus risus",
-            "body_size": "pone",
-            "text_style": "body"
-          }
-        },
-        "16506954762886bb9c-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "FIND OUT MORE",
-            "button_link": "#"
-          }
-        }
-      },
-      "block_order": [
-        "16506954762886bb9c-0",
-        "16506954762886bb9c-1",
-        "16506954762886bb9c-2"
-      ],
-      "settings": {
-        "video_url": "https:\/\/vimeo.com\/488974825\/d63022f4d0",
-        "class": "video-sections",
-        "height": "adapt",
-        "desktop_image_width": "large",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 68,
-        "padding_bottom": 36
-      }
-    },
     "165070148786c4d640": {
       "type": "image-with-text",
       "blocks": {
@@ -148,6 +102,52 @@
         "padding_bottom": 36
       }
     },
+    "16506954760dfccf42": {
+      "type": "text-with-video",
+      "blocks": {
+        "16506954762886bb9c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "LOREM IPSUM 28PX",
+            "heading_size": "h1"
+          }
+        },
+        "16506954762886bb9c-1": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac faucibus risus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac faucibus risus ipsum dolor sit amet, consectetur adipiscing elit. Duis ac faucibus risus ucibus risus",
+            "body_size": "pone",
+            "text_style": "body"
+          }
+        },
+        "16506954762886bb9c-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "FIND OUT MORE",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "16506954762886bb9c-0",
+        "16506954762886bb9c-1",
+        "16506954762886bb9c-2"
+      ],
+      "settings": {
+        "video_url": "https:\/\/vimeo.com\/488974825\/d63022f4d0",
+        "class": "video-sections",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 68,
+        "padding_bottom": 36
+      }
+    },
     "1650709406c07f7d8e": {
       "type": "contact-form",
       "blocks": {
@@ -233,15 +233,6 @@
         "padding_bottom": 60
       }
     },
-    "1650720723d92851b2": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3815.0493293894006!2d145.74317261548782!3d-17.02125025885791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6978620f128831a1%3A0xc41ac158c52de30c!2sZed%20Hair%20%26%20Beauty!5e0!3m2!1sen!2s!4v1650723721733!5m2!1sen!2s\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "16507238691195cd63": {
       "type": "product-grid",
       "settings": {
@@ -269,16 +260,25 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "1650720723d92851b2": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3815.0493293894006!2d145.74317261548782!3d-17.02125025885791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6978620f128831a1%3A0xc41ac158c52de30c!2sZed%20Hair%20%26%20Beauty!5e0!3m2!1sen!2s!4v1650723721733!5m2!1sen!2s\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
-    "16506954760dfccf42",
     "165070148786c4d640",
     "1650703719a641a9f4",
+    "16506954760dfccf42",
     "1650709406c07f7d8e",
     "1650720455df32b174",
-    "1650720723d92851b2",
-    "16507238691195cd63"
+    "16507238691195cd63",
+    "1650720723d92851b2"
   ]
 }
