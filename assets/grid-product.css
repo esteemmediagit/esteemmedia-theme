@@ -2,11 +2,18 @@
     height: 500px;
    
 }
+.three-column-product a.view-allproduct {
+    display: none;
+}
 .three-column-product ul.grid.product-grid.grid--3-col-desktop .card__content_bhover.card__inner.color-background-2.gradient.ratio {
     height: 500px;
 }
 .three-column-product ul.grid.product-grid.grid--3-col-desktop.grid--2-col-tablet-down .card__media {
     height: 500px;
+}
+.three-column-product ul.grid.product-grid.grid--3-col-desktop .card-wrapper.underline-links-hover {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .three-column-product ul.grid.product-grid.grid--3-col-desktop.grid--2-col-tablet-down .card-wrapper.underline-links-hover .card__content_ahover {
     transform: translate(0) translateY(200%);
