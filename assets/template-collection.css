@@ -1,3 +1,6 @@
+section.shopify-section.section.feature-collection slider-component.slider-mobile-gutter.page-width.slider-component-desktop {
+    max-width: 1200px;
+}
 @media screen and (max-width: 749px) {
   .collection .grid__item:only-child {
     flex: 0 0 100%;
