@@ -93,7 +93,7 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_bg": "#fff",
+        "color_bg": "#e7e7e7",
         "color_scheme": "background-2 whisper",
         "mobile_content_alignment": "left",
         "padding_top": 36,
