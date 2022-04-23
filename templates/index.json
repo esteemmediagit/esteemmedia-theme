@@ -8,6 +8,7 @@
           "settings": {
             "heading": "#LOREMIPSUMDATA 60X",
             "sub_heading": "LOREM IPSUM IS TEXT 31PX",
+            "subheading_size": "h3",
             "heading_size": "h1"
           }
         },
