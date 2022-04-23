@@ -1,24 +1,27 @@
-ul.grid.product-grid.grid--3-col-desktop .product-grid-li .card.card--standard.card--media {
+.three-column-product ul.grid.product-grid.grid--3-col-desktop .product-grid-li .card.card--standard.card--media {
     height: 500px;
    
 }
-ul.grid.product-grid.grid--3-col-desktop .card__content_bhover.card__inner.color-background-2.gradient.ratio {
+.three-column-product ul.grid.product-grid.grid--3-col-desktop .card__content_bhover.card__inner.color-background-2.gradient.ratio {
     height: 500px;
 }
-ul.grid.product-grid.grid--3-col-desktop.grid--2-col-tablet-down .card__media {
+.three-column-product ul.grid.product-grid.grid--3-col-desktop.grid--2-col-tablet-down .card__media {
     height: 500px;
 }
-ul.grid.product-grid.grid--3-col-desktop.grid--2-col-tablet-down .card-wrapper.underline-links-hover .card__content_ahover {
+.three-column-product ul.grid.product-grid.grid--3-col-desktop.grid--2-col-tablet-down .card-wrapper.underline-links-hover .card__content_ahover {
     transform: translate(0) translateY(200%);
 }
-ul.grid.product-grid.grid--3-col-desktop .card-wrapper.underline-links-hover .card__content_bhover, ul.grid.product-grid.grid--3-col-desktop .card-wrapper.underline-links-hover:hover .card__content_ahover {
+.three-column-product ul.grid.product-grid.grid--3-col-desktop .card-wrapper.underline-links-hover .card__content_bhover, ul.grid.product-grid.grid--3-col-desktop .card-wrapper.underline-links-hover:hover .card__content_ahover {
     transform: none;
 }
-ul.grid.product-grid.grid--3-col-desktop .product-grid-li .card__media, .card__content_bhover, .card__content_ahover {
+.three-column-product ul.grid.product-grid.grid--3-col-desktop .product-grid-li .card__media, .card__content_bhover, .card__content_ahover {
     height: 500px;
 }
 .product-grid-li .card__content_hover {
   display: none;
+}
+.three-column-product .product-grid-li .card__media, .card__content_bhover, .three-column-product .product-grid-li .card__content_ahover {
+    height: 500px;
 }
 li.product-grid-li.grid__item {
   padding-left: 6px;
