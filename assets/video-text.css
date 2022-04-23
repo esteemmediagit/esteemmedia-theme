@@ -9,3 +9,7 @@
     background: none;
 padding: 0px !important;
 }
+.video-sections.image-with-text .pone.image-with-text__text {
+    line-height: 24px;
+    color: #333;
+}
