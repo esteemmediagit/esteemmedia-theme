@@ -1,6 +1,9 @@
 {{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
+#shopify-section-{{ section.id }}{
+background: {{ section.settings.color_bg }};
+}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
@@ -16,6 +19,29 @@
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="contact page-width page-width--narrow section-{{ section.id }}-padding">
+    
+    <div class="contact-wrap">
+      <div class="address-box">
+      	<div class="address-box-iner">
+          {%- for block in section.blocks -%}
+          <div class="address-col">
+          <{{ block.settings.heading_size }} class="address-bar {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+                {{ blockn.settings.heading }}
+              </{{ block.settings.heading_size }}>
+              <div class="address-text {{block.settings.text_style }} {{block.settings.body_size }}" {{ block.shopify_attributes }}>
+              <span>{{ block.settings.text }}</span>
+            </div>
+          </div>
+          
+          {%- endfor -%}
+          
+      	</div>
+      </div>
+    
+    
+    </div>
+    
+    
     {%- if section.settings.heading != blank -%}
       <h2 class="title title-wrapper--no-top-margin {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
     {%- else -%}
@@ -98,32 +124,12 @@
   "tag": "section",
   "class": "section",
   "settings": [
-    {
-      "type": "text",
-      "id": "heading",
-      "default": "Contact form",
-      "label": "Heading"
-    },
-    {
-      "type": "select",
-      "id": "heading_size",
-      "options": [
-        {
-          "value": "h2",
-          "label": "t:sections.all.heading_size.options__1.label"
-        },
-        {
-          "value": "h1",
-          "label": "t:sections.all.heading_size.options__2.label"
-        },
-        {
-          "value": "h0",
-          "label": "t:sections.all.heading_size.options__3.label"
-        }
-      ],
-      "default": "h1",
-      "label": "t:sections.all.heading_size.label"
-    },
+      {
+  "type": "color",
+  "id": "color_bg",
+  "label": "Background color wrapper",
+  "default": "#fff"
+},
     {
       "type": "select",
       "id": "color_scheme",
@@ -177,6 +183,83 @@
       "default": 36
     }
   ],
+ "blocks": [
+    {
+      "type": "heading",
+      "name": "left Block",
+      "limit": 10,
+      "settings": [
+{
+      "type": "text",
+      "id": "heading",
+      "default": "Contact form",
+      "label": "Heading"
+    },
+    {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+          {
+          "value": "h1",
+          "label": "60px"
+          },
+          {
+          "value": "h2",
+          "label": "38px"
+          },
+          {
+          "value": "h3",
+          "label": "31px"
+          },
+          {
+          "value": "h4",
+          "label": "28px"
+          },
+          {
+          "value": "h5",
+          "label": "23px"
+          },
+          {
+          "value": "h6",
+          "label": "21px"
+          }
+          ],
+          "default": "h4",
+          "label": "Heading Size"
+        },
+  {
+          "type": "textarea",
+          "id": "text",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+          "label": "t:sections.image-with-text.blocks.text.settings.text.label"
+        },
+{
+          "type": "select",
+          "id": "body_size",
+          "options": [
+            {
+              "value": "pone",
+              "label": "16"
+            },
+            {
+              "value": "ptwo",
+              "label": "18"
+            },
+            {
+              "value": "pthree",
+              "label": "20"
+            },
+            {
+              "value": "pfour",
+              "label": "21"
+            }
+          ],
+          "default": "pthree",
+          "label": "pp font size"
+        }
+]
+}
+],
   "presets": [
     {
       "name": "t:sections.contact-form.presets.name"
