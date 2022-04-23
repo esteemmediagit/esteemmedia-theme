@@ -40,7 +40,7 @@
       ],
       "settings": {
         "video_url": "https:\/\/vimeo.com\/488974825\/d63022f4d0",
-        "class": "video-sections",
+        "class": "video-sections bg-cream",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
