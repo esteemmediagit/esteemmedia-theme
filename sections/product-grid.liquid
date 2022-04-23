@@ -46,7 +46,10 @@
   <div class="grid-product-col collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
       <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
         {%- if section.settings.title != blank -%}
-          <h5 class="title h5">{{ section.settings.title | escape }}</h2>
+        <{{ section.settings.heading_size }} class="title {{ section.settings.heading_size }}" {{ block.shopify_attributes }}>
+               {{ section.settings.title | escape }}
+              </{{ section.settings.heading_size }}> 
+          
         {%- endif -%}
         {%- if section.settings.description != blank or section.settings.show_description and section.settings.collection.description != empty -%}
           <div class="collection__description {{ section.settings.description_style }}">{%- if section.settings.show_description -%}{{ section.settings.collection.description }}{%- else -%}{{ section.settings.description }}{% endif %}</div>
@@ -116,25 +119,37 @@
       "label": "t:sections.featured-collection.settings.title.label"
     },
     {
-      "type": "select",
-      "id": "heading_size",
-      "options": [
-        {
-          "value": "h2",
-          "label": "t:sections.all.heading_size.options__1.label"
-        },
-        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+          {
           "value": "h1",
-          "label": "t:sections.all.heading_size.options__2.label"
+          "label": "60px"
+          },
+          {
+          "value": "h2",
+          "label": "38px"
+          },
+          {
+          "value": "h3",
+          "label": "31px"
+          },
+          {
+          "value": "h4",
+          "label": "28px"
+          },
+          {
+          "value": "h5",
+          "label": "23px"
+          },
+          {
+          "value": "h6",
+          "label": "21px"
+          }
+          ],
+          "default": "h4",
+          "label": "Heading Size"
         },
-        {
-          "value": "h0",
-          "label": "t:sections.all.heading_size.options__3.label"
-        }
-      ],
-      "default": "h1",
-      "label": "t:sections.all.heading_size.label"
-    },
     {
       "type": "richtext",
       "id": "description",
