@@ -202,7 +202,9 @@
         "b91301dc-9f33-41d9-8d53-d4717a8d5871"
       ],
       "settings": {
-        "color_bg": "#fff",
+        "color_bg": "#ffffff",
+        "headinga": "LOREM IPSUM 28PX",
+        "headinga_size": "h4",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
