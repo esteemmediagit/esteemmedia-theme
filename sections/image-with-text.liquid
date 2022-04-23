@@ -1,6 +1,11 @@
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
+
+
+.backgroud-option{
+background: {{ section.settings.color_bg }};
+}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
@@ -196,6 +201,12 @@
       "default": "no-overlap",
       "label": "t:sections.image-with-text.settings.content_layout.label"
     },
+{
+  "type": "color",
+  "id": "color_bg",
+  "label": "Background color wrapper",
+  "default": "#fff"
+},
     {
       "type": "select",
       "id": "color_scheme",
