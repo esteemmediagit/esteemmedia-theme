@@ -133,6 +133,7 @@
       ],
       "settings": {
         "color_scheme": "background-2",
+        "color_bg": "#faf7f5",
         "full_width": true,
         "class-name": "rich-texts heading-after",
         "padding_top": 92,
