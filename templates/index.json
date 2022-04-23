@@ -411,7 +411,7 @@
           "type": "heading",
           "settings": {
             "heading": "LOREM IPSUM <br>TITLE 28PX",
-            "heading_size": "h1"
+            "heading_size": "h4"
           }
         },
         "16501742302f10067a-1": {
@@ -456,7 +456,7 @@
           "type": "heading",
           "settings": {
             "heading": "LOREM IPSUM <br>TITLE 28PX",
-            "heading_size": "h1"
+            "heading_size": "h4"
           }
         },
         "1650174279b33f1d54-1": {
@@ -737,7 +737,7 @@
           "type": "heading",
           "settings": {
             "heading": "LOREM IPSUM",
-            "heading_size": "h2"
+            "heading_size": "h4"
           }
         },
         "1650202004cb3bb11b-1": {
@@ -782,7 +782,7 @@
           "type": "heading",
           "settings": {
             "heading": "LOREM IPSUM",
-            "heading_size": "h2"
+            "heading_size": "h4"
           }
         },
         "1650213511bb7ac56b-1": {
