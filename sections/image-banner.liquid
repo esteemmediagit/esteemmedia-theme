@@ -85,12 +85,10 @@
         {%- case block.type -%}
           {%- when 'heading' -%}
             {%- if block.settings.sub_heading != blank -%}
-              <h3 class="banner__heading sub-heading" {{ block.shopify_attributes }}>
-                <span>{{ block.settings.sub_heading }}</span>
-              </h3>
+              
       
       <{{ block.settings.subheading_size }} class="banner__heading sub-heading {{ block.settings.subheading_size }}" {{ block.shopify_attributes }}>
-                <span>{{ block.settings.subheading_size  }}</span>
+                 <span>{{ block.settings.sub_heading }}</span>
               </{{ block.settings.subheading_size }}>
             {%- endif -%}
             
