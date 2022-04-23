@@ -240,6 +240,7 @@
       ],
       "settings": {
         "title": "LOREM IPSUM 38PX",
+        "color_bg": "#e7e7e7",
         "class": "multicolumn-two-col",
         "description": "",
         "body_size": "pthree",
@@ -252,7 +253,7 @@
         "button_label": "",
         "button_link": "",
         "view_all_style": "solid",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
