@@ -1,3 +1,12 @@
+.simple-image-section .image-with-text__grid > div .image-with-text__content {
+    padding: 0px;
+}
+.simple-image-section .image-with-text__grid > div {
+    padding: 30px;
+}
+.simple-image-section .image-with-text__grid {
+    align-items: center;
+}
 .left-less-padding .image-with-text__content {
     padding-left: 5.3rem;
     padding-right: 0rem;
