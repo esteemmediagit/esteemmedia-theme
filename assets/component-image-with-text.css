@@ -3,6 +3,9 @@
     max-width: 400px;
     width: 100%;
 }
+.simple-image-section .pone.image-with-text__text.rte.body {
+    line-height: 24px;
+}
 .simple-image-section .image-with-text__grid > div .image-with-text__content {
     padding: 0px;
 }
