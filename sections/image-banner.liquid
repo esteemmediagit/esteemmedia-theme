@@ -88,10 +88,16 @@
               <h3 class="banner__heading sub-heading" {{ block.shopify_attributes }}>
                 <span>{{ block.settings.sub_heading }}</span>
               </h3>
+      
+      <{{ block.settings.subheading_size }} class="banner__heading sub-heading {{ block.settings.subheading_size }}" {{ block.shopify_attributes }}>
+                <span>{{ block.settings.subheading_size  }}</span>
+              </{{ block.settings.subheading_size }}>
             {%- endif -%}
-            <h1 class="banner__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-              <span>{{ block.settings.heading }}</span>
-            </h1>
+            
+    <{{ block.settings.heading_size }} class="banner__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+                {{ block.settings.heading  }}
+              </{{ block.settings.heading_size }}>
+
             
           {%- when 'text' -%}
             <div class="banner__text {{ block.settings.text_style }} {{ block.settings.body_size }}" {{ block.shopify_attributes }}>
@@ -321,37 +327,69 @@
           "default": "Image banner",
           "label": "Sub heading"
         },
-        {
+       {
+          "type": "select",
+          "id": "subheading_size",
+          "options": [
+          {
+          "value": "h1",
+          "label": "60px"
+          },
+          {
+          "value": "h2",
+          "label": "38px"
+          },
+          {
+          "value": "h3",
+          "label": "31px"
+          },
+          {
+          "value": "h4",
+          "label": "28px"
+          },
+          {
+          "value": "h5",
+          "label": "23px"
+          },
+          {
+          "value": "h6",
+          "label": "21px"
+          }
+          ],
+          "default": "h4",
+          "label": "Heading Size"
+        },
+{
           "type": "select",
           "id": "heading_size",
           "options": [
-            {
-              "value": "h1",
-              "label": "extra large"
-            },
-            {
-              "value": "h2",
-              "label": "Large"
-            },
-            {
-              "value": "h3",
-              "label": "extra medium"
-            },
-            {
-              "value": "h4",
-              "label": "Medium"
-            },
-            {
-              "value": "h5",
-              "label": "small"
-            },
-            {
-              "value": "h6",
-              "label": "Extra small"
-            } 
+          {
+          "value": "h1",
+          "label": "60px"
+          },
+          {
+          "value": "h2",
+          "label": "38px"
+          },
+          {
+          "value": "h3",
+          "label": "31px"
+          },
+          {
+          "value": "h4",
+          "label": "28px"
+          },
+          {
+          "value": "h5",
+          "label": "23px"
+          },
+          {
+          "value": "h6",
+          "label": "21px"
+          }
           ],
-          "default": "h1",
-          "label": "t:sections.all.heading_size.label"
+          "default": "h4",
+          "label": "Heading Size"
         }
       ]
     },
