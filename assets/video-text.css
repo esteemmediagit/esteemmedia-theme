@@ -3,4 +3,9 @@
 }
 .video-sections.image-with-text .image-with-text__text-item.grid__item {
     width: 34%;
+    padding: 30px;
+}
+.video-sections.image-with-text .image-with-text__content {
+    background: none;
+padding: 0px !important;
 }
