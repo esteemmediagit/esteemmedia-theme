@@ -7,6 +7,10 @@
     border-radius: 100%;
     position: relative !important;
 }
+.multicolumn-two-col.multicolumn h4.title.h4 {
+    width: 100%;
+    text-align: center;
+}
 .multicolum-logo .multicolumn-card.content-container .multicolumn-card__info {
     padding: 0px;
 }
