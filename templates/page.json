@@ -79,11 +79,58 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "165070148786c4d640": {
+      "type": "image-with-text",
+      "blocks": {
+        "16507014878578768c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "heading_size": "h1"
+          }
+        },
+        "16507014878578768c-1": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+            "body_size": "pthree",
+            "text_style": "body"
+          }
+        },
+        "16507014878578768c-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "CLICK HERE",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "16507014878578768c-0",
+        "16507014878578768c-1",
+        "16507014878578768c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker1.jpg",
+        "class": "simple-image-section",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "16506954760dfccf42",
-    "165059701236c011b0"
+    "165059701236c011b0",
+    "165070148786c4d640"
   ]
 }
