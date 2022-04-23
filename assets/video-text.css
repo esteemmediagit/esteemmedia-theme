@@ -1,0 +1,6 @@
+.video-sections.image-with-text .image-with-text__content {
+    padding: 30px;
+}
+.video-sections.image-with-text .image-with-text__text-item.grid__item {
+    width: 34%;
+}
