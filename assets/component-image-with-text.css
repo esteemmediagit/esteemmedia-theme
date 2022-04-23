@@ -1,3 +1,8 @@
+.simple-image-section .image-with-text__grid>div .image-with-text__content {
+    padding: 0;
+    max-width: 400px;
+    width: 100%;
+}
 .simple-image-section .image-with-text__grid > div .image-with-text__content {
     padding: 0px;
 }
