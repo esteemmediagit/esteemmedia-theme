@@ -41,6 +41,7 @@ background: {{ section.settings.color_bg }};
     <div class="form-box">
     {%- if section.settings.heading != blank -%}
       <h2 class="title title-wrapper--no-top-margin {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
+      
     {%- else -%}
       <h2 class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
     {%- endif -%}
@@ -133,10 +134,42 @@ background: {{ section.settings.color_bg }};
 },
 {
       "type": "text",
-      "id": "heading",
+      "id": "headinga",
       "default": "Contact form",
       "label": "Heading"
     },
+    {
+          "type": "select",
+          "id": "headinga_size",
+          "options": [
+          {
+          "value": "h1",
+          "label": "60px"
+          },
+          {
+          "value": "h2",
+          "label": "38px"
+          },
+          {
+          "value": "h3",
+          "label": "31px"
+          },
+          {
+          "value": "h4",
+          "label": "28px"
+          },
+          {
+          "value": "h5",
+          "label": "23px"
+          },
+          {
+          "value": "h6",
+          "label": "21px"
+          }
+          ],
+          "default": "h4",
+          "label": "Heading Size"
+        },
     {
       "type": "select",
       "id": "color_scheme",
