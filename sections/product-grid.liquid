@@ -42,7 +42,7 @@
   endif
 -%}
 
-<div class="color-{{ section.settings.color_scheme }} isolate gradient">
+<div class="{{ section.settings.class }} color-{{ section.settings.color_scheme }} isolate gradient">
   <div class="grid-product-col collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
       <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
         {%- if section.settings.title != blank -%}
@@ -118,6 +118,12 @@
       "default": "Featured collection",
       "label": "t:sections.featured-collection.settings.title.label"
     },
+{
+          "type": "text",
+          "id": "class-name",
+          "default": "class-Name",
+          "label": "five class name"
+        },
     {
           "type": "select",
           "id": "heading_size",
