@@ -39,8 +39,12 @@ background: {{ section.settings.color_bg }};
       	</div>
       </div>
     <div class="form-box">
-    {%- if section.settings.heading != blank -%}
-      <h2 class="title title-wrapper--no-top-margin {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
+    {%- if section.settings.headinga != blank -%}
+     
+      
+      <{{ section.settings.headinga_size }} class="title title-wrapper--no-top-margin {{ section.settings.headinga_size }}" {{ section.shopify_attributes }}>
+                {{ section.settings.headinga}}
+              </{{ section.settings.headinga_size }}>
       
     {%- else -%}
       <h2 class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
