@@ -28,7 +28,7 @@ background: {{ section.settings.color_bg }};
         {%- case block.type -%}
           {%- when 'heading' -%}
       
-       <{{ block.settings.heading_size }} class="banner__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+       <{{ block.settings.heading_size }} class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
                 {{ block.settings.heading | escape }}
          <span class="border"></span>
               </{{ block.settings.heading_size }}>  
