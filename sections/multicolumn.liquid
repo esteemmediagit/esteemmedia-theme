@@ -28,9 +28,10 @@
   <div class="page-width section-{{ section.id }}-padding isolate">
     {%- unless section.settings.title == blank -%}
       <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
-        <h2 class="title {{ section.settings.heading_size }}">
-          {{ section.settings.title | escape }}
-        </h2>
+        
+         <{{ section.settings.heading_size }} class="title {{ section.settings.heading_size }}" {{ section.shopify_attributes }}>
+                {{ section.settings.title | escape }}
+              </{{ section.settings.heading_size }}> 
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
           <a href="{{ section.settings.button_link }}" class="link underlined-link large-up-hide">{{ section.settings.button_label | escape }}</a>
         {%- endif -%}
@@ -178,25 +179,37 @@
           "label": "pp font size"
         },
     {
-      "type": "select",
-      "id": "heading_size",
-      "options": [
-        {
-          "value": "h2",
-          "label": "t:sections.all.heading_size.options__1.label"
-        },
-        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+          {
           "value": "h1",
-          "label": "t:sections.all.heading_size.options__2.label"
+          "label": "60px"
+          },
+          {
+          "value": "h2",
+          "label": "38px"
+          },
+          {
+          "value": "h3",
+          "label": "31px"
+          },
+          {
+          "value": "h4",
+          "label": "28px"
+          },
+          {
+          "value": "h5",
+          "label": "23px"
+          },
+          {
+          "value": "h6",
+          "label": "21px"
+          }
+          ],
+          "default": "h4",
+          "label": "Heading Size"
         },
-        {
-          "value": "h0",
-          "label": "t:sections.all.heading_size.options__3.label"
-        }
-      ],
-      "default": "h1",
-      "label": "t:sections.all.heading_size.label"
-    },
     {
       "type": "select",
       "id": "image_width",
