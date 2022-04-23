@@ -245,7 +245,7 @@
     "16507238691195cd63": {
       "type": "product-grid",
       "settings": {
-        "title": "Featured collection",
+        "title": "",
         "class-name": "three-column-product",
         "heading_size": "h4",
         "description": "",
