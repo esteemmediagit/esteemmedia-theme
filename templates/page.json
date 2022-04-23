@@ -246,6 +246,7 @@
       "type": "product-grid",
       "settings": {
         "title": "Featured collection",
+        "class-name": "three-column-product",
         "heading_size": "h4",
         "description": "",
         "show_description": false,
