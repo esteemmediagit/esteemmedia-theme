@@ -58,8 +58,9 @@
           "type": "slide",
           "settings": {
             "heading": "LOREM IPSUM DUMMY TEXT",
-            "heading_size": "h2",
             "subheading": "LOREM IPSUM DATA",
+            "subheading_size": "h3",
+            "heading_size": "h2",
             "text": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.",
             "body_size": "pthree",
             "button_label": "Shop Now",
@@ -78,8 +79,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker4.jpg",
             "heading": "LOREM IPSUM DUMMY TEXT",
-            "heading_size": "h2",
             "subheading": "LOREM IPSUM DATA",
+            "subheading_size": "h4",
+            "heading_size": "h2",
             "text": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.",
             "body_size": "pthree",
             "button_label": "Shop Now",
