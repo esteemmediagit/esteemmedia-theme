@@ -117,12 +117,17 @@
           <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-{{ block.settings.color_scheme }} gradient slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
            
             {%- if block.settings.subheading != blank -%} 
-              <h3 class="banner__text " {{ block.shopify_attributes }}>
-                <span>{{ block.settings.subheading | escape }}</span>
-              </h3>
+              
+             <{{ block.settings.subheading_size }} class="banner__heading sub-heading {{ block.settings.subheading_size }}" {{ block.shopify_attributes }}>
+                 <span>{{ block.settings.subheading | escape }}</span>
+              </{{ block.settings.subheading_size }}>
+            
             {%- endif -%}
              {%- if block.settings.heading != blank -%}
-              <h2 class="banner__heading {{ block.settings.heading_size }}">{{ block.settings.heading | escape }}</h2>
+              
+          <{{ block.settings.heading_size }} class="banner__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+               {{ block.settings.heading | escape }}
+              </{{ block.settings.heading_size }}>  
             {%- endif -%}
             <div class="banner__text {{ block.settings.text_style }} {{ block.settings.body_size }}" {{ block.shopify_attributes }}>
               <span>{{ block.settings.text }}</span>
@@ -305,31 +310,76 @@
           "default": "Image slide",
           "label": "t:sections.slideshow.blocks.slide.settings.heading.label"
         },
-        {
-          "type": "select",
-          "id": "heading_size",
-          "options": [
-            {
-              "value": "h2",
-              "label": "t:sections.all.heading_size.options__1.label"
-            },
-            {
-              "value": "h1",
-              "label": "t:sections.all.heading_size.options__2.label"
-            },
-            {
-              "value": "h0",
-              "label": "t:sections.all.heading_size.options__3.label"
-            }
-          ],
-          "default": "h1",
-          "label": "t:sections.all.heading_size.label"
-        },
+        
         {
           "type": "text",
           "id": "subheading",
           "default": "Tell your brand's story through images",
           "label": "t:sections.slideshow.blocks.slide.settings.subheading.label"
+        },
+{
+          "type": "select",
+          "id": "subheading_size",
+          "options": [
+          {
+          "value": "h1",
+          "label": "60px"
+          },
+          {
+          "value": "h2",
+          "label": "38px"
+          },
+          {
+          "value": "h3",
+          "label": "31px"
+          },
+          {
+          "value": "h4",
+          "label": "28px"
+          },
+          {
+          "value": "h5",
+          "label": "23px"
+          },
+          {
+          "value": "h6",
+          "label": "21px"
+          }
+          ],
+          "default": "h4",
+          "label": "Heading Size"
+        },
+{
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+          {
+          "value": "h1",
+          "label": "60px"
+          },
+          {
+          "value": "h2",
+          "label": "38px"
+          },
+          {
+          "value": "h3",
+          "label": "31px"
+          },
+          {
+          "value": "h4",
+          "label": "28px"
+          },
+          {
+          "value": "h5",
+          "label": "23px"
+          },
+          {
+          "value": "h6",
+          "label": "21px"
+          }
+          ],
+          "default": "h4",
+          "label": "Sub Heading Size"
         },
 {
           "type": "text",
