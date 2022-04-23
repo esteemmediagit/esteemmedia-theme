@@ -13,7 +13,15 @@
 .contact .field {
   margin-bottom: 1.5rem;
 }
-
+h4.address-bar.h4 {
+    margin: 18px 0px 18px;
+}
+.address-text.pone p {
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    line-height: 24px;
+    color: #1d1d1d;
+}
 .contact-wrap {
     display: flex;
 }
