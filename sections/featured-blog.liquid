@@ -40,8 +40,11 @@
   <div class="page-width-desktop isolate{% if posts_displayed < 3 %} page-width-tablet{% endif %} section-{{ section.id }}-padding">
     {%- unless section.settings.heading == blank -%}
       <div class="title-wrapper-with-link{% if posts_displayed > 2 %} title-wrapper--self-padded-tablet-down{% else %} title-wrapper--self-padded-mobile{% endif %} title-wrapper--no-top-margin">
-        <h2 class="blog__title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
+       
 
+          <{{ section.settings.heading_size }} class="blog__title {{ section.settings.heading_size }}" {{ section.shopify_attributes }}>
+               {{ section.settings.heading | escape }}
+              </{{ section.settings.heading_size }}>  
         {%- if section.settings.blog != blank and section.settings.show_view_all and section.settings.post_limit < section.settings.blog.articles_count -%}
           <a href="{{ section.settings.blog.url }}"
             class="link underlined-link large-up-hide"
@@ -115,25 +118,37 @@
       "label": "t:sections.featured-blog.settings.heading.label"
     },
     {
-      "type": "select",
-      "id": "heading_size",
-      "options": [
-        {
-          "value": "h2",
-          "label": "t:sections.all.heading_size.options__1.label"
-        },
-        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+          {
           "value": "h1",
-          "label": "t:sections.all.heading_size.options__2.label"
+          "label": "60px"
+          },
+          {
+          "value": "h2",
+          "label": "38px"
+          },
+          {
+          "value": "h3",
+          "label": "31px"
+          },
+          {
+          "value": "h4",
+          "label": "28px"
+          },
+          {
+          "value": "h5",
+          "label": "23px"
+          },
+          {
+          "value": "h6",
+          "label": "21px"
+          }
+          ],
+          "default": "h4",
+          "label": "Heading Size"
         },
-        {
-          "value": "h0",
-          "label": "t:sections.all.heading_size.options__3.label"
-        }
-      ],
-      "default": "h1",
-      "label": "t:sections.all.heading_size.label"
-    },
     {
       "type": "blog",
       "id": "blog",
