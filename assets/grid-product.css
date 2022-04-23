@@ -11,7 +11,9 @@
 .three-column-product ul.grid.product-grid.grid--3-col-desktop.grid--2-col-tablet-down .card-wrapper.underline-links-hover .card__content_ahover {
     transform: translate(0) translateY(200%);
 }
-
+.three-column-product ul.grid.product-grid.grid--3-col-desktop .product-grid-li .card-wrapper.underline-links-hover:hover .card__content_ahover {
+    transform: none ;
+}
 .three-column-product ul.grid.product-grid.grid--3-col-desktop .product-grid-li .card__media, .card__content_bhover, .card__content_ahover {
     height: 500px;
 }
