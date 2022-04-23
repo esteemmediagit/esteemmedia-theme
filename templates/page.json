@@ -60,14 +60,14 @@
           "type": "heading",
           "settings": {
             "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "heading_size": "h1"
+            "heading_size": "h4"
           }
         },
         "16507014878578768c-1": {
           "type": "text",
           "settings": {
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
-            "body_size": "pthree",
+            "body_size": "pone",
             "text_style": "body"
           }
         },
