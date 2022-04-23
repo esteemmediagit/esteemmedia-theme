@@ -1,5 +1,6 @@
 {{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
 
+
 {%- style -%}
 #shopify-section-{{ section.id }}{
 background: {{ section.settings.color_bg }};
@@ -37,11 +38,7 @@ background: {{ section.settings.color_bg }};
           
       	</div>
       </div>
-    
-    
-    </div>
-    
-    
+    <div class="form-box">
     {%- if section.settings.heading != blank -%}
       <h2 class="title title-wrapper--no-top-margin {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
     {%- else -%}
@@ -115,6 +112,13 @@ background: {{ section.settings.color_bg }};
         </button>
       </div>
     {%- endform -%}
+    </div>
+    
+    
+    </div>
+    
+    
+    
   </div>
 </div>
 
