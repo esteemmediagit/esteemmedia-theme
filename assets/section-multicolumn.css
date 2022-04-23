@@ -11,6 +11,9 @@
     width: 100%;
     text-align: center;
 }
+.multicolumn-two-col ul.multicolumn-list li > div {
+    padding: 30px 20px;
+}
 .multicolum-logo .multicolumn-card.content-container .multicolumn-card__info {
     padding: 0px;
 }
