@@ -41,6 +41,14 @@
     padding-top: 0rem;
     padding-bottom: 3rem;
 }
+@media screen and (min-width: 1200px) {
+.simple-image-section .image-with-text__grid>div.image-with-text__text-item.grid__item {
+    width: 45% ;
+}
+.simple-image-section .image-with-text__grid>div.image-with-text__media-item {
+    width: 55% ;
+}
+}
 @media screen and (min-width: 750px) {
   .image-with-text__grid--reverse {
     flex-direction: row-reverse;
