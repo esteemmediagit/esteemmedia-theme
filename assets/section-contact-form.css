@@ -13,6 +13,22 @@
 .contact .field {
   margin-bottom: 1.5rem;
 }
+.form-box {
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+.contact-wrap {
+    display: flex;
+}
+.form-box {
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+.contact-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 @media screen and (min-width: 750px) {
   .contact .field {
