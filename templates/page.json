@@ -106,23 +106,23 @@
         "16507037198d3112ab-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h4"
+            "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "heading_size": "h3"
           }
         },
         "16507037198d3112ab-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "body_size": "pthree",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.<\/p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.<\/p>",
+            "body_size": "pone",
             "text_style": "body"
           }
         },
         "16507037198d3112ab-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "CLICK HERE",
+            "button_link": "#"
           }
         }
       },
