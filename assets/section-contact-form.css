@@ -22,6 +22,24 @@ h4.address-bar.h4 {
     line-height: 24px;
     color: #1d1d1d;
 }
+.form-box label.field__label {
+    color: rgb(55, 58, 60);
+    font-size: 16px;
+    font-weight: 500;
+    top: 11px;
+}
+.form-box .field > input {
+    border: 2px solid #D5D5D5;
+    padding: 8px 16px;
+    height: 41px;
+}
+.form-box .contact .field:before, .form-box .contact .field:after {
+    display: none;
+}
+.form-box .field textarea#ContactForm-body{
+border: 2px solid #D5D5D5;
+    padding: 8px 16px;
+}
 .contact-wrap {
     display: flex;
 }
