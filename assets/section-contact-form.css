@@ -21,7 +21,7 @@
     flex: 0 0 60%;
     max-width: 60%;
     padding: 25px 10px 40px 80px;
-    border-left: 1px solid #000;
+    border-left: 2px solid #000;
 }
 .contact-wrap {
     display: flex;
@@ -31,7 +31,7 @@
 .address-box{
     flex: 0 0 40%;
    padding: 25px 10px 40px 10px;
-    border-right: 1px solid #000;
+   
     max-width: 40%;
 }
 
