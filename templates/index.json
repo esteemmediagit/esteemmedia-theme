@@ -144,7 +144,7 @@
       "type": "product-grid",
       "settings": {
         "title": "LOREM IPSUM 23PX",
-        "heading_size": "h1",
+        "heading_size": "h5",
         "description": "",
         "show_description": false,
         "description_style": "body",
