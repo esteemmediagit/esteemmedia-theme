@@ -50,7 +50,7 @@
         {%- for block in section.blocks -%}
           {% case block.type %}
             {%- when 'heading' -%}
-              <h4 class="image-with-text__heading h3" {{ block.shopify_attributes }}>
+              <h4 class="image-with-text__heading h4" {{ block.shopify_attributes }}>
                 {{ block.settings.heading  }}
               </h4>
             {%- when 'caption' -%}
