@@ -16,3 +16,7 @@ padding: 0px !important;
 .video-section-about {
     PADDING: 30PX;
 }
+.video-sections.image-with-text .image-with-text__grid {
+    align-content: center;
+    align-items: center;
+}
