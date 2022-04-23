@@ -33,7 +33,7 @@ h4.address-bar.h4 {
     padding: 8px 16px;
     height: 41px;
 }
-.form-box .contact .field:before, .form-box .contact .field:after {
+.contact .field:before,  .contact .field:after {
     display: none;
 }
 .form-box .field textarea#ContactForm-body{
