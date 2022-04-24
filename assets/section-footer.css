@@ -718,3 +718,23 @@ noscript .localization-selector.link {
     padding-bottom: 0px;
 }
 }
+@media only screen and (max-width: 650px) {
+.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet .footer-block.grid__item {
+    width: 100%!important;
+}
+.logo-desc {
+    text-align: center;
+}
+h2.footer-block__heading {
+    text-align: center;
+}
+.footer-block.grid__item.footer-block--menu ul.footer-block__details-content.list-unstyled li a {
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+.footer-block__newsletter .newsletter-desc {
+    text-align: center;
+}
+}
