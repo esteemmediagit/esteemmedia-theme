@@ -367,6 +367,10 @@
   margin-top: 0;
   margin-bottom: 1rem;
 }
+.left-less-padding .image-with-text__text-item.grid__item {
+    align-content: center;
+    align-self: center;
+}
 
 /* check for flexbox gap in older Safari versions */
 @supports not (inset: 10px) {
@@ -374,3 +378,5 @@
     margin-left: 0;
   }
 }
+
+ 
