@@ -3035,4 +3035,10 @@ details-disclosure > details {
     height: 61px;
     width: auto;
 }
+    .header__icon--menu[aria-expanded=true]:before {
+  
+    top: calc(100% + 14px);
+ 
+    background: rgba(0,0,0,0.5);
+}
   }
