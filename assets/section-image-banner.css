@@ -436,3 +436,8 @@
 .banner__box > * + .banner__buttons {
   margin-top: 2rem;
 }
+ @media only screen and (max-width: 650px) {
+  .banner__box {
+    padding: 4rem 20px;
+}
+}
