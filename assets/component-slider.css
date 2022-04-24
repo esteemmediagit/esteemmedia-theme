@@ -374,4 +374,7 @@ slider-component.slider-component-full-width {
     margin: 0px !important;
     width: 100% !important;
 }
+  .section.feature-collection .color-background-1.isolate.gradient {
+    padding: 0 15px;
+}
 }
