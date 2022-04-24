@@ -3044,7 +3044,7 @@ details-disclosure > details {
     
     h1,
 .h1 {
-  font-size: calc(var(--font-heading-scalea) * 2rem);
+  font-size: calc(var(--font-heading-scalea) * 3rem);
 }
 
 
