@@ -1258,7 +1258,7 @@ quick-add-modal.quick-add-modal button.shopify-payment-button__button {
 quick-add-modal.quick-add-modal button.product-form__submit.button.button--full-width.button--secondary{
     width: 100%;
     min-width: unset!important;
-    max-width: 242px;
+    max-width: 100%;
     background-color: #000;
     color: #fff;
     border: 1px solid #000;
