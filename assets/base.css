@@ -3075,7 +3075,7 @@ details-disclosure > details {
       font-size: calc(var(--font-heading-scaled) * 1.4rem);
         }
   h5, .h5 {
-  font-size: calc(var(--font-heading-scalee) * 1.7rem);
+  font-size: calc(var(--font-heading-scalee) * 1.5rem);
 }
   
   .header__icons a.white-btn.button.button--primary {
