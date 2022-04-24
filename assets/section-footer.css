@@ -682,3 +682,11 @@ noscript .localization-selector.link {
     }
   }
 }
+
+
+@media only screen and (max-width: 1050px) {
+.footer__content-top.page-width {
+   
+    padding: 50px 20px 15px;
+}
+}
