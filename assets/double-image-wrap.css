@@ -23,6 +23,7 @@
     line-height: 24px;
     margin-bottom: 10px;
 }
+
 .imgae-wraps-out a.button.button--primary {
 margin-left: auto;
     margin-right: auto;
@@ -57,4 +58,11 @@ margin-top: 14px;
 .section.double-image-wrap .full-width-wrap.text-left .imgae-wraps-out a.button.button--primary {
     margin-left: 0;
    
+}
+
+
+@media only screen and (max-width: 1200px) {
+.double-image-wrap .image-with-text__text.rte.body {
+    width: 100%;
+}
 }
