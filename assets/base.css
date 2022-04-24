@@ -2635,6 +2635,13 @@ details[open] .modal-overlay::after {
     padding: 0 6rem;
   }
 }
+  @media only screen and (min-width: 767px) {  
+  .grid--4-col-desktop .grid__item {
+    width: calc(50% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+    max-width: calc(50% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+  }
+  
+}
 
 @media screen and (min-width: 990px) {
   .search-modal__form {
@@ -3022,13 +3029,7 @@ details-disclosure > details {
   font-weight: var(--font-body-weight-bold);
 }
 
-@media only screen and (min-width: 767px) {  
-  .grid--4-col-desktop .grid__item {
-    width: calc(50% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
-    max-width: calc(50% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
-  }
-  
-}
+
   
 @media only screen and (max-width: 850px) {
   .header {
