@@ -3023,50 +3023,32 @@ details-disclosure > details {
 
   
   
-  @media only screen and (max-width: 850px) {
-   
-.header {
-   
-    grid-template-areas: "heading icons left-icon";
-    grid-template-columns: 1fr 2fr auto;
-}
+@media only screen and (max-width: 850px) {
+    .header {
+      grid-template-areas: "heading icons left-icon";
+      grid-template-columns: 1fr 2fr auto;
+    }
     .header__heading-logo {
-   
-    height: 61px;
-    width: auto;
-}
+      height: 61px;
+      width: auto;
+    }
     .header__icon--menu[aria-expanded=true]:before {
-  
-    top: calc(100% + 14px);
- 
-    background: rgba(0,0,0,0.5);
-}
-    
-    h1,
-.h1 {
-  font-size: calc(var(--font-heading-scalea) * 2.8rem);
-}
+      top: calc(100% + 14px);
+      background: rgba(0,0,0,0.5);
+    }
 
+    h1,.h1 {
+      font-size: calc(var(--font-heading-scalea) * 2.8rem);
+        }
+    h2, .h2 {
+      font-size: calc(var(--font-heading-scaleb) * 2.73rem);
+        }
+    h3, .h3 {
+      font-size: calc(var(--font-heading-scalec) * 1.82rem);
+        }
+    h4, .h4 {
+      font-size: calc(var(--font-heading-scaled) * 1.7rem);
+        }
 
-h2,
-.h2 {
-  font-size: calc(var(--font-heading-scaleb) * 2.73rem);
-}
-
-h3,
-.h3 {
-  font-size: calc(var(--font-heading-scalec) * 1.82rem);
-}
-
-h4,
-.h4 {
- 
-  font-size: calc(var(--font-heading-scaled) * 1.7rem);
-}
-
-h5,
-.h5 {
-  font-size: calc(var(--font-heading-scalee) * 2rem);
-}
 
   }
