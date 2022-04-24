@@ -1,3 +1,9 @@
+section.shopify-section.section.feature-collection .card-wrapper.underline-links-hover {
+    border-radius: 0px !important;
+}
+section.shopify-section.section.feature-collection ul.grid.product-grid.contains-card.contains-card--standard {
+    row-gap: 20px;
+ }
 section.shopify-section.section.feature-collection slider-component.slider-mobile-gutter.page-width.slider-component-desktop {
     max-width: 1200px;
 }
