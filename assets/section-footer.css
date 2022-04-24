@@ -693,7 +693,7 @@ noscript .localization-selector.link {
     background-position: left top 8px;
  
 }
-  .newsletter-form__field-wrapper label.field__label {
+  .footer-block__newsletter .newsletter-form__field-wrapper label.field__label {
     top: 8px;
  }
 }
