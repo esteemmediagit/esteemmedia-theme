@@ -377,4 +377,10 @@ slider-component.slider-component-full-width {
   .section.feature-collection .color-background-1.isolate.gradient {
     padding: 0 15px;
 }
+  .section.feature-collection .color-background-1.isolate.gradient .collection {
+    padding-top: 15px;
+}
+.section.feature-collection .color-background-1 .collection__title.title-wrapper {
+    padding: 0px;
+}
 }
