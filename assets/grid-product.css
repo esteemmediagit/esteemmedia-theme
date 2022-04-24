@@ -165,3 +165,8 @@ a.grid-product-link {
     color: #fff;
     border-color: #fff;
 }
+.product-grid-li .card-wrapper.underline-links-hover:hover  .card__content_ahover a.grid-product-link:hover {
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+}
