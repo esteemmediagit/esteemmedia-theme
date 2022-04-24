@@ -41,3 +41,9 @@ ul.logo-box.testimonial-slider ul.slick-dots li {
     border-radius: 100%;
 opacity: .2;
 }
+@media only screen and (max-width: 850px) {
+.testimonial-wraps.color-.isolate.gradient.testimonal-row {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+}
