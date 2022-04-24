@@ -83,4 +83,8 @@ margin-top: 14px;
 .double-image-wrap .full-width-wrap h4.image-with-text__heading.h4 br {
     display: none;
 }
+  .double-image-wrap .button.button--primary {
+    font-size: 15px;
+    padding: 10px 20px;
+}
 }
