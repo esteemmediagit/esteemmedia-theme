@@ -72,3 +72,15 @@ margin-top: 14px;
     width: 49.9%;
 }
 }
+
+@media only screen and (max-width: 850px) {
+.double-image-wrap .full-width-wrap .imgae-wraps-out a.button.button--primary {
+    margin-top: 0px;
+}
+.double-image-wrap .full-width-wrap .image-with-text__text.rte.body {
+    margin-top: 6px;
+}
+.double-image-wrap .full-width-wrap h4.image-with-text__heading.h4 br {
+    display: none;
+}
+}
