@@ -200,8 +200,8 @@ ul.product-slider.product-sliders.slick-initialized.slick-slider.slick-dotted {
 
 @media only screen and (max-width: 650px) {
 .class-Name.top-product-hover>div {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
   a.view-allproduct {
     font-size: 18px;
