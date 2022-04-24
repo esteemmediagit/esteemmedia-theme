@@ -239,3 +239,9 @@ slideshow-component:not(.page-width) .slider-buttons {
   opacity: 0;
   transform: scale(.8)
 }
+
+@media only screen and (max-width: 1100px) {
+.slideshow__text-wrapper.banner__content {
+    padding: 6rem;
+}
+}
