@@ -3055,7 +3055,7 @@ h2,
 
 h3,
 .h3 {
-  font-size: calc(var(--font-heading-scalec) * 2rem);
+  font-size: calc(var(--font-heading-scalec) * 1.7rem);
 }
 
 h4,
