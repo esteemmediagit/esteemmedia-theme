@@ -245,3 +245,22 @@ slideshow-component:not(.page-width) .slider-buttons {
     padding: 6rem;
 }
 }
+@media only screen and (max-width: 650px) {
+.slideshow__text-wrapper.banner__content {
+    padding: 1.3rem;
+    text-align: center;
+}
+  .slideshow__text.slideshow__text-mobile--left {
+    align-items: flex-start;
+    text-align: center;
+}
+.slideshow__text.banner__box h3.banner__heading.sub-heading.h3 {
+    width: 100%;
+}
+.slideshow__text.banner__box.content-container .banner__buttons {
+    margin: 2rem auto 0;
+}
+.slideshow__slide.grid__item.grid--1-col.slider__slide {
+    flex-direction: column-reverse;
+}
+}
