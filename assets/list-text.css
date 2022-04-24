@@ -6,6 +6,17 @@
 .rich-text-left p.pthree {
     letter-spacing: 0px;
 }
+.rich-text__blocks.lsit-block > div {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.rich-text-list.top-section.isolate .rich-text-left {
+    padding-right: 29px;
+    padding-left: 0px;
+}
+.rich-text-list.top-section.isolate .rich-text-right {
+    padding-left: 1px;
+}
 .lsit-block .block-iner h5 {
     display: flex;
     width: 100%;
