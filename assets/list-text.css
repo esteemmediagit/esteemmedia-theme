@@ -140,4 +140,7 @@
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
+ .rich-text-list.double-richs.isolate h5.h5 {
+    font-size: 18px;
+}
 }
