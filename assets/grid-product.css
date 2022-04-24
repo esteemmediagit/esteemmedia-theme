@@ -170,3 +170,10 @@ a.grid-product-link {
     color: #fff;
     text-decoration: none;
 }
+@media only screen and (max-width: 1201px) {
+
+.class-Name.top-product-hover > div {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+}
