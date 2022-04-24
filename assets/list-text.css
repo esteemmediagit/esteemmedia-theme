@@ -144,3 +144,20 @@
     font-size: 18px;
 }
 }
+@media only screen and (max-width: 650px) {
+.rich-text__blocks.lsit-block {
+    flex-direction: column;
+}
+.rich-text__blocks.lsit-block>div {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    padding: 0px 15px !important;
+}
+.lsit-block .rich-text-left {
+    text-align: center;
+}
+.rich-text-list.top-section.isolate .rich-text-right .block-iner h5.h5 {
+    font-size: 17px;
+    letter-spacing: 0px;
+}
+}
