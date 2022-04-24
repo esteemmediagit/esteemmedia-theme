@@ -327,6 +327,13 @@ ul.multicolumn-list.contains-content-container {
 ul.multicolumn-list.contains-content-container {
     margin-top: 0px;
 }
+   .class-name.after-grid.multicolumn a.link.underlined-link.large-up-hide {
+    display: none;
+}
+   .class-name.after-grid.multicolumn .center.small-hide.medium-hide {
+    display: block!important;
+    margin-top: 26px;
+}
 }
 
 
