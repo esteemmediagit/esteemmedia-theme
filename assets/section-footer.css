@@ -706,6 +706,7 @@ noscript .localization-selector.link {
 .footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet .footer-block.grid__item {
     width: 50% !important;
     justify-content: center;
+  margin-bottom: 30px;
 }
 .footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet .footer-block.grid__item .footer-block.grid__item.footer-block--newsletter {
     width: 100% !important;
@@ -713,5 +714,7 @@ noscript .localization-selector.link {
 .footer__column.footer__column--info {
     flex-direction: column-reverse;
 }
-
+  .footer-block__details-content .list-menu__item--link {
+    padding-bottom: 0px;
+}
 }
