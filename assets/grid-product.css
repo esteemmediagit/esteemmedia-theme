@@ -206,4 +206,7 @@ ul.product-slider.product-sliders.slick-initialized.slick-slider.slick-dotted {
   a.view-allproduct {
     font-size: 18px;
  }
+  .collection .slider--tablet.product-grid {
+    scroll-padding-left: 0rem;
+}
 }
