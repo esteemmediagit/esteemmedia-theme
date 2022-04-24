@@ -160,4 +160,10 @@
     font-size: 17px;
     letter-spacing: 0px;
 }
+  .rich-text-list.double-richs.isolate .rich-text__blocks.lsit-block.heading {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
 }
