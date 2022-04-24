@@ -1,3 +1,8 @@
+.blog.color-background-1.gradient .card.article-card p.article-card__excerpt.rte-width {
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
 .blog-placeholder {
   margin: 0 1.5rem;
   background: rgb(var(--color-background));
