@@ -367,3 +367,11 @@ slider-component.slider-component-full-width {
 .slider-button--prev:not([disabled]):hover .icon {
   transform: rotate(90deg) scale(1.1);
 }
+
+  
+@media only screen and (max-width: 650px) {  
+  section.shopify-section.section.feature-collection ul.grid.product-grid.contains-card.contains-card--standard li.grid__item.slider__slide {
+    margin: 0px !important;
+    width: 100% !important;
+}
+}
