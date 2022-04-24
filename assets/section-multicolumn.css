@@ -349,6 +349,9 @@ ul.multicolumn-list.contains-content-container.grid.grid--1-col-tablet-down.grid
 .class-name.after-grid.multicolumn a.link.underlined-link.large-up-hide {
     display: none;
 }
+   .class-name.after-grid ul.multicolumn-list.contains-content-container.grid.grid--1-col-tablet-down.grid--4-col-desktop.slider.slider--mobile.grid--peek {
+    scroll-padding-left: 0;
+}
  }
 
 
