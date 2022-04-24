@@ -2,6 +2,9 @@
 {{ 'double-image-wrap.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
+#shopify-section-{{ section.id }}{
+background: {{ section.settings.color_bg }};
+}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
@@ -78,6 +81,12 @@
       "id": "image",
       "label": "t:sections.image-with-text.settings.image.label"
     },
+{
+  "type": "color",
+  "id": "color_bg",
+  "label": "Background color wrapper",
+  "default": "#fff"
+},
 {
           "type": "text",
           "id": "class",
