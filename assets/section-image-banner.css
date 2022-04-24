@@ -440,4 +440,7 @@
   .banner__box {
     padding: 4rem 20px;
 }
+   h3.banner__heading.sub-heading.h3 {
+    letter-spacing: 0px;
+}
 }
