@@ -1262,4 +1262,7 @@ a.product__text {
     align-content: center;
     align-items: center;
 }
+    .section-featured-product .page-width {
+    padding: 3.9rem 15px;
+}
 }
