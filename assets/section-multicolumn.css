@@ -353,6 +353,10 @@ ul.multicolumn-list.contains-content-container.grid.grid--1-col-tablet-down.grid
     scroll-padding-left: 0;
      padding: 0px;
 }
+   .bg-cream.forth.multicolumn.color-background-1.gradient.background-none {
+    padding-left: 15px;
+    padding-right: 15px;
+}
  }
 
 
