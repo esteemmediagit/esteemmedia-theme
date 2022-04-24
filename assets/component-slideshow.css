@@ -4,9 +4,7 @@ slideshow-component.slider-mobile-gutter.mobile-text-below .slideshow__controls.
     z-index: 99;
     width: 100%;
 }
-.slideshow.banner.banner--medium h3.banner__heading.sub-heading.h3 {
-    margin-bottom: 31px;
-}
+
 .slideshow__controls button.slider-button svg {
     height: 12px;
 }
