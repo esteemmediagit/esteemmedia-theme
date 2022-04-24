@@ -1,3 +1,8 @@
+.rich-text-list.double-richs.isolate .lsit-block span.border {
+  
+    width: 14rem!important;
+   
+}
 .lsit-block .block-iner h5 {
     display: flex;
     width: 100%;
