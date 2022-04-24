@@ -67,3 +67,13 @@
 .rich-text__blocks > * + a {
   margin-top: 3rem;
 }
+
+@media only screen and (max-width: 1050px) {
+.lsit-block .block-iner h5 {
+    flex-wrap: nowrap;
+ }
+.rich-text-list.double-richs.isolate .lsit-block span.border {
+    width: 4rem!important;
+}
+}
+}
