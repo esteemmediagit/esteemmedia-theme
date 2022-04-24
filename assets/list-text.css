@@ -130,5 +130,6 @@
   .rich-list.double-rich .rich-text__blocks.lsit-block>div.rich-text-right {
     max-width: 50%;
     flex: 0 0 50%;
+    padding-right: 15px;
 }
 }
