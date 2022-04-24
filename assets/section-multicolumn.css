@@ -317,3 +317,9 @@ ul.multicolumn-list.contains-content-container {
     display: list-item;
   }
 }
+
+@media screen and (max-width: 1201px) {
+.multicolumn-card__info p br {
+    display: none;
+}
+}
