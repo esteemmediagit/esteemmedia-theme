@@ -3069,7 +3069,7 @@ details-disclosure > details {
       font-size: calc(var(--font-heading-scaleb) * 1.73rem);
         }
     h3, .h3 {
-      font-size: calc(var(--font-heading-scalec) * 1.6rem);
+      font-size: calc(var(--font-heading-scalec) * 1.5rem);
         }
     h4, .h4 {
       font-size: calc(var(--font-heading-scaled) * 1rem);
