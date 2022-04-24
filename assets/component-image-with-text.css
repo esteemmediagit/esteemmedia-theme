@@ -384,11 +384,19 @@
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
+  padding-bottom: 20px;
 }
   .left-less-padding .image-with-text__content h4.image-with-text__heading.h4 {
     width: 100%;
 }
   .left-less-padding a.button.button--primary {
-    margin: 0 auto;
+    margin: 20px auto 0px;
+}
+  .left-less-padding.image-with-text {
+    padding-top: 0px;
+    padding-bottom: 0rem;
+}
+  .left-less-padding.second-wrap .image-with-text__content {
+    padding: 30px 15px 0px;
 }
 }
