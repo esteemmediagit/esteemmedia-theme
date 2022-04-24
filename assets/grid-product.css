@@ -216,3 +216,8 @@ ul.product-slider.product-sliders.slick-initialized.slick-slider.slick-dotted {
     border: none;
 } 
 }
+@media only screen and (max-width: 350px) {
+.class-Name.top-product-hover .collection__title.title-wrapper.title-wrapper--no-top-margin.page-width {
+    flex-direction: column;
+}
+}
