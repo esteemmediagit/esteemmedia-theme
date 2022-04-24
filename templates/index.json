@@ -144,6 +144,7 @@
       "type": "product-grid",
       "settings": {
         "title": "LOREM IPSUM 23PX",
+        "class-name": "class-Name",
         "heading_size": "h5",
         "description": "",
         "show_description": false,
@@ -219,6 +220,7 @@
       ],
       "settings": {
         "title": "LOREM IPSUM 38PX",
+        "color_bg": "#fff",
         "class": "class-name",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         "body_size": "pone",
@@ -244,7 +246,7 @@
         "16501092773fe54991-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker2.jpg",
+            "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker3.jpg",
             "title": "LOREM IPSUM 23PX",
             "text": "<p>Lorem ipsum dolor sit amet, <br>consectetur adipiscingelit. Duis ac <br>ipsum dolor sit amet consectetur<\/p>",
             "link_label": "Learn More",
@@ -254,7 +256,7 @@
         "16501092773fe54991-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker2.jpg",
+            "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker3.jpg",
             "title": "LOREM IPSUM 23PX",
             "text": "<p>Lorem ipsum dolor sit amet, <br>consectetur adipiscingelit. Duis ac <br>ipsum dolor sit amet consectetur<\/p>",
             "link_label": "Learn More",
@@ -264,7 +266,7 @@
         "16501092773fe54991-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker2.jpg",
+            "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker3.jpg",
             "title": "LOREM IPSUM 23PX",
             "text": "<p>Lorem ipsum dolor sit amet, <br>consectetur adipiscingelit. Duis ac <br>ipsum dolor sit amet consectetur<\/p>",
             "link_label": "Learn More",
@@ -274,7 +276,7 @@
         "72a207d7-d194-4272-9f8b-359bd468f088": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker2.jpg",
+            "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker3.jpg",
             "title": "LOREM IPSUM 23PX",
             "text": "<p>Lorem ipsum dolor sit amet, <br>consectetur adipiscingelit. Duis ac <br>ipsum dolor sit amet consectetur<\/p>",
             "link_label": "Learn More",
@@ -290,6 +292,7 @@
       ],
       "settings": {
         "title": "LOREM IPSUM 38PX",
+        "color_bg": "#fff",
         "class": "bg-cream",
         "description": "",
         "body_size": "pthree",
@@ -951,6 +954,7 @@
       ],
       "settings": {
         "title": "",
+        "color_bg": "#fff",
         "class": "multicolum-logo",
         "description": "",
         "body_size": "pthree",
