@@ -1129,7 +1129,7 @@
     "165047860022bf245b": {
       "type": "featured-blog",
       "settings": {
-        "heading": "Blog posts",
+        "heading": "Blog Posts",
         "heading_size": "h2",
         "blog": "news",
         "post_limit": 3,
