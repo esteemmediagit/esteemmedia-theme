@@ -188,9 +188,7 @@ ul.product-slider.product-sliders.slick-initialized.slick-slider.slick-dotted {
 .class-Name.top-product-hover ul.grid.product-grid.contains-card {
     row-gap: 19px;
 }
-  .class-Name.top-product-hover slider-component.grid-product-wrap{
-
-  slider-component.grid-product-wrap.slider-mobile-gutter.page-width.page-width-desktop {
+ .class-Name.top-product-hover slider-component.grid-product-wrap {
     padding-left: 0px;
     padding-right: 0px;
 }
