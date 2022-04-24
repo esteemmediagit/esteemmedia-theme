@@ -1,3 +1,6 @@
+.slideshow__controls.slider-buttons.no-js-hidden.slideshow__controls--border-radius-mobile {
+    border: none !important;
+}
 slideshow-component.slider-mobile-gutter.mobile-text-below .slideshow__controls.slider-buttons.no-js-hidden.slideshow__controls--border-radius-mobile {
     position: absolute;
     top: 50% !important;
