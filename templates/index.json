@@ -765,7 +765,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker5.jpg",
-        "class": "full-width-wrap text-left first",
+        "class": "full-width-wrap text-left fifty",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -810,7 +810,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker5.jpg",
-        "class": "full-width-wrap second text-left",
+        "class": "full-width-wrap second text-left fifty",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
