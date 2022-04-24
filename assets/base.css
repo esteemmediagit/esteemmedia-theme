@@ -3050,7 +3050,7 @@ details-disclosure > details {
 
 h2,
 .h2 {
-  font-size: calc(var(--font-heading-scaleb) * 3rem);
+  font-size: calc(var(--font-heading-scaleb) * 2.7rem);
 }
 
 h3,
