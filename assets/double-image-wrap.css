@@ -87,4 +87,9 @@ margin-top: 14px;
     font-size: 15px;
     padding: 10px 20px;
 }
+  .section.double-image-wrap .full-width-wrap.text-left .imgae-wraps-out .image-with-text__text-item.grid__item .image-with-text__content {
+    width: 100%;
+    padding-left: 14px;
+    padding-right: 14px;
+}
 }
