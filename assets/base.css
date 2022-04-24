@@ -3050,5 +3050,6 @@ details-disclosure > details {
       font-size: calc(var(--font-heading-scaled) * 1.7rem);
         }
 
-
+  p br{
+  display:none;}
   }
