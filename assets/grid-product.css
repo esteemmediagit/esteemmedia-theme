@@ -197,3 +197,13 @@ ul.product-slider.product-sliders.slick-initialized.slick-slider.slick-dotted {
     padding-right: 12px;
 }
   }
+
+@media only screen and (max-width: 650px) {
+.class-Name.top-product-hover>div {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+  a.view-allproduct {
+    font-size: 18px;
+ }
+}
