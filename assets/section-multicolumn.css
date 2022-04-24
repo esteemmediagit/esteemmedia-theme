@@ -1,6 +1,11 @@
 .multicolumn-two-col.multicolumn.color-background-2.gradient.background-none {
     background: #e7e7e7;
 }
+ul.multicolumn-list.contains-content-container {
+  
+    PADDING-LEFT: 4PX;
+    PADDING-RIGHT: 4PX;
+}
 .multicolum-logo .multicolumn-card.content-container .media.media--transparent.media--adapt img {
     width: 120px !important;
     height: 120px;
