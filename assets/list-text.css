@@ -113,8 +113,6 @@
 }
 
 @media only screen and (max-width: 1050px) {
-
-
   .rich-text-list.top-section.isolate .rich-text-right {
     padding-left: 1px;
     padding-right: 15px;
@@ -133,8 +131,13 @@
     padding-right: 15px;
 }
   .rich-text-list.double-richs.isolate .rich-text__blocks.lsit-block.heading {
-   
     padding-left: 20px;
     padding-right: 20px;
+}
+}
+@media only screen and (max-width: 850px) {
+.rich-text-list.double-richs.isolate .rich-text.content-container.bg-cream {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 }
