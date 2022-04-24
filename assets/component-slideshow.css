@@ -263,4 +263,7 @@ slideshow-component:not(.page-width) .slider-buttons {
 .slideshow__slide.grid__item.grid--1-col.slider__slide {
     flex-direction: column-reverse;
 }
+  slideshow-component.slider-mobile-gutter.mobile-text-below .slideshow__controls.slider-buttons.no-js-hidden.slideshow__controls--border-radius-mobile {
+    top: 53%!important;
+ }
 }
