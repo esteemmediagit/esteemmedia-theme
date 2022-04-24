@@ -323,3 +323,8 @@ ul.multicolumn-list.contains-content-container {
     display: none;
 }
 }
+ @media only screen and (max-width: 850px) {
+ul.multicolumn-list.contains-content-container {
+    margin-top: 0px;
+}
+}
