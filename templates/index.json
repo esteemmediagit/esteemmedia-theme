@@ -235,7 +235,7 @@
         "view_all_style": "solid",
         "color_scheme": "background-2",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 96,
         "padding_bottom": 92
       }
