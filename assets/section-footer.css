@@ -697,3 +697,23 @@ noscript .localization-selector.link {
     top: 8px;
  }
 }
+@media only screen and (max-width: 850px) {
+h2.footer-block__heading {
+    text-align: center;
+}
+.footer__content-bottom-wrapper.page-width {
+    margin-top: -30px;
+    padding: 0 15px 15px;
+}
+.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet .footer-block.grid__item {
+    width: 50% !important;
+    justify-content: center;
+}
+.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet .footer-block.grid__item .footer-block.grid__item.footer-block--newsletter {
+    width: 100% !important;
+}
+.footer__column.footer__column--info {
+    flex-direction: column-reverse;
+}
+
+}
