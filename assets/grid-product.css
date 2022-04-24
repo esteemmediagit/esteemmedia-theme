@@ -152,8 +152,16 @@ a.grid-product-link {
   text-decoration: none;
 }
 .card__content_bhover span.caption-large.light.description,  .card__content_bhover h3.card__heading{
-  color: #000;
+  color: #fff;
 }
 .card__content_ahover span.caption-large.light.description,  .card__content_ahover h3.card__heading{
-  color: #fff;
+  color: #000;
+}
+.card__content_ahover a.grid-product-link {
+    color: #000;
+    border-color: #000;
+}
+.card__content_ahover a.grid-product-link:hover {
+    color: #fff;
+    border-color: #fff;
 }
