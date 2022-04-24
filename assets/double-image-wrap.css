@@ -65,4 +65,7 @@ margin-top: 14px;
 .double-image-wrap .image-with-text__text.rte.body {
     width: 100%;
 }
+  .imgae-wraps-out .image-with-text__text-item.grid__item {
+    width: 49.9%;
+}
 }
