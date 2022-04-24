@@ -209,4 +209,7 @@ ul.product-slider.product-sliders.slick-initialized.slick-slider.slick-dotted {
   .collection .slider--tablet.product-grid {
     scroll-padding-left: 0rem !important;
 }
+  ul.grid.product-grid.contains-card.contains-card--standard.grid--4-col-desktop.grid--1-col-tablet-down.slider.slider--tablet.grid--peek li.product-grid-li.grid__item.slider__slide {
+    width: 100%;
+}
 }
