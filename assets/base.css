@@ -3030,5 +3030,9 @@ details-disclosure > details {
     grid-template-areas: "heading icons left-icon";
     grid-template-columns: 1fr 2fr auto;
 }
-    
+    .header__heading-logo {
+   
+    height: 61px;
+    width: auto;
+}
   }
