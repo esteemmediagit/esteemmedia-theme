@@ -439,6 +439,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker4.jpg",
+        "color_bg": "#faf7f5",
         "class": "full-width-wrap",
         "height": "adapt",
         "desktop_image_width": "large",
@@ -484,6 +485,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker4.jpg",
+        "color_bg": "#faf7f5",
         "class": "full-width-wrap second",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -765,6 +767,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker5.jpg",
+        "color_bg": "#fff",
         "class": "full-width-wrap text-left fifty",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -810,6 +813,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker5.jpg",
+        "color_bg": "#fff",
         "class": "full-width-wrap second text-left fifty",
         "height": "adapt",
         "desktop_image_width": "medium",
