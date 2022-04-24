@@ -1194,8 +1194,8 @@
         "columns_desktop": 1,
         "enable_desktop_slider": true,
         "carousel_arrows": false,
-        "columns_ipad": 4,
-        "columns_mobile": "2",
+        "columns_ipad": 1,
+        "columns_mobile": "1",
         "swipe_on_mobile": false
       }
     },
