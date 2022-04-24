@@ -213,5 +213,6 @@ ul.product-slider.product-sliders.slick-initialized.slick-slider.slick-dotted {
     width: 100%;
 }
   ul.grid.product-grid.slider.slider--tablet.grid--peek li.product-grid-li.grid__item.slider__slide .card-wrapper.underline-links-hover {
-    border: 
+    border: none;
+} 
 }
