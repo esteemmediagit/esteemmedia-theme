@@ -3060,9 +3060,8 @@ h3,
 
 h4,
 .h4 {
-  font-family: var(--font-heading-familyd);
-  font-style: var(--font-heading-styled);
-  font-size: calc(var(--font-heading-scaled) * 2rem);
+ 
+  font-size: calc(var(--font-heading-scaled) * 1.7rem);
 }
 
 h5,
