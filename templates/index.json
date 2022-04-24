@@ -221,7 +221,7 @@
       "settings": {
         "title": "LOREM IPSUM 38PX",
         "color_bg": "#ffffff",
-        "class": "class-name",
+        "class": "class-name after-grid",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         "body_size": "pone",
         "heading_size": "h2",
@@ -293,7 +293,7 @@
       "settings": {
         "title": "LOREM IPSUM 38PX",
         "color_bg": "#ffffff",
-        "class": "bg-cream",
+        "class": "bg-cream forth",
         "description": "",
         "body_size": "pthree",
         "heading_size": "h2",
