@@ -114,5 +114,8 @@
 .newsletter.center .newsletter__wrapper .field.news-inout label.field__label {
     top: 8px;
 }
-
+.newsletter__wrapper.color-background-1.gradient.content-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 }
