@@ -385,4 +385,10 @@
     padding-right: 15px;
     text-align: center;
 }
+  .left-less-padding .image-with-text__content h4.image-with-text__heading.h4 {
+    width: 100%;
+}
+  .left-less-padding a.button.button--primary {
+    margin: 0 auto;
+}
 }
