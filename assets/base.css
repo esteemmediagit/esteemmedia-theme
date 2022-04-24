@@ -3059,3 +3059,9 @@ details-disclosure > details {
   p br, span br{
   display:none;}
   }
+  
+@media only screen and (max-width: 650px) {  
+  .header__icons a.white-btn.button.button--primary {
+    display: none;
+}
+}
