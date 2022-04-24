@@ -171,4 +171,13 @@
 .rich-text-list.double-richs.isolate h5.h5 {
     font-size: 16px;
 }
+  
+}
+@media only screen and (max-width: 350px) {
+.rich-text-list.top-section.isolate .rich-text-right .block-iner h5.h5 {
+    font-size: 16px;
+}
+.rich-text-list.double-richs.isolate h5.h5 {
+    font-size: 15px;
+}
 }
