@@ -177,3 +177,9 @@ a.grid-product-link {
     padding-right: 30px;
 }
 }
+
+@media only screen and (max-width: 1050px) {
+ul.product-slider.product-sliders.slick-initialized.slick-slider.slick-dotted {
+    padding-left: 0px;
+}
+}
