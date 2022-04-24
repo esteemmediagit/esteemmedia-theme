@@ -113,6 +113,10 @@
 @media only screen and (max-width: 1050px) {
 
 .rich-text-list.double-richs.isolate .lsit-block span.border {
-    width: 4rem!important;
+    width: 2rem!important;
+}
+  .lsit-block span.border { 
+    flex: 0 0 2rem; 
+    width: 2rem!important;
 }
 }
