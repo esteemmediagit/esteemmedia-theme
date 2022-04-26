@@ -97,3 +97,16 @@ form#ContactForm button.button {
     min-height: 41px;
     line-height: 41px;
 }
+@media only screen and (max-width: 650px) {  
+
+.contact.page-width .contact-wrap > div {
+    padding: 0px !important;
+    flex: 0 0 100%;
+    max-width: 100% !important;
+    border: none;
+    margin-bottom: 27px;
+}
+  .contact.page-width .contact-wrap {
+    flex-direction: column;
+}
+}
