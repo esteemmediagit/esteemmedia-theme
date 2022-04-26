@@ -217,6 +217,12 @@ ul.product-slider.product-sliders.slick-initialized.slick-slider.slick-dotted {
     padding-left: 20px;
     padding-right: 20px;
 }
+  .three-column-product ul.grid.product-grid.grid--3-col-desktop .product-grid-li .card__media, .card__content_bhover, .card__content_ahover {
+    height: 300px;
+}
+.three-column-product ul.grid.product-grid.grid--3-col-desktop .card__content_bhover.card__inner.color-background-2.gradient.ratio, .three-column-product ul.grid.product-grid.grid--3-col-desktop.grid--2-col-tablet-down .card__media {
+    height: 300px;
+}
   a.view-allproduct {
     font-size: 18px;
  }
