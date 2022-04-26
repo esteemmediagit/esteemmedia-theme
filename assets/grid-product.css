@@ -203,6 +203,13 @@ ul.product-slider.product-sliders.slick-initialized.slick-slider.slick-dotted {
     padding-left: 20px;
     padding-right: 20px;
 }
+  .three-column-product ul.grid.product-grid.grid--3-col-desktop .card-wrapper.underline-links-hover {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+  .three-column-product ul.grid.product-grid.grid--3-col-desktop .product-grid-li .card.card--standard.card--media {
+    height: 392px;
+}
   }
 
 @media only screen and (max-width: 650px) {
