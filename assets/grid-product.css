@@ -226,6 +226,9 @@ ul.product-slider.product-sliders.slick-initialized.slick-slider.slick-dotted {
   a.view-allproduct {
     font-size: 18px;
  }
+  .three-column-product ul.grid.product-grid.grid--3-col-desktop .product-grid-li .card.card--standard.card--media {
+    height: 300px;
+}
   .collection .slider--tablet.product-grid {
     scroll-padding-left: 0rem !important;
 }
