@@ -379,6 +379,12 @@
   }
 }
 
+@media only screen and (max-width: 1050px) { 
+.simple-image-section .image-with-text__grid>div {
+    padding: 15px;
+}
+}
+
 @media only screen and (max-width: 650px) { 
 .left-less-padding .image-with-text__content {
     padding-left: 15px;
