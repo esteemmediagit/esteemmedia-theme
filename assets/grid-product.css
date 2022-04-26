@@ -199,6 +199,10 @@ ul.product-slider.product-sliders.slick-initialized.slick-slider.slick-dotted {
     padding-left: 7px;
     padding-right: 12px;
 }
+  .three-column-product.color-background-2 slider-component.grid-product-wrap.slider-mobile-gutter.page-width.page-width-desktop {
+    padding-left: 20px;
+    padding-right: 20px;
+}
   }
 
 @media only screen and (max-width: 650px) {
