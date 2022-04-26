@@ -182,6 +182,9 @@ a.grid-product-link {
 ul.product-slider.product-sliders.slick-initialized.slick-slider.slick-dotted {
     padding-left: 0px;
 }
+  .three-column-product ul.grid.product-grid.grid--3-col-desktop .card__content_bhover.card__inner.color-background-2.gradient.ratio, .three-column-product ul.grid.product-grid.grid--3-col-desktop.grid--2-col-tablet-down .card__media {
+    height: 385px;
+}
 }
 
 @media only screen and (max-width: 850px) {
