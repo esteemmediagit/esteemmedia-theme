@@ -1150,3 +1150,13 @@ aside#main-collection-filters {
     padding-right: 0rem;
 }
 }
+@media only screen and (max-width: 650px) {
+aside#main-collection-filters {
+    flex: 0 0 100%;
+    width: 100%;
+    padding-right: 0rem;
+}
+  .facets-vertical.page-width div#ProductGridContainer {
+    padding-left: 0rem;
+}
+}
