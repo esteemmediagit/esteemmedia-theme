@@ -1142,3 +1142,11 @@ ul.product-slider.collection-page.facets-vertical.page-width {
     padding: 0 1rem 1rem;
   }
 }
+
+@media only screen and (max-width: 1050px) {  
+aside#main-collection-filters {
+    flex: 0 0 24%;
+    width: 24%;
+    padding-right: 1rem;
+}
+}
