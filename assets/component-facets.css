@@ -1147,6 +1147,6 @@ ul.product-slider.collection-page.facets-vertical.page-width {
 aside#main-collection-filters {
     flex: 0 0 24%;
     width: 24%;
-    padding-right: 1rem;
+    padding-right: 0rem;
 }
 }
