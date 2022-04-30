@@ -1448,7 +1448,9 @@ quick-add-modal.quick-add-modal button.product-form__submit.button.button--full-
 }
 }
     @media only screen and (max-width: 650px) { 
- 
+ .quick-add-modal__content-info .product__info-wrapper.grid__item {
+    padding: 0px !important;
+}
 .quick-add-modal__content-info .cart-wraper-product .add-tocart button.product-form__submit.button.button--full-width.button--secondary {  
     font-size: 15px;
 }
