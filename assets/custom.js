@@ -21,7 +21,7 @@ $('ul.tabs').each(function(){
  return false;
  });
  });
- });
+ 
  
 
 $('.slider_wrap').slick();
