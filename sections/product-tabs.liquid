@@ -1,147 +1,16 @@
-asdsd
-
-{%- if section.blocks.size > 0 -%}
-    {%- assign tabs_count = 0 -%}
-    {%- capture product_tabs -%}
-        {%- for block in section.blocks -%}
-            {%- assign current_product = all_products[block.settings.product] -%}
-
-           
-
-                {%- capture tabs_headings -%}
-                    {%- assign is_first_tab_heading = true -%}
-                    {%- for i in (1..5) -%}
-                        {%- assign tab_heading_key = i | prepend: 'heading_' -%}
-                        {%- assign tab_heading = block.settings[tab_heading_key] -%}
-
-                        {%- if tab_heading != blank -%}
-                            <button class="product-tab-title{% if is_first_tab_heading %} is-active{% endif %}">
-                                {{- tab_heading -}}
-                                <span class="button-toggle">
-                                    {%- render 'icon-plus' -%}
-                                    {%- render 'icon-minus' -%}
-                                </span>
-                            </button>
-
-                            {%- assign is_first_tab_heading = false -%}
-                            {%- assign tabs_count = tabs_count | plus: 1 -%}
-                        {%- endif -%}
-                    {%- endfor -%}
-                {%- endcapture -%}
-
-                {%- capture tabs_contents -%}
-                    {%- assign is_first_tab_content = true -%}
-                    {%- for i in (1..5) -%}
-                        {%- assign tab_heading_key = i | prepend: 'heading_' -%}
-                        {%- assign tab_heading = block.settings[tab_heading_key] -%}
-
-                        {%- assign tab_content_key = i | prepend: 'content_' -%}
-                        {%- assign tab_content = block.settings[tab_content_key] -%}
-
-                        {%- if tab_heading != blank -%}
-                            <div class="product-tab-content rte{% if is_first_tab_content %} is-active{% endif %}">
-                                {{- tab_content -}}
-                            </div>
-                            {%- if is_first_tab_content -%}
-                                {%- assign is_first_tab_content = false -%}
-                            {%- endif -%}
-                        {%- endif -%}
-                    {%- endfor -%}
-                {%- endcapture -%}
-
-                <div class="product-tabs js-product-tabs{% if tabs_count == 1 %} product-tabs--single{% endif %}">
-                    {%- if tabs_headings != blank -%}
-                        <div class="product-tabs-nav">
-                            {{- tabs_headings -}}
-                        </div>
-
-                        <div class="product-tabs-contents">
-                            {{- tabs_contents -}}
-                        </div>
-                    {%- endif -%}
-                </div>
-
-           
-        {%- endfor -%}
-    {%- endcapture -%}
-
-    {%- if product_tabs != blank -%}
-        <div class="product__tabs" data-section-type="product__additional-details" data-section-id="{{ section.id }}">
-            <div class="container">
-                {{- product_tabs -}}
-            </div>
-        </div>
-    {%- endif -%}
-{%- endif -%}
-
-{% schema %}
-    {
-        "name": "Product Tabs",
-        "settings": [
-
-        ],
-        "blocks": [
-            {
-                "type": "tabs",
-                "name": "Product tabs",
-                "settings": [
-                    {
-                        "type": "product",
-                        "id": "product",
-                        "label": "Product"
-                    },
-                    {
-                        "type": "text",
-                        "id": "heading_1",
-                        "label": "First Tab Heading"
-                    },
-                    {
-                        "type": "richtext",
-                        "id": "content_1",
-                        "label": "First Tab Text"
-                    },
-                    {
-                        "type": "text",
-                        "id": "heading_2",
-                        "label": "Second Tab Heading"
-                    },
-                    {
-                        "type": "richtext",
-                        "id": "content_2",
-                        "label": "Second Tab Text"
-                    },
-                    {
-                        "type": "text",
-                        "id": "heading_3",
-                        "label": "Third Tab Heading"
-                    },
-                    {
-                        "type": "richtext",
-                        "id": "content_3",
-                        "label": "Third Tab Text"
-                    },
-                    {
-                        "type": "text",
-                        "id": "heading_4",
-                        "label": "Fourth Tab Heading"
-                    },
-                    {
-                        "type": "richtext",
-                        "id": "content_4",
-                        "label": "Fourth Tab Text"
-                    },
-                    {
-                        "type": "text",
-                        "id": "heading_5",
-                        "label": "Fifth Tab Heading"
-                    },
-                    {
-                        "type": "richtext",
-                        "id": "content_5",
-                        "label": "Fifth Tab Text"
-                    }
-                ]
-            }
-        ]
-    }
-{% endschema %}
+<div class="cgt-desc">
+ <ul class="tabs clearfix">
+ <li><a href="#tab-1" class="active">Description</a></li>
+ <li><a href="#tab-2">review</a></li>
+ 
+ </ul>
+ <div class="cgt-content">
+ <div id="tab-1" class="tab active">
+ {{ product.description }}
+ </div>
+ <div id="tab-2" class="tab">
+ Enter Size Chart Over here table, images, etc.
+ </div>
+ 
+ </div>
+ </div>
