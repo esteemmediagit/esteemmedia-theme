@@ -1389,7 +1389,11 @@ quick-add-modal.quick-add-modal button.product-form__submit.button.button--full-
     font-family: Avenir Next;
 }
 }
-  
+    @media only screen and (min-width: 650px) and (max-width: 850px) {  
+  .product__info-wrapper {
+    padding-left: 2rem;
+}
+}
   @media only screen and (max-width: 850px) {  
   .featured-product .product__info-wrapper.grid__item {
     padding: 0 0 0 30px!important;
