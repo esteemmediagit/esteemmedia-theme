@@ -87,3 +87,11 @@ section.shopify-section.section.feature-collection slider-component.slider-mobil
 .collection__view-all a:not(.link) {
   margin-top: 1rem;
 }
+
+
+@media only screen and (max-width: 650px) {
+.grid--2-col-tablet-down .grid__item {
+    width: 100% !important;
+    max-width: 100%;
+}
+}
