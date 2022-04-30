@@ -90,6 +90,18 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "eaa8d316-3c60-4892-b97d-f3808e95c565": {
+          "type": "popup",
+          "settings": {
+            "text": "Pop-up link text",
+            "page": "page-second"
+          }
+        },
+        "79c6a32a-6349-4619-9aac-3c96fc6c5139": {
+          "type": "rating",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -105,7 +117,9 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "eaa8d316-3c60-4892-b97d-f3808e95c565",
+        "79c6a32a-6349-4619-9aac-3c96fc6c5139"
       ],
       "settings": {
         "enable_sticky_info": true,
