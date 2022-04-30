@@ -9,7 +9,9 @@
  .clearfix{
  clear: both;
  }
- 
+ .cgt-content .tab {
+    padding: 35px 35px;
+}
  .cgt-desc ul li{
  background-color: #fff;
  display: inline-block;
