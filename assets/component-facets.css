@@ -1150,6 +1150,11 @@ aside#main-collection-filters {
     padding-right: 0rem;
 }
 }
+@media only screen and (max-width: 850px) {
+.facets-vertical.page-width {
+    padding: 0 1.8rem;
+}
+}
 @media only screen and (max-width: 650px) {
 aside#main-collection-filters {
     flex: 0 0 100%;
@@ -1160,3 +1165,6 @@ aside#main-collection-filters {
     padding-left: 0rem;
 }
 }
+
+
+
