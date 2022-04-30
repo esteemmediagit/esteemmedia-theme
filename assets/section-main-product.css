@@ -1,4 +1,7 @@
-  
+  .quick-add-modal__content-info .product__title a.product__title h3 {
+    display: none;
+}
+
  .cgt-desc ul.tabs{
  margin: 0px;
  padding: 0px;
@@ -1423,9 +1426,7 @@ quick-add-modal.quick-add-modal button.product-form__submit.button.button--full-
     margin-left: 10px;
     max-width: calc(100% - 130px);
 }
-      .quick-add-modal__content-info .product__title a.product__title h3 {
-    display: none;
-}
+    
 .quick-add-modal__content-info .cart-wraper-product .product-form__input.product-form__quantity {
     flex: 0 0 120px;
     max-width: 120px;
