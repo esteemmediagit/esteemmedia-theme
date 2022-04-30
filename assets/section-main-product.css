@@ -1,3 +1,25 @@
+.cart-wraper-product .add-tocart button.product-form__submit.button.button--full-width.button--secondary {
+    margin: 0px;
+    padding: 0px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 32px;
+    height: 56px;
+    max-width: 100%;
+    width: 100%;
+    border: 1px solid #000;
+}
+.cart-wraper-product .add-tocart {
+    flex: 0 0 calc(100% - 170px);
+    margin-left: 20px;
+}
+.cart-wraper-product .product-form__input.product-form__quantity {
+    flex: 0 0 150px;
+    max-width: 150px;
+}
 .featured-product .product__info-wrapper.grid__item {
     width: 33%;
     padding: 0 0 0 40px !important;
