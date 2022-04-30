@@ -1432,17 +1432,24 @@ quick-add-modal.quick-add-modal button.product-form__submit.button.button--full-
 }
     
 }
-    @media only screen and (max-width: 650px) { 
-  .quick-add-modal__content-info .cart-wraper-product .add-tocart {
+  @media only screen and (max-width: 850px) { 
+   .quick-add-modal__content-info .cart-wraper-product .add-tocart {
     flex: 0 0 calc(100% - 132px);
     margin-left: 10px;
     max-width: calc(100% - 130px);
 }
+   .quick-add-modal__content-info .cart-wraper-product .add-tocart button.product-form__submit.button.button--full-width.button--secondary {
+   
+    font-size: 15px;
     
+} 
 .quick-add-modal__content-info .cart-wraper-product .product-form__input.product-form__quantity {
     flex: 0 0 120px;
     max-width: 120px;
 }
+}
+    @media only screen and (max-width: 650px) { 
+ 
 .quick-add-modal__content-info .cart-wraper-product .add-tocart button.product-form__submit.button.button--full-width.button--secondary {  
     font-size: 15px;
 }
