@@ -1410,3 +1410,10 @@ quick-add-modal.quick-add-modal button.product-form__submit.button.button--full-
 }
     
 }
+  
+   @media only screen and (max-width: 350px) {
+     .product-form__input.product-form__quantity quantity-input.quantity {
+    max-width: 120px !important;
+    width: 100% !important;
+}
+   }
