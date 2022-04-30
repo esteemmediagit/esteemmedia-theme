@@ -9,9 +9,7 @@
  .clearfix{
  clear: both;
  }
- .cgt-content .tab {
-    padding: 35px 35px;
-}
+ 
  .cgt-desc ul li{
  background-color: #fff;
  display: inline-block;
@@ -45,7 +43,7 @@
  .cgt-desc .tab{
  display: block;
  border: 1px solid #e9e9e9;
- padding: 15px;
+ padding: 35px 35px ;
  background: #fafafa;
  font-size: 14px;
  border-radius: 0px;
