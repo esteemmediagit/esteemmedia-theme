@@ -1431,15 +1431,14 @@ quick-add-modal.quick-add-modal button.product-form__submit.button.button--full-
     padding: 3.9rem 15px;
 }
     
-}
-  @media only screen and (max-width: 850px) { 
+
    .quick-add-modal__content-info .cart-wraper-product .add-tocart {
     flex: 0 0 calc(100% - 132px);
     margin-left: 10px;
     max-width: calc(100% - 130px);
 }
    .quick-add-modal__content-info .cart-wraper-product .add-tocart button.product-form__submit.button.button--full-width.button--secondary {
-   
+       padding: 1rem 1rem;
     font-size: 15px;
     
 } 
