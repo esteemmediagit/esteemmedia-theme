@@ -1393,6 +1393,9 @@ quick-add-modal.quick-add-modal button.product-form__submit.button.button--full-
   .product__info-wrapper {
     padding-left: 2rem;
 }
+      .product-form__input input[type=radio]+label {
+    font-size: 1.3rem;
+ }
 }
   @media only screen and (max-width: 850px) {  
   .featured-product .product__info-wrapper.grid__item {
