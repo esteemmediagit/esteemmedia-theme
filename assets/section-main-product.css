@@ -1364,6 +1364,11 @@ a.product__text {
     padding-left: 2rem;
    
 }
+   quick-add-modal .product-form__input input[type=radio]+label {
+   
+    font-size: 1.2rem;
+   
+}
   .featured-product .product__info-wrapper.grid__item {
     width: 50%;
     padding: 0 0 0 40px!important;
