@@ -1416,4 +1416,8 @@ quick-add-modal.quick-add-modal button.product-form__submit.button.button--full-
     max-width: 120px !important;
     width: 100% !important;
 }
+     .cgt-desc ul li a {
+    padding: 1rem 1rem;
+    font-size: 13px;
+ }
    }
