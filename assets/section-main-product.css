@@ -12,9 +12,18 @@
     width: 100%;
     border: 1px solid #000;
 }
+.cart-wraper-product .product-form__input.product-form__quantity {
+    flex: 0 0 150px;
+    max-width: 150px;
+    margin: 0px;
+}
+product-form.product-form {
+    margin: 0px !important;
+}
 .cart-wraper-product .add-tocart {
     flex: 0 0 calc(100% - 170px);
     margin-left: 20px;
+   max-width: calc(100% - 170px);
 }
 .cart-wraper-product .product-form__input.product-form__quantity {
     flex: 0 0 150px;
