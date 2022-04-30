@@ -126,6 +126,27 @@
     },
     "product-tabs": {
       "type": "product-tabs",
+      "blocks": {
+        "c7b09e5b-6ffd-40bf-8e31-9b1202857245": {
+          "type": "tabs",
+          "settings": {
+            "product": "",
+            "heading_1": "asdasd",
+            "content_1": "<p>asdasd<\/p>",
+            "heading_2": "asd",
+            "content_2": "<p>asdsd<\/p>",
+            "heading_3": "asdsd",
+            "content_3": "<p>asdasd<\/p>",
+            "heading_4": "asdsd",
+            "content_4": "<p>asds<\/p>",
+            "heading_5": "asdsd",
+            "content_5": "<p>sdsd<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "c7b09e5b-6ffd-40bf-8e31-9b1202857245"
+      ],
       "settings": {
       }
     },
