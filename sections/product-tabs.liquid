@@ -6,7 +6,7 @@ asdsd
         {%- for block in section.blocks -%}
             {%- assign current_product = all_products[block.settings.product] -%}
 
-            {%- if current_product == product -%}
+           
 
                 {%- capture tabs_headings -%}
                     {%- assign is_first_tab_heading = true -%}
@@ -61,7 +61,7 @@ asdsd
                     {%- endif -%}
                 </div>
 
-            {%- endif -%}
+           
         {%- endfor -%}
     {%- endcapture -%}
 
