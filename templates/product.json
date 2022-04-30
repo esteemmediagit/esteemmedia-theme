@@ -124,6 +124,11 @@
         "padding_bottom": 12
       }
     },
+    "product-tabs": {
+      "type": "product-tabs",
+      "settings": {
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -144,6 +149,7 @@
   },
   "order": [
     "main",
+    "product-tabs",
     "product-recommendations"
   ]
 }
