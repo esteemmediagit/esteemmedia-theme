@@ -1,3 +1,6 @@
+.slideshow__text-wrapper.banner__content .slideshow__text.banner__box {
+    background: none !important;
+}
 slider-component {
   --desktop-margin-left-first-item: max(5rem, calc((100vw - var(--page-width) + 10rem - var(--grid-desktop-horizontal-spacing)) / 2));
   position: relative;
