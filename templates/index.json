@@ -60,7 +60,7 @@
             "heading": "LOREM IPSUM DUMMY TEXT",
             "subheading": "LOREM IPSUM DATA",
             "subheading_size": "h3",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "text": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.",
             "body_size": "pthree",
             "button_label": "Shop Now",
@@ -767,7 +767,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker5.jpg",
-        "color_bg": "#fff",
+        "color_bg": "#ffffff",
         "class": "full-width-wrap text-left fifty",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -813,7 +813,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker5.jpg",
-        "color_bg": "#fff",
+        "color_bg": "#ffffff",
         "class": "full-width-wrap second text-left fifty",
         "height": "adapt",
         "desktop_image_width": "medium",
