@@ -203,6 +203,7 @@
         },
         "ae35a615-b584-477d-9f36-843a5fa13a0f": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker2.jpg",
             "title": "LOREM IPSUM 23PX",
@@ -227,7 +228,7 @@
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "FIND OUT MORE",
@@ -275,6 +276,7 @@
         },
         "72a207d7-d194-4272-9f8b-359bd468f088": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker3.jpg",
             "title": "LOREM IPSUM 23PX",
@@ -299,7 +301,7 @@
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
