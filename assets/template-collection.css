@@ -71,7 +71,7 @@ section.shopify-section.section.feature-collection slider-component.slider-mobil
   }
 
   .collection__title.title-wrapper--self-padded-tablet-down {
-    padding: 0 5rem;
+    padding: 0 0.6rem;
   }
 
   .collection slider-component:not(.page-width-desktop) {
