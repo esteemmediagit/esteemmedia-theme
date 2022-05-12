@@ -1,4 +1,7 @@
-.full-width-wrap.fifty .imgae-wraps-out > div {
+.imgae-wraps-out .image-with-text__text.rte.body {
+    margin-left: auto;
+    margin-right: auto;
+}.full-width-wrap.fifty .imgae-wraps-out > div {
     width: 50%;
 }
 .section.double-image-wrap .image-with-text.page-width {
