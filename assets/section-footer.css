@@ -685,8 +685,13 @@ noscript .localization-selector.link {
     }
   }
 }
+@media only screen and (max-width: 1450px) {
 
-
+.footer__content-top.page-width {
+   
+    padding: 75px 30px 15px;
+}
+}
 @media only screen and (max-width: 1050px) {
 .footer__content-top.page-width {
    
