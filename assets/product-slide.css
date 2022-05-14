@@ -246,14 +246,15 @@ ul.product-slider.slick-initialized.slick-slider.slick-dotted .card__inner.color
     column-gap: 0px;
 }
       section.shopify-section.section.product-slider-outer button.slick-prev.slick-arrow {
-    left: -11px;
+    left: 6px;
 }
       section.shopify-section.section.product-slider-outer button.slick-next.slick-arrow {
-    right: -10px;
+    right: 6px;
 }
       section.shopify-section.section.product-slider-outer .product-grid-heading {
     padding: 0 4px 0 2px;
 }
+      
     }
     
     
