@@ -15,9 +15,17 @@ slideshow-component.slider-mobile-gutter.mobile-text-below .slideshow__controls.
     background: #fff;
     color: #1f2226;
     border: 1px solid #fff;
-    width: 58px;
-    height: 58px;
+    width: 45px;
+    height: 45px;
     border-radius: 100%;
+}
+.slideshow__controls button.slider-button.slider-button--prev {
+    position: absolute;
+    left: 25px;
+}
+.slideshow__controls button.slider-button.slider-button--next {
+    right: 20px;
+    position: absolute;
 }
 .slideshow__controls button.slider-button:hover {
     border-color: #1f2226;
