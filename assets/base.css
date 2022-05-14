@@ -3085,3 +3085,7 @@ details-disclosure > details {
     display: none;
 }
 }
+  .section.feature-collection h1.title.h1 {
+    font-size: 34px;
+    line-height: 40px;
+}
