@@ -15,17 +15,9 @@ slideshow-component.slider-mobile-gutter.mobile-text-below .slideshow__controls.
     background: #fff;
     color: #1f2226;
     border: 1px solid #fff;
-    width: 45px;
-    height: 45px;
+    width: 58px;
+    height: 58px;
     border-radius: 100%;
-}
-.slideshow__controls button.slider-button.slider-button--prev {
-    position: absolute;
-    left: 25px;
-}
-.slideshow__controls button.slider-button.slider-button--next {
-    right: 20px;
-    position: absolute;
 }
 .slideshow__controls button.slider-button:hover {
     border-color: #1f2226;
@@ -251,6 +243,18 @@ slideshow-component:not(.page-width) .slider-buttons {
 @media only screen and (max-width: 1100px) {
 .slideshow__text-wrapper.banner__content {
     padding: 6rem;
+}
+  .slideshow__controls button.slider-button {
+    
+   
+}
+.slideshow__controls button.slider-button.slider-button--prev {
+  
+    left: 25px;
+}
+.slideshow__controls button.slider-button.slider-button--next {
+    right: 20px;
+   
 }
 }
 @media only screen and (max-width: 650px) {
