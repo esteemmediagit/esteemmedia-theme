@@ -25,10 +25,10 @@ section.shopify-section.section.product-slider-outer button.slick-arrow {
     z-index: 99;
 }
 section.shopify-section.section.product-slider-outer button.slick-prev.slick-arrow {
-    left: 34px;
+    left: 3%;
 }
 section.shopify-section.section.product-slider-outer button.slick-next.slick-arrow {
-    right: -5px;
+    right: 3%;
 }
  section.shopify-section.section.product-slider-outer .product-grid-heading h5 {
     margin: 0px !important;
