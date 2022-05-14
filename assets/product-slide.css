@@ -214,7 +214,13 @@ ul.product-slider.collection-page .card.card--standard.card--media .card__conten
 ul.product-slider.slick-initialized.slick-slider.slick-dotted .card__inner.color-background-2 {
     --ratio-percent: 61.545455% !important;
 }
+ @media only screen and (max-width: 1100px) {
+  section.shopify-section.section.product-slider-outer .product-grid-heading {
+    padding: 0 20px 0 27px;
+   
+}
   
+}
   @media only screen and (max-width: 850px) {
   ul.slick-dots li {
     flex: 0 0 50px;
