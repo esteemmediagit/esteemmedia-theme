@@ -244,18 +244,6 @@ slideshow-component:not(.page-width) .slider-buttons {
 .slideshow__text-wrapper.banner__content {
     padding: 6rem;
 }
-  .slideshow__controls button.slider-button {
-    
-   
-}
-.slideshow__controls button.slider-button.slider-button--prev {
-  
-    left: 25px;
-}
-.slideshow__controls button.slider-button.slider-button--next {
-    right: 20px;
-   
-}
 }
 @media only screen and (max-width: 650px) {
 .slideshow__text-wrapper.banner__content {
