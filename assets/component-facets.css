@@ -1,3 +1,6 @@
+summary.facets__summary.caption-large.focus-offset span {
+    text-transform: uppercase;
+}
 .facets-container {
   display: grid;
   grid-template-columns: repeat(2, auto);
