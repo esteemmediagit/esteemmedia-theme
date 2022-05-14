@@ -1,3 +1,6 @@
+.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet > .footer-block.grid__item {
+    width: 25% !important;
+}
 .footer-block.grid__item.footer-block--newsletter {
     max-width: 100% !important;
     width: 100%;
