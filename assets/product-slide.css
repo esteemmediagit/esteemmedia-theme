@@ -3,6 +3,24 @@
     display: flex;
     justify-content: space-between;
 }
+section.shopify-section.section.product-slider-outer button.slick-arrow {
+    position: absolute;
+    top: 23%;
+    background-color: #fff;
+    width: 45px;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0px;
+    border-radius: 50%;
+    z-index: 99;
+}
+section.shopify-section.section.product-slider-outer button.slick-prev.slick-arrow {
+    left: 34px;
+}
+section.shopify-section.section.product-slider-outer button.slick-next.slick-arrow {
+    right: -5px;
+}
  section.shopify-section.section.product-slider-outer .product-grid-heading h5 {
     margin: 0px !important;
 }
