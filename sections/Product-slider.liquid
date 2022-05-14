@@ -18,10 +18,30 @@
   -%}
   <div class="color-{{ section.settings.color_scheme }} isolate gradient">
     <div class=" page-width">
+      
+      
 <div class="product-slides-in">
 
 
-
+<div class="product-grid-heading">
+        {%- if section.settings.title != blank -%}
+        <{{ section.settings.heading_size }} class="title {{ section.settings.heading_size }}" {{ block.shopify_attributes }}>
+               {{ section.settings.title | escape }}
+              </{{ section.settings.heading_size }}> 
+          
+        {%- endif -%}
+     
+        {%- if section.settings.show_view_all and more_in_collection -%}
+      
+        <a href="{{ section.settings.collection.url }}"
+          class="view-allproduct"
+          aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: section.settings.collection.title }}"
+        >
+          {{ 'sections.featured_collection.view_all' | t }}
+        </a>
+     
+    {%- endif -%}
+      </div>
   <ul class="product-slider product-sliders" data-slick='{
     "infinite": true, 
     "dots": true,
