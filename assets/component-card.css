@@ -311,3 +311,7 @@
 .card-article-info {
   margin-top: 1rem;
 }
+
+section.shopify-section.section.feature-collection .card__inner.color-background-2.gradient.ratio {
+    --ratio-percent: 70.5% !important;
+}
