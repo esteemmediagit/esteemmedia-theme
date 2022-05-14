@@ -1,3 +1,15 @@
+.section.double-image-wrap .full-width-wrap.text-left .imgae-wraps-out .image-with-text__text-item.grid__item .image-with-text__content h4 {
+    text-align: center;
+}
+.section.double-image-wrap .full-width-wrap.text-left .imgae-wraps-out .image-with-text__text-item.grid__item .image-with-text__content p {
+    text-align: center !important;
+}
+.section.double-image-wrap .full-width-wrap.text-left .imgae-wraps-out .image-with-text__text-item.grid__item .image-with-text__content a.button.button--primary {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .imgae-wraps-out .image-with-text__text.rte.body {
     margin-left: auto;
     margin-right: auto;
