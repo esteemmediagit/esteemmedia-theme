@@ -24,6 +24,12 @@
 .rich-text-list.double-richs.isolate .rich-text.content-container > div {
     max-width: 1200px;
 }
+.rich-text__blocks.lsit-block p.pthree br {
+    display: none;
+}
+.rich-text__blocks.lsit-block p.pthree {
+    font-size: 23px;
+}
 .lsit-block .block-iner h5 {
     display: flex;
     width: 100%;
