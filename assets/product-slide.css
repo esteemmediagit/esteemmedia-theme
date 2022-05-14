@@ -1,5 +1,14 @@
-  section.shopify-section.section.product-slider-outer .product-grid-heading {
-    padding: 0 20px 0 58px;
+ul.product-slider.slick-initialized.slick-slider.slick-dotted {
+    list-style: none;
+    padding-left: 0px;
+}
+section.shopify-section.section.product-slider-outer .page-width {
+    max-width: 1920px;
+    width: 100%;
+    padding: 0px !important;
+}
+section.shopify-section.section.product-slider-outer .product-grid-heading {
+    padding: 0 5% 0 5%;
     display: flex;
     justify-content: space-between;
 }
