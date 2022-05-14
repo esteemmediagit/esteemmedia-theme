@@ -1,3 +1,11 @@
+  section.shopify-section.section.product-slider-outer .product-grid-heading {
+    padding: 0 20px 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+ section.shopify-section.section.product-slider-outer .product-grid-heading h5 {
+    margin: 0px !important;
+}
 .hover-cart .card__content {
     display: flex;
     justify-content: space-between;
