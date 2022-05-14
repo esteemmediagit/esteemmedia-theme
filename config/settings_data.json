@@ -157,8 +157,16 @@
               "alignment": ""
             }
           },
+          "c2df72fc-e579-463f-a085-17f3daabe99b": {
+            "type": "textarea",
+            "settings": {
+              "heading": "OPENING HOURS",
+              "subtext-time": "<p>Monday -       CLOSED <br>Tuesday -      9:00AM - 5:30PM<br>Wednesday - 9:00AM - 5:30PM <br>Thursday -     9:00AM - 8:30PM <br>Friday -          9:00AM - 5:30PM <br>Saturday -      8:30AM - 12:00PM<br>Sunday -        CLOSED<\/p>"
+            }
+          },
           "footer-0": {
             "type": "link_list",
+            "disabled": true,
             "settings": {
               "heading": "SHOP",
               "menu": "footer"
@@ -183,6 +191,7 @@
         },
         "block_order": [
           "703af3d7-cc85-4739-9f91-4fd6172b7411",
+          "c2df72fc-e579-463f-a085-17f3daabe99b",
           "footer-0",
           "ee5dd026-3128-435d-aef7-fcb4293ed01a",
           "acc78c82-6a75-4ae6-8e72-8a132abc5311"
