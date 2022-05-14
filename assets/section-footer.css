@@ -693,6 +693,9 @@ noscript .localization-selector.link {
 }
 }
 @media only screen and (max-width: 1050px) {
+  .footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet>.footer-block.grid__item {
+    width: 50%!important;
+}
 .footer__content-top.page-width {
    
     padding: 50px 20px 15px;
