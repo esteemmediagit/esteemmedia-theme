@@ -63,6 +63,12 @@
                     <a href="mailto:{{ block.settings.email }}" class="email">{{ block.settings.email }}</a>
                     <a href="tel:{{- block.settings.phone -}}" class="phone">{{ block.settings.phone }}</a>
                   </div>
+              {%- when 'textarea' -%}
+                  <div class="footer-block__details-content rte contact-bar">
+                    <p class="text-times"> {{ block.settings.subtext-time }}</p>
+                    <a href="mailto:{{ block.settings.email }}" class="email">{{ block.settings.email }}</a>
+                    <a href="tel:{{- block.settings.phone -}}" class="phone">{{ block.settings.phone }}</a>
+                  </div>
                 {%- when 'link_list' -%}
                   {%- if block.settings.menu != blank and block.settings.heading != blank -%}
                     <ul class="footer-block__details-content list-unstyled">
@@ -469,6 +475,25 @@
           "default": "12965455",
           "label": "PhoneNumber"
         }
+      ]
+    },
+{
+      "type": "textarea",
+      "name": "Text Section",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Heading",
+          "label": "t:sections.footer.blocks.text.settings.heading.label"
+        },
+        {
+          "type": "textarea",
+          "id": "subtext-time",
+          "default": "Share contact information, store details, and brand content with your customers.",
+          "label": "Address"
+        }
+
       ]
     },
  {
