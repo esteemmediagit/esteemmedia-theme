@@ -1,4 +1,6 @@
-
+.rich-text__blocks.lsit-block .rich-text-left h1 {
+    font-size: 49px !important;
+}
 .rich-text-list.isolate .lsit-block span.border {
     width: auto;
     flex-grow: 1 !important;
