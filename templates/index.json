@@ -317,7 +317,8 @@
       "type": "Product-slider",
       "settings": {
         "title": "RALEEBOLD 23PX",
-        "heading_size": "h1",
+        "class-name": "class-Name",
+        "heading_size": "h5",
         "collection": "frontpage",
         "products_to_show": 9,
         "image_ratio": "adapt",
