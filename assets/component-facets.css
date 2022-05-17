@@ -997,8 +997,8 @@ ul.product-slider.collection-page .card.card--standard.card--media .hover-cart {
     width: 100%;
   }
   aside#main-collection-filters {
-    flex: 0 0 20%;
-    width: 20%;
+    flex: 0 0 24%;
+    width: 24%;
 }
 ul.product-slider.collection-page.facets-vertical.page-width {
     max-width: 1400px;
@@ -1030,7 +1030,7 @@ ul.product-slider.collection-page.facets-vertical.page-width {
   }
  
   .facets-vertical .facets-wrapper {
-    padding-right: 3rem;
+    padding-right: 0rem;
   }
 
   .facets-vertical .facets-wrapper--no-filters {
