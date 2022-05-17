@@ -16,7 +16,9 @@ summary.facets__summary.caption-large.focus-offset span {
   overflow-y: auto;
 }
 
+
 @media screen and (min-width: 750px) {
+  
   .facets-container > * + * {
     margin-top: 0;
   }
@@ -27,6 +29,12 @@ summary.facets__summary.caption-large.focus-offset span {
   }
 }
 
+@media screen and (min-width: 1200px) {
+.collection-pages .facets-vertical.page-width {
+    max-width: 1400px;
+    padding: 0px;
+}
+}
 @media screen and (max-width: 989px) {
   .facets-container {
     grid-template-columns: auto minmax(0, max-content);
