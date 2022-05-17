@@ -32,7 +32,7 @@ summary.facets__summary.caption-large.focus-offset span {
 @media screen and (min-width: 1200px) {
 .collection-pages .facets-vertical.page-width {
     max-width: 1400px;
-    padding: 0px;
+    padding: 0px 30px;
 }
 }
 @media screen and (max-width: 989px) {
