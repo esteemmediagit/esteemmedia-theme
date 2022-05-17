@@ -1036,7 +1036,12 @@ ul.product-slider.collection-page.facets-vertical.page-width {
   .facets-vertical .facets-wrapper--no-filters {
     display: none;
   }
-
+.facet-checkbox>svg {
+    
+    margin-right: 0.6rem;
+   
+    margin-top: 4px;
+}
   .no-js .facets-vertical .facets-wrapper--no-filters {
     display: block;
   }
