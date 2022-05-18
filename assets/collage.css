@@ -222,4 +222,13 @@
     row-gap: 0%;
     display: block;
 }
+  .page-collage .after-img-text.image-with-text__text.rte {
+    text-align: left;
+    font-size: 16px;
+    line-height: 22px;
+    background: none;
+}
+.page-collage .collage-card.color-background-2 {
+    background: none;
+}
 }
