@@ -276,6 +276,7 @@
         "d27362b5-7aab-40b0-a90e-68826701cdea": {
           "type": "image",
           "settings": {
+            "text-img": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "image_padding": false
           }
         },
@@ -290,6 +291,7 @@
         },
         "1652896779425e54b5-1": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "",
             "second_image": false
@@ -306,7 +308,18 @@
           "type": "heading",
           "settings": {
             "heading": "Image with text",
-            "heading_size": "h4"
+            "heading_size": "h4",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "body_size": "pthree",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "5fa1a39b-6cbd-4939-901c-fa3e44efbe95": {
+          "type": "image",
+          "settings": {
+            "text-img": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image_padding": false
           }
         }
       },
@@ -315,7 +328,8 @@
         "1652896779425e54b5-0",
         "1652896779425e54b5-1",
         "1652896779425e54b5-2",
-        "e5c032b6-3de8-4fe9-a138-9c812b1d2ae8"
+        "e5c032b6-3de8-4fe9-a138-9c812b1d2ae8",
+        "5fa1a39b-6cbd-4939-901c-fa3e44efbe95"
       ],
       "settings": {
         "heading": "Multimedia collage",
