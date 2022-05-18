@@ -1,3 +1,14 @@
+.page-collage .collage.collage--mobile {
+    grid-template-columns: 47%;
+    column-gap: 5%;
+    row-gap: 5%;
+}
+.page-collage .collage__item.collage__item--heading.collage__item--left .ptwo.image-with-text__text.rte {
+    margin: 2rem 0px 4rem;
+}
+.page-collage .collage.collage--mobile .collage__item.collage__item--image.collage__item--left:first-child {
+    padding-bottom: 10rem;
+}
 .collage-wrapper-title {
   margin-top: 0;
   margin-bottom: 3rem;
