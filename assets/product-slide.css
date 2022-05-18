@@ -248,6 +248,12 @@ ul.product-slider.slick-initialized.slick-slider.slick-dotted .card__inner.color
     flex: 0 0 130px;
     
 }
+   section.shopify-section.section.product-slider-outer button.slick-arrow {
+    
+   width: 5rem;
+    height: 5rem;
+   
+}
 }
   @media only screen and (max-width: 850px) {
   ul.slick-dots li {
