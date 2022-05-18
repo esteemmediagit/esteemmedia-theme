@@ -68,6 +68,10 @@
                 columns: 2,
                 extend_height: true
               %}
+          {%- when 'heading' -%}
+               <{{ block.settings.heading_size }} class="image-with-text__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+                {{ block.settings.heading  }}
+              </{{ block.settings.heading_size }}>
             {%- when 'video' -%}
               <div class="collage-card color-{{ settings.card_color_scheme }}">
                 <noscript>

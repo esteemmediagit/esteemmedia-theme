@@ -269,6 +269,63 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "1652896779f60aa138": {
+      "type": "collage",
+      "blocks": {
+        "d27362b5-7aab-40b0-a90e-68826701cdea": {
+          "type": "image",
+          "settings": {
+            "image_padding": false
+          }
+        },
+        "1652896779425e54b5-0": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
+        "1652896779425e54b5-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "1652896779425e54b5-2": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
+        },
+        "e5c032b6-3de8-4fe9-a138-9c812b1d2ae8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h4"
+          }
+        }
+      },
+      "block_order": [
+        "d27362b5-7aab-40b0-a90e-68826701cdea",
+        "1652896779425e54b5-0",
+        "1652896779425e54b5-1",
+        "1652896779425e54b5-2",
+        "e5c032b6-3de8-4fe9-a138-9c812b1d2ae8"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -279,6 +336,7 @@
     "1650709406c07f7d8e",
     "1650720455df32b174",
     "16507238691195cd63",
-    "1650720723d92851b2"
+    "1650720723d92851b2",
+    "1652896779f60aa138"
   ]
 }
