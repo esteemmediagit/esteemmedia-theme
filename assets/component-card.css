@@ -21,7 +21,10 @@ slider-component.slider-mobile-gutter.page-width-desktop .card__media .media.med
   position: relative;
   text-decoration: none;
 }
-
+.section.feature-collection .quick-add button.quick-add__submit.button {
+    width: 200px !important;
+    height: 49px !important;
+}
 .card {
   text-align: var(--card-text-alignment);
   text-decoration: none;
