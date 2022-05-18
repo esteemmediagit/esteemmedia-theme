@@ -3095,4 +3095,5 @@ details-disclosure > details {
 }
   .logo-slider-wraps.grid-logo-col.color-.isolate.gradient ul.logo-box.grid.product-grid.grid--5-col-desktop {
     column-gap: 0px !important;
+    justify-content: center;
 }
