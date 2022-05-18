@@ -13,7 +13,12 @@
   margin-top: 0;
   margin-bottom: 3rem;
 }
-
+.page-collage .collage__item.collage__item--heading.collage__item--left {
+    padding: 5rem 0px;
+}
+.page-collage .page-width {
+    padding-bottom: 150px;
+}
 .collage {
   display: grid;
 }
