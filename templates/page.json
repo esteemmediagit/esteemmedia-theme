@@ -276,7 +276,7 @@
         "d27362b5-7aab-40b0-a90e-68826701cdea": {
           "type": "image",
           "settings": {
-            "text-img": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text-img": "<p>Pair text with an image to focus on your chosen product<\/p>",
             "image_padding": false
           }
         },
@@ -318,7 +318,7 @@
         "5fa1a39b-6cbd-4939-901c-fa3e44efbe95": {
           "type": "image",
           "settings": {
-            "text-img": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text-img": "<p>Pair text with an image to focus on your chosen product.<\/p>",
             "image_padding": false
           }
         }
