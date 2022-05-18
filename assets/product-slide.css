@@ -1,3 +1,7 @@
+ul.product-slider.product-sliders.slick-initialized.slick-slider.slick-dotted li.card-boxs.slick-slide .card__media {
+    position: relative !important;
+    padding: 0px !important;
+}
 ul.product-slider.slick-initialized.slick-slider.slick-dotted {
     list-style: none;
     padding-left: 0px;
