@@ -210,3 +210,16 @@
     grid-template-columns: repeat(2,minmax(0,1fr));
 }
 }
+
+@media only screen and (max-width: 850px) {
+.page-collage .collage.collage--mobile .collage__item.collage__item--image.collage__item--left:first-child {
+    padding-bottom: 0px;
+    margin-bottom: -38px !important;
+}
+.page-collage .collage.collage--mobile {
+    
+    column-gap: 0%;
+    row-gap: 0%;
+    display: block;
+}
+}
