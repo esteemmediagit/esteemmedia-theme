@@ -71,13 +71,15 @@
                 extend_height: true
               %}
           {%- when 'heading' -%}
+          <div class="collage-heading">
                <{{ block.settings.heading_size }} class="image-with-text__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
                 {{ block.settings.heading  }}
               </{{ block.settings.heading_size }}>
                  <div class="{{ block.settings.body_size }} image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
        <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}" {{ block.shopify_attributes }}>
                   {{ block.settings.button_label | escape }}
-                </a>      
+                </a>    
+          </div>
       {%- when 'video' -%}
               <div class="collage-card color-{{ settings.card_color_scheme }}">
                 <noscript>
