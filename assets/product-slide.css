@@ -38,6 +38,7 @@ section.shopify-section.section.product-slider-outer button.slick-arrow {
     font-size: 0px;
     border-radius: 50%;
     z-index: 99;
+  border: 1px solid #e5ced8 !important;
 }
 section.shopify-section.section.product-slider-outer button.slick-prev.slick-arrow {
     left: 3%;
