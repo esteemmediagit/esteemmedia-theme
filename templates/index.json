@@ -57,6 +57,7 @@
         "1649957891d368bf0e-0": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker4.jpg",
             "heading": "LOREM IPSUM DUMMY TEXT",
             "subheading": "LOREM IPSUM DATA",
             "subheading_size": "h3",
@@ -873,6 +874,7 @@
       ],
       "settings": {
         "heading": "",
+        "class-name": "Mclass",
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
